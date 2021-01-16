@@ -1,0 +1,14 @@
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+var _libAtomLiveServerView = require('../lib/atom-live-server-view');
+
+var _libAtomLiveServerView2 = _interopRequireDefault(_libAtomLiveServerView);
+
+'use babel';
+
+describe('AtomLiveServerView', function () {
+  it('has one valid test', function () {
+    expect('life').toBe('easy');
+  });
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2pzb2xpcy8uYXRvbS9wYWNrYWdlcy9hdG9tLWxpdmUtc2VydmVyL3NwZWMvYXRvbS1saXZlLXNlcnZlci12aWV3LXNwZWMuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7cUNBRStCLDhCQUE4Qjs7OztBQUY3RCxXQUFXLENBQUM7O0FBSVosUUFBUSxDQUFDLG9CQUFvQixFQUFFLFlBQU07QUFDbkMsSUFBRSxDQUFDLG9CQUFvQixFQUFFLFlBQU07QUFDN0IsVUFBTSxDQUFDLE1BQU0sQ0FBQyxDQUFDLElBQUksQ0FBQyxNQUFNLENBQUMsQ0FBQztHQUM3QixDQUFDLENBQUM7Q0FDSixDQUFDLENBQUMiLCJmaWxlIjoiL2hvbWUvanNvbGlzLy5hdG9tL3BhY2thZ2VzL2F0b20tbGl2ZS1zZXJ2ZXIvc3BlYy9hdG9tLWxpdmUtc2VydmVyLXZpZXctc3BlYy5qcyIsInNvdXJjZXNDb250ZW50IjpbIid1c2UgYmFiZWwnO1xuXG5pbXBvcnQgQXRvbUxpdmVTZXJ2ZXJWaWV3IGZyb20gJy4uL2xpYi9hdG9tLWxpdmUtc2VydmVyLXZpZXcnO1xuXG5kZXNjcmliZSgnQXRvbUxpdmVTZXJ2ZXJWaWV3JywgKCkgPT4ge1xuICBpdCgnaGFzIG9uZSB2YWxpZCB0ZXN0JywgKCkgPT4ge1xuICAgIGV4cGVjdCgnbGlmZScpLnRvQmUoJ2Vhc3knKTtcbiAgfSk7XG59KTtcbiJdfQ==

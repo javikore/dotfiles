@@ -1,0 +1,6 @@
+system:
+  disable_compositor: true
+  env:
+    __GL_SHADER_DISK_CACHE_SKIP_CLEANUP: '1'
+  gamemode: true
+  prefix_command: gamemoderun DXVK_HUD=60

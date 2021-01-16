@@ -1,0 +1,85 @@
+#This is a configuration file for butt (broadcast using this tool)
+
+[main]
+bg_color = 151540480
+txt_color = -256
+server = 
+srv_ent = 
+icy = 
+icy_ent = 
+num_of_srv = 0
+num_of_icy = 0
+song_path = 
+song_update = 0
+song_prefix = 
+song_suffix = 
+read_last_line = 0
+app_update_service = 0
+app_update = 0
+gain = 1.000000
+silence_threshold = 0
+signal_threshold = 0
+check_for_update = 0
+connect_at_startup = 0
+force_reconnecting = 0
+ic_charset = 
+log_file = 
+
+[audio]
+device = 0
+samplerate = 44100
+bitrate = 128
+channel = 2
+left_ch = 1
+right_ch = 2
+codec = mp3
+mono_to_stereo = 0
+aac_overwrite_aot = 0
+aac_aot = 5
+resample_mode = 0
+silence_level = 50.000000
+signal_level = 50.000000
+disable_dithering = 0
+buffer_ms = 50
+
+[record]
+bitrate = 192
+codec = mp3
+start_rec = 0
+stop_rec = 0
+rec_after_launch = 0
+sync_to_hour  = 0
+split_time = 0
+filename = rec_%Y%m%d-%H%M%S.mp3
+silence_threshold = 0
+signal_threshold = 0
+folder = /home/jsolis/
+
+[tls]
+cert_file = 
+cert_dir = 
+
+[dsp]
+equalizer = 0
+gain1 = 0.000000
+gain2 = 0.000000
+gain3 = 0.000000
+gain4 = 0.000000
+gain5 = 0.000000
+compressor = 0
+threshold = -20.000000
+ratio = 5.000000
+attack = 0.010000
+release = 1.000000
+makeup_gain = 0.000000
+
+[gui]
+attach = 0
+ontop = 0
+hide_log_window = 0
+remember_pos = 0
+x_pos = 0
+y_pos = 0
+lcd_auto = 0
+lang = 0
+

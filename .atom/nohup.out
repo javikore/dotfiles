@@ -1,0 +1,46 @@
+[38694:0101/170843.715427:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+<W> fish: Could not set up terminal.
+<W> fish: TERM environment variable not set.
+<W> fish: Could not set up terminal.
+<W> fish: TERM environment variable set to 'xterm-256color'.
+<W> fish: Check that this terminal type is supported on this system.
+<W> fish: Using fallback terminal type 'ansi'.
+- (line 1): $(...) is not supported. In fish, please use '(pacman)'.
+function limpiarpaq --wraps '=sudo pacman -Rsc $(pacman -Qtdq)' --description 'alias limpiarpaq =sudo pacman -Rsc $(pacman -Qtdq)';  =sudo pacman -Rsc $(pacman -Qtdq) $argv; end
+                                                                                                                                                       ^
+from sourcing file -
+	called on line 61 of file /usr/share/fish/functions/alias.fish
+in function 'alias' with arguments 'limpiarpaq =sudo\ pacman\ -Rsc\ \$\(pacman\ -Qtdq\)'
+	called on line 323 of file ~/.config/fish/config.fish
+from sourcing file ~/.config/fish/config.fish
+	called during startup
+source: Error while reading file '-'
+- (line 1): $(...) is not supported. In fish, please use '(pacman)'.
+function clean --wraps '=sudo pacman -Rsc $(pacman -Qtdq)' --description 'alias clean =sudo pacman -Rsc $(pacman -Qtdq)';  =sudo pacman -Rsc $(pacman -Qtdq) $argv; end
+                                                                                                                                             ^
+from sourcing file -
+	called on line 61 of file /usr/share/fish/functions/alias.fish
+in function 'alias' with arguments 'clean =sudo\ pacman\ -Rsc\ \$\(pacman\ -Qtdq\)'
+	called on line 324 of file ~/.config/fish/config.fish
+from sourcing file ~/.config/fish/config.fish
+	called during startup
+source: Error while reading file '-'
+[38694:0101/170849.860506:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+[38694:0101/170957.274546:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+[38694:0101/171007.791946:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+[38694:0101/171014.897227:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+[38694:0101/171015.693055:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+[38694:0101/171317.572211:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+[38694:0101/171717.954976:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+[38694:0101/171732.699376:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+[38694:0101/171803.377488:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+[38694:0101/171918.669961:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+[38694:0101/171925.521817:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+[38694:0101/171926.423901:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+[38694:0101/171928.545299:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+[38694:0101/171931.437478:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+[38694:0101/171932.732845:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+[38694:0101/172304.627988:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+[38694:0101/172727.424661:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+[38694:0101/172811.393031:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+[38694:0101/173423.585022:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command

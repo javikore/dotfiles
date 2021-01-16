@@ -1,0 +1,2775 @@
+{
+  "_from": "https://www.atom.io/api/packages/atom-live-server/versions/2.3.0/tarball",
+  "_id": "atom-live-server@2.3.0",
+  "_inBundle": false,
+  "_integrity": "sha512-PnhT1Fk94qL1SWmgCzAxx/wdaIHAd53xaEM5gdEs3UfsSR/5dfkNH+FvDNW8WK6oHOLnB2JkVsyIJdZx05SBSQ==",
+  "_location": "/atom-live-server",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/atom-live-server/versions/2.3.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/atom-live-server/versions/2.3.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/atom-live-server/versions/2.3.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/atom-live-server/versions/2.3.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/atom-live-server/versions/2.3.0/tarball",
+  "_shasum": "7203393d8557b43527ccd4205ba3480684913548",
+  "_spec": "https://www.atom.io/api/packages/atom-live-server/versions/2.3.0/tarball",
+  "_where": "/tmp/apm-install-dir-20201131-487272-v7jxdq.zzom",
+  "activationEvents": [
+    "atom-live-server:activate"
+  ],
+  "bugs": {
+    "url": "https://github.com/jas-chen/atom-live-server/issues"
+  },
+  "bundleDependencies": false,
+  "consumedServices": {
+    "console": {
+      "versions": {
+        "^0.1.0": "consumeConsole"
+      }
+    }
+  },
+  "dependencies": {
+    "json5": "^0.5.1",
+    "live-server": "^1.2.0",
+    "strip-ansi": "^4.0.0"
+  },
+  "deprecated": false,
+  "description": "Launch a http server with live reload capability.",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/jas-chen/atom-live-server#readme",
+  "keywords": [
+    "static",
+    "server",
+    "live reload",
+    "livereload"
+  ],
+  "license": "MIT",
+  "main": "./lib/atom-live-server",
+  "name": "atom-live-server",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jas-chen/atom-live-server.git"
+  },
+  "version": "2.3.0",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [
+      {
+        "name": "accepts",
+        "version": "1.3.7",
+        "path": "node_modules/accepts/index.js"
+      },
+      {
+        "name": "ansi-regex",
+        "version": "3.0.0",
+        "path": "node_modules/ansi-regex/index.js"
+      },
+      {
+        "name": "anymatch",
+        "version": "2.0.0",
+        "path": "node_modules/anymatch/index.js"
+      },
+      {
+        "name": "normalize-path",
+        "version": "2.1.1",
+        "path": "node_modules/anymatch/node_modules/normalize-path/index.js"
+      },
+      {
+        "name": "apache-crypt",
+        "version": "1.2.4",
+        "path": "node_modules/apache-crypt/src/index.js"
+      },
+      {
+        "name": "apache-md5",
+        "version": "1.1.5",
+        "path": "node_modules/apache-md5/src/index.js"
+      },
+      {
+        "name": "arr-diff",
+        "version": "4.0.0",
+        "path": "node_modules/arr-diff/index.js"
+      },
+      {
+        "name": "arr-flatten",
+        "version": "1.1.0",
+        "path": "node_modules/arr-flatten/index.js"
+      },
+      {
+        "name": "arr-union",
+        "version": "3.1.0",
+        "path": "node_modules/arr-union/index.js"
+      },
+      {
+        "name": "array-unique",
+        "version": "0.3.2",
+        "path": "node_modules/array-unique/index.js"
+      },
+      {
+        "name": "assign-symbols",
+        "version": "1.0.0",
+        "path": "node_modules/assign-symbols/index.js"
+      },
+      {
+        "name": "async-each",
+        "version": "1.0.3",
+        "path": "node_modules/async-each/index.js"
+      },
+      {
+        "name": "atob",
+        "version": "2.1.2",
+        "path": "node_modules/atob/node-atob.js"
+      },
+      {
+        "name": "base",
+        "version": "0.11.2",
+        "path": "node_modules/base/index.js"
+      },
+      {
+        "name": "define-property",
+        "version": "1.0.0",
+        "path": "node_modules/base/node_modules/define-property/index.js"
+      },
+      {
+        "name": "is-accessor-descriptor",
+        "version": "1.0.0",
+        "path": "node_modules/base/node_modules/is-accessor-descriptor/index.js"
+      },
+      {
+        "name": "is-data-descriptor",
+        "version": "1.0.0",
+        "path": "node_modules/base/node_modules/is-data-descriptor/index.js"
+      },
+      {
+        "name": "is-descriptor",
+        "version": "1.0.2",
+        "path": "node_modules/base/node_modules/is-descriptor/index.js"
+      },
+      {
+        "name": "basic-auth",
+        "version": "2.0.1",
+        "path": "node_modules/basic-auth/index.js"
+      },
+      {
+        "name": "batch",
+        "version": "0.6.1",
+        "path": "node_modules/batch/index.js"
+      },
+      {
+        "name": "bcryptjs",
+        "version": "2.4.3",
+        "path": "node_modules/bcryptjs/index.js"
+      },
+      {
+        "name": "binary-extensions",
+        "version": "1.13.1",
+        "path": "node_modules/binary-extensions/binary-extensions.json"
+      },
+      {
+        "name": "braces",
+        "version": "2.3.2",
+        "path": "node_modules/braces/index.js"
+      },
+      {
+        "name": "extend-shallow",
+        "version": "2.0.1",
+        "path": "node_modules/braces/node_modules/extend-shallow/index.js"
+      },
+      {
+        "name": "cache-base",
+        "version": "1.0.1",
+        "path": "node_modules/cache-base/index.js"
+      },
+      {
+        "name": "chokidar",
+        "version": "2.1.8",
+        "path": "node_modules/chokidar/index.js"
+      },
+      {
+        "name": "class-utils",
+        "version": "0.3.6",
+        "path": "node_modules/class-utils/index.js"
+      },
+      {
+        "name": "define-property",
+        "version": "0.2.5",
+        "path": "node_modules/class-utils/node_modules/define-property/index.js"
+      },
+      {
+        "name": "collection-visit",
+        "version": "1.0.0",
+        "path": "node_modules/collection-visit/index.js"
+      },
+      {
+        "name": "colors",
+        "version": "1.4.0",
+        "path": "node_modules/colors/lib/index.js"
+      },
+      {
+        "name": "component-emitter",
+        "version": "1.3.0",
+        "path": "node_modules/component-emitter/index.js"
+      },
+      {
+        "name": "connect",
+        "version": "3.7.0",
+        "path": "node_modules/connect/index.js"
+      },
+      {
+        "name": "copy-descriptor",
+        "version": "0.1.1",
+        "path": "node_modules/copy-descriptor/index.js"
+      },
+      {
+        "name": "core-util-is",
+        "version": "1.0.2",
+        "path": "node_modules/core-util-is/lib/util.js"
+      },
+      {
+        "name": "cors",
+        "version": "2.8.5",
+        "path": "node_modules/cors/lib/index.js"
+      },
+      {
+        "name": "debug",
+        "version": "2.6.9",
+        "path": "node_modules/debug/src/index.js"
+      },
+      {
+        "name": "decode-uri-component",
+        "version": "0.2.0",
+        "path": "node_modules/decode-uri-component/index.js"
+      },
+      {
+        "name": "define-property",
+        "version": "2.0.2",
+        "path": "node_modules/define-property/index.js"
+      },
+      {
+        "name": "is-accessor-descriptor",
+        "version": "1.0.0",
+        "path": "node_modules/define-property/node_modules/is-accessor-descriptor/index.js"
+      },
+      {
+        "name": "is-data-descriptor",
+        "version": "1.0.0",
+        "path": "node_modules/define-property/node_modules/is-data-descriptor/index.js"
+      },
+      {
+        "name": "is-descriptor",
+        "version": "1.0.2",
+        "path": "node_modules/define-property/node_modules/is-descriptor/index.js"
+      },
+      {
+        "name": "depd",
+        "version": "2.0.0",
+        "path": "node_modules/depd/index.js"
+      },
+      {
+        "name": "destroy",
+        "version": "1.0.4",
+        "path": "node_modules/destroy/index.js"
+      },
+      {
+        "name": "duplexer",
+        "version": "0.1.2",
+        "path": "node_modules/duplexer/index.js"
+      },
+      {
+        "name": "ee-first",
+        "version": "1.1.1",
+        "path": "node_modules/ee-first/index.js"
+      },
+      {
+        "name": "encodeurl",
+        "version": "1.0.2",
+        "path": "node_modules/encodeurl/index.js"
+      },
+      {
+        "name": "escape-html",
+        "version": "1.0.3",
+        "path": "node_modules/escape-html/index.js"
+      },
+      {
+        "name": "etag",
+        "version": "1.8.1",
+        "path": "node_modules/etag/index.js"
+      },
+      {
+        "name": "event-stream",
+        "version": "3.3.4",
+        "path": "node_modules/event-stream/index.js"
+      },
+      {
+        "name": "expand-brackets",
+        "version": "2.1.4",
+        "path": "node_modules/expand-brackets/index.js"
+      },
+      {
+        "name": "define-property",
+        "version": "0.2.5",
+        "path": "node_modules/expand-brackets/node_modules/define-property/index.js"
+      },
+      {
+        "name": "extend-shallow",
+        "version": "2.0.1",
+        "path": "node_modules/expand-brackets/node_modules/extend-shallow/index.js"
+      },
+      {
+        "name": "extend-shallow",
+        "version": "3.0.2",
+        "path": "node_modules/extend-shallow/index.js"
+      },
+      {
+        "name": "is-extendable",
+        "version": "1.0.1",
+        "path": "node_modules/extend-shallow/node_modules/is-extendable/index.js"
+      },
+      {
+        "name": "extglob",
+        "version": "2.0.4",
+        "path": "node_modules/extglob/index.js"
+      },
+      {
+        "name": "define-property",
+        "version": "1.0.0",
+        "path": "node_modules/extglob/node_modules/define-property/index.js"
+      },
+      {
+        "name": "extend-shallow",
+        "version": "2.0.1",
+        "path": "node_modules/extglob/node_modules/extend-shallow/index.js"
+      },
+      {
+        "name": "is-accessor-descriptor",
+        "version": "1.0.0",
+        "path": "node_modules/extglob/node_modules/is-accessor-descriptor/index.js"
+      },
+      {
+        "name": "is-data-descriptor",
+        "version": "1.0.0",
+        "path": "node_modules/extglob/node_modules/is-data-descriptor/index.js"
+      },
+      {
+        "name": "is-descriptor",
+        "version": "1.0.2",
+        "path": "node_modules/extglob/node_modules/is-descriptor/index.js"
+      },
+      {
+        "name": "faye-websocket",
+        "version": "0.11.3",
+        "path": "node_modules/faye-websocket/lib/faye/websocket.js"
+      },
+      {
+        "name": "fill-range",
+        "version": "4.0.0",
+        "path": "node_modules/fill-range/index.js"
+      },
+      {
+        "name": "extend-shallow",
+        "version": "2.0.1",
+        "path": "node_modules/fill-range/node_modules/extend-shallow/index.js"
+      },
+      {
+        "name": "finalhandler",
+        "version": "1.1.2",
+        "path": "node_modules/finalhandler/index.js"
+      },
+      {
+        "name": "for-in",
+        "version": "1.0.2",
+        "path": "node_modules/for-in/index.js"
+      },
+      {
+        "name": "fragment-cache",
+        "version": "0.2.1",
+        "path": "node_modules/fragment-cache/index.js"
+      },
+      {
+        "name": "fresh",
+        "version": "0.5.2",
+        "path": "node_modules/fresh/index.js"
+      },
+      {
+        "name": "from",
+        "version": "0.1.7",
+        "path": "node_modules/from/index.js"
+      },
+      {
+        "name": "get-value",
+        "version": "2.0.6",
+        "path": "node_modules/get-value/index.js"
+      },
+      {
+        "name": "glob-parent",
+        "version": "3.1.0",
+        "path": "node_modules/glob-parent/index.js"
+      },
+      {
+        "name": "is-glob",
+        "version": "3.1.0",
+        "path": "node_modules/glob-parent/node_modules/is-glob/index.js"
+      },
+      {
+        "name": "graceful-fs",
+        "version": "4.2.4",
+        "path": "node_modules/graceful-fs/graceful-fs.js"
+      },
+      {
+        "name": "has-value",
+        "version": "1.0.0",
+        "path": "node_modules/has-value/index.js"
+      },
+      {
+        "name": "has-values",
+        "version": "1.0.0",
+        "path": "node_modules/has-values/index.js"
+      },
+      {
+        "name": "kind-of",
+        "version": "4.0.0",
+        "path": "node_modules/has-values/node_modules/kind-of/index.js"
+      },
+      {
+        "name": "http-auth",
+        "version": "3.1.3",
+        "path": "node_modules/http-auth/src/http-auth.js"
+      },
+      {
+        "name": "http-errors",
+        "version": "1.7.3",
+        "path": "node_modules/http-errors/index.js"
+      },
+      {
+        "name": "depd",
+        "version": "1.1.2",
+        "path": "node_modules/http-errors/node_modules/depd/index.js"
+      },
+      {
+        "name": "http-parser-js",
+        "version": "0.5.2",
+        "path": "node_modules/http-parser-js/http-parser.js"
+      },
+      {
+        "name": "inherits",
+        "version": "2.0.4",
+        "path": "node_modules/inherits/inherits.js"
+      },
+      {
+        "name": "is-accessor-descriptor",
+        "version": "0.1.6",
+        "path": "node_modules/is-accessor-descriptor/index.js"
+      },
+      {
+        "name": "kind-of",
+        "version": "3.2.2",
+        "path": "node_modules/is-accessor-descriptor/node_modules/kind-of/index.js"
+      },
+      {
+        "name": "is-binary-path",
+        "version": "1.0.1",
+        "path": "node_modules/is-binary-path/index.js"
+      },
+      {
+        "name": "is-buffer",
+        "version": "1.1.6",
+        "path": "node_modules/is-buffer/index.js"
+      },
+      {
+        "name": "is-data-descriptor",
+        "version": "0.1.4",
+        "path": "node_modules/is-data-descriptor/index.js"
+      },
+      {
+        "name": "kind-of",
+        "version": "3.2.2",
+        "path": "node_modules/is-data-descriptor/node_modules/kind-of/index.js"
+      },
+      {
+        "name": "is-descriptor",
+        "version": "0.1.6",
+        "path": "node_modules/is-descriptor/index.js"
+      },
+      {
+        "name": "kind-of",
+        "version": "5.1.0",
+        "path": "node_modules/is-descriptor/node_modules/kind-of/index.js"
+      },
+      {
+        "name": "is-extendable",
+        "version": "0.1.1",
+        "path": "node_modules/is-extendable/index.js"
+      },
+      {
+        "name": "is-extglob",
+        "version": "2.1.1",
+        "path": "node_modules/is-extglob/index.js"
+      },
+      {
+        "name": "is-glob",
+        "version": "4.0.1",
+        "path": "node_modules/is-glob/index.js"
+      },
+      {
+        "name": "is-number",
+        "version": "3.0.0",
+        "path": "node_modules/is-number/index.js"
+      },
+      {
+        "name": "kind-of",
+        "version": "3.2.2",
+        "path": "node_modules/is-number/node_modules/kind-of/index.js"
+      },
+      {
+        "name": "is-plain-object",
+        "version": "2.0.4",
+        "path": "node_modules/is-plain-object/index.js"
+      },
+      {
+        "name": "is-windows",
+        "version": "1.0.2",
+        "path": "node_modules/is-windows/index.js"
+      },
+      {
+        "name": "is-wsl",
+        "version": "1.1.0",
+        "path": "node_modules/is-wsl/index.js"
+      },
+      {
+        "name": "isarray",
+        "version": "1.0.0",
+        "path": "node_modules/isarray/index.js"
+      },
+      {
+        "name": "isobject",
+        "version": "3.0.1",
+        "path": "node_modules/isobject/index.js"
+      },
+      {
+        "name": "json5",
+        "version": "0.5.1",
+        "path": "node_modules/json5/lib/json5.js"
+      },
+      {
+        "name": "kind-of",
+        "version": "6.0.3",
+        "path": "node_modules/kind-of/index.js"
+      },
+      {
+        "name": "live-server",
+        "version": "1.2.1",
+        "path": "node_modules/live-server/index.js"
+      },
+      {
+        "name": "map-cache",
+        "version": "0.2.2",
+        "path": "node_modules/map-cache/index.js"
+      },
+      {
+        "name": "map-stream",
+        "version": "0.1.0",
+        "path": "node_modules/map-stream/index.js"
+      },
+      {
+        "name": "map-visit",
+        "version": "1.0.0",
+        "path": "node_modules/map-visit/index.js"
+      },
+      {
+        "name": "micromatch",
+        "version": "3.1.10",
+        "path": "node_modules/micromatch/index.js"
+      },
+      {
+        "name": "mime",
+        "version": "1.6.0",
+        "path": "node_modules/mime/mime.js"
+      },
+      {
+        "name": "mime-db",
+        "version": "1.44.0",
+        "path": "node_modules/mime-db/index.js"
+      },
+      {
+        "name": "mime-types",
+        "version": "2.1.27",
+        "path": "node_modules/mime-types/index.js"
+      },
+      {
+        "name": "mixin-deep",
+        "version": "1.3.2",
+        "path": "node_modules/mixin-deep/index.js"
+      },
+      {
+        "name": "is-extendable",
+        "version": "1.0.1",
+        "path": "node_modules/mixin-deep/node_modules/is-extendable/index.js"
+      },
+      {
+        "name": "morgan",
+        "version": "1.10.0",
+        "path": "node_modules/morgan/index.js"
+      },
+      {
+        "name": "ms",
+        "version": "2.0.0",
+        "path": "node_modules/ms/index.js"
+      },
+      {
+        "name": "nanomatch",
+        "version": "1.2.13",
+        "path": "node_modules/nanomatch/index.js"
+      },
+      {
+        "name": "negotiator",
+        "version": "0.6.2",
+        "path": "node_modules/negotiator/index.js"
+      },
+      {
+        "name": "normalize-path",
+        "version": "3.0.0",
+        "path": "node_modules/normalize-path/index.js"
+      },
+      {
+        "name": "object-assign",
+        "version": "4.1.1",
+        "path": "node_modules/object-assign/index.js"
+      },
+      {
+        "name": "object-copy",
+        "version": "0.1.0",
+        "path": "node_modules/object-copy/index.js"
+      },
+      {
+        "name": "define-property",
+        "version": "0.2.5",
+        "path": "node_modules/object-copy/node_modules/define-property/index.js"
+      },
+      {
+        "name": "kind-of",
+        "version": "3.2.2",
+        "path": "node_modules/object-copy/node_modules/kind-of/index.js"
+      },
+      {
+        "name": "object-visit",
+        "version": "1.0.1",
+        "path": "node_modules/object-visit/index.js"
+      },
+      {
+        "name": "object.pick",
+        "version": "1.3.0",
+        "path": "node_modules/object.pick/index.js"
+      },
+      {
+        "name": "on-finished",
+        "version": "2.3.0",
+        "path": "node_modules/on-finished/index.js"
+      },
+      {
+        "name": "on-headers",
+        "version": "1.0.2",
+        "path": "node_modules/on-headers/index.js"
+      },
+      {
+        "name": "opn",
+        "version": "6.0.0",
+        "path": "node_modules/opn/index.js"
+      },
+      {
+        "name": "parseurl",
+        "version": "1.3.3",
+        "path": "node_modules/parseurl/index.js"
+      },
+      {
+        "name": "pascalcase",
+        "version": "0.1.1",
+        "path": "node_modules/pascalcase/index.js"
+      },
+      {
+        "name": "path-dirname",
+        "version": "1.0.2",
+        "path": "node_modules/path-dirname/index.js"
+      },
+      {
+        "name": "path-is-absolute",
+        "version": "1.0.1",
+        "path": "node_modules/path-is-absolute/index.js"
+      },
+      {
+        "name": "pause-stream",
+        "version": "0.0.11",
+        "path": "node_modules/pause-stream/index.js"
+      },
+      {
+        "name": "posix-character-classes",
+        "version": "0.1.1",
+        "path": "node_modules/posix-character-classes/index.js"
+      },
+      {
+        "name": "process-nextick-args",
+        "version": "2.0.1",
+        "path": "node_modules/process-nextick-args/index.js"
+      },
+      {
+        "name": "proxy-middleware",
+        "version": "0.15.0",
+        "path": "node_modules/proxy-middleware/index.js"
+      },
+      {
+        "name": "range-parser",
+        "version": "1.2.1",
+        "path": "node_modules/range-parser/index.js"
+      },
+      {
+        "name": "readable-stream",
+        "version": "2.3.7",
+        "path": "node_modules/readable-stream/readable.js"
+      },
+      {
+        "name": "readdirp",
+        "version": "2.2.1",
+        "path": "node_modules/readdirp/readdirp.js"
+      },
+      {
+        "name": "regex-not",
+        "version": "1.0.2",
+        "path": "node_modules/regex-not/index.js"
+      },
+      {
+        "name": "remove-trailing-separator",
+        "version": "1.1.0",
+        "path": "node_modules/remove-trailing-separator/index.js"
+      },
+      {
+        "name": "repeat-element",
+        "version": "1.1.3",
+        "path": "node_modules/repeat-element/index.js"
+      },
+      {
+        "name": "repeat-string",
+        "version": "1.6.1",
+        "path": "node_modules/repeat-string/index.js"
+      },
+      {
+        "name": "resolve-url",
+        "version": "0.2.1",
+        "path": "node_modules/resolve-url/resolve-url.js"
+      },
+      {
+        "name": "ret",
+        "version": "0.1.15",
+        "path": "node_modules/ret/lib/index.js"
+      },
+      {
+        "name": "safe-buffer",
+        "version": "5.1.2",
+        "path": "node_modules/safe-buffer/index.js"
+      },
+      {
+        "name": "safe-regex",
+        "version": "1.1.0",
+        "path": "node_modules/safe-regex/index.js"
+      },
+      {
+        "name": "send",
+        "version": "0.17.1",
+        "path": "node_modules/send/index.js"
+      },
+      {
+        "name": "depd",
+        "version": "1.1.2",
+        "path": "node_modules/send/node_modules/depd/index.js"
+      },
+      {
+        "name": "ms",
+        "version": "2.1.1",
+        "path": "node_modules/send/node_modules/ms/index.js"
+      },
+      {
+        "name": "serve-index",
+        "version": "1.9.1",
+        "path": "node_modules/serve-index/index.js"
+      },
+      {
+        "name": "depd",
+        "version": "1.1.2",
+        "path": "node_modules/serve-index/node_modules/depd/index.js"
+      },
+      {
+        "name": "http-errors",
+        "version": "1.6.3",
+        "path": "node_modules/serve-index/node_modules/http-errors/index.js"
+      },
+      {
+        "name": "inherits",
+        "version": "2.0.3",
+        "path": "node_modules/serve-index/node_modules/inherits/inherits.js"
+      },
+      {
+        "name": "setprototypeof",
+        "version": "1.1.0",
+        "path": "node_modules/serve-index/node_modules/setprototypeof/index.js"
+      },
+      {
+        "name": "set-value",
+        "version": "2.0.1",
+        "path": "node_modules/set-value/index.js"
+      },
+      {
+        "name": "extend-shallow",
+        "version": "2.0.1",
+        "path": "node_modules/set-value/node_modules/extend-shallow/index.js"
+      },
+      {
+        "name": "setprototypeof",
+        "version": "1.1.1",
+        "path": "node_modules/setprototypeof/index.js"
+      },
+      {
+        "name": "snapdragon",
+        "version": "0.8.2",
+        "path": "node_modules/snapdragon/index.js"
+      },
+      {
+        "name": "define-property",
+        "version": "0.2.5",
+        "path": "node_modules/snapdragon/node_modules/define-property/index.js"
+      },
+      {
+        "name": "extend-shallow",
+        "version": "2.0.1",
+        "path": "node_modules/snapdragon/node_modules/extend-shallow/index.js"
+      },
+      {
+        "name": "snapdragon-node",
+        "version": "2.1.1",
+        "path": "node_modules/snapdragon-node/index.js"
+      },
+      {
+        "name": "define-property",
+        "version": "1.0.0",
+        "path": "node_modules/snapdragon-node/node_modules/define-property/index.js"
+      },
+      {
+        "name": "is-accessor-descriptor",
+        "version": "1.0.0",
+        "path": "node_modules/snapdragon-node/node_modules/is-accessor-descriptor/index.js"
+      },
+      {
+        "name": "is-data-descriptor",
+        "version": "1.0.0",
+        "path": "node_modules/snapdragon-node/node_modules/is-data-descriptor/index.js"
+      },
+      {
+        "name": "is-descriptor",
+        "version": "1.0.2",
+        "path": "node_modules/snapdragon-node/node_modules/is-descriptor/index.js"
+      },
+      {
+        "name": "snapdragon-util",
+        "version": "3.0.1",
+        "path": "node_modules/snapdragon-util/index.js"
+      },
+      {
+        "name": "kind-of",
+        "version": "3.2.2",
+        "path": "node_modules/snapdragon-util/node_modules/kind-of/index.js"
+      },
+      {
+        "name": "source-map",
+        "version": "0.5.7",
+        "path": "node_modules/source-map/source-map.js"
+      },
+      {
+        "name": "source-map-resolve",
+        "version": "0.5.3",
+        "path": "node_modules/source-map-resolve/lib/source-map-resolve-node.js"
+      },
+      {
+        "name": "source-map-url",
+        "version": "0.4.0",
+        "path": "node_modules/source-map-url/source-map-url.js"
+      },
+      {
+        "name": "split",
+        "version": "0.3.3",
+        "path": "node_modules/split/index.js"
+      },
+      {
+        "name": "split-string",
+        "version": "3.1.0",
+        "path": "node_modules/split-string/index.js"
+      },
+      {
+        "name": "static-extend",
+        "version": "0.1.2",
+        "path": "node_modules/static-extend/index.js"
+      },
+      {
+        "name": "define-property",
+        "version": "0.2.5",
+        "path": "node_modules/static-extend/node_modules/define-property/index.js"
+      },
+      {
+        "name": "statuses",
+        "version": "1.5.0",
+        "path": "node_modules/statuses/index.js"
+      },
+      {
+        "name": "stream-combiner",
+        "version": "0.0.4",
+        "path": "node_modules/stream-combiner/index.js"
+      },
+      {
+        "name": "string_decoder",
+        "version": "1.1.1",
+        "path": "node_modules/string_decoder/lib/string_decoder.js"
+      },
+      {
+        "name": "strip-ansi",
+        "version": "4.0.0",
+        "path": "node_modules/strip-ansi/index.js"
+      },
+      {
+        "name": "through",
+        "version": "2.3.8",
+        "path": "node_modules/through/index.js"
+      },
+      {
+        "name": "to-object-path",
+        "version": "0.3.0",
+        "path": "node_modules/to-object-path/index.js"
+      },
+      {
+        "name": "kind-of",
+        "version": "3.2.2",
+        "path": "node_modules/to-object-path/node_modules/kind-of/index.js"
+      },
+      {
+        "name": "to-regex",
+        "version": "3.0.2",
+        "path": "node_modules/to-regex/index.js"
+      },
+      {
+        "name": "to-regex-range",
+        "version": "2.1.1",
+        "path": "node_modules/to-regex-range/index.js"
+      },
+      {
+        "name": "toidentifier",
+        "version": "1.0.0",
+        "path": "node_modules/toidentifier/index.js"
+      },
+      {
+        "name": "union-value",
+        "version": "1.0.1",
+        "path": "node_modules/union-value/index.js"
+      },
+      {
+        "name": "unix-crypt-td-js",
+        "version": "1.1.4",
+        "path": "node_modules/unix-crypt-td-js/unix-crypt-td.min.js"
+      },
+      {
+        "name": "unpipe",
+        "version": "1.0.0",
+        "path": "node_modules/unpipe/index.js"
+      },
+      {
+        "name": "unset-value",
+        "version": "1.0.0",
+        "path": "node_modules/unset-value/index.js"
+      },
+      {
+        "name": "has-value",
+        "version": "0.3.1",
+        "path": "node_modules/unset-value/node_modules/has-value/index.js"
+      },
+      {
+        "name": "isobject",
+        "version": "2.1.0",
+        "path": "node_modules/unset-value/node_modules/has-value/node_modules/isobject/index.js"
+      },
+      {
+        "name": "has-values",
+        "version": "0.1.4",
+        "path": "node_modules/unset-value/node_modules/has-values/index.js"
+      },
+      {
+        "name": "upath",
+        "version": "1.2.0",
+        "path": "node_modules/upath/build/code/upath.js"
+      },
+      {
+        "name": "urix",
+        "version": "0.1.0",
+        "path": "node_modules/urix/index.js"
+      },
+      {
+        "name": "use",
+        "version": "3.1.1",
+        "path": "node_modules/use/index.js"
+      },
+      {
+        "name": "util-deprecate",
+        "version": "1.0.2",
+        "path": "node_modules/util-deprecate/node.js"
+      },
+      {
+        "name": "utils-merge",
+        "version": "1.0.1",
+        "path": "node_modules/utils-merge/index.js"
+      },
+      {
+        "name": "uuid",
+        "version": "3.4.0",
+        "path": "node_modules/uuid/index.js"
+      },
+      {
+        "name": "vary",
+        "version": "1.1.2",
+        "path": "node_modules/vary/index.js"
+      },
+      {
+        "name": "websocket-driver",
+        "version": "0.7.4",
+        "path": "node_modules/websocket-driver/lib/websocket/driver.js"
+      },
+      {
+        "name": "websocket-extensions",
+        "version": "0.1.4",
+        "path": "node_modules/websocket-extensions/lib/websocket_extensions.js"
+      }
+    ],
+    "extensions": {
+      ".js": [
+        "lib/atom-live-server.js",
+        "node_modules/accepts/index.js",
+        "node_modules/ansi-regex/index.js",
+        "node_modules/anymatch/index.js",
+        "node_modules/anymatch/node_modules/normalize-path/index.js",
+        "node_modules/apache-crypt/src/index.js",
+        "node_modules/apache-md5/src/index.js",
+        "node_modules/arr-diff/index.js",
+        "node_modules/arr-flatten/index.js",
+        "node_modules/arr-union/index.js",
+        "node_modules/array-unique/index.js",
+        "node_modules/assign-symbols/index.js",
+        "node_modules/async-each/index.js",
+        "node_modules/atob/bin/atob.js",
+        "node_modules/atob/browser-atob.js",
+        "node_modules/atob/node-atob.js",
+        "node_modules/atob/test.js",
+        "node_modules/base/index.js",
+        "node_modules/base/node_modules/define-property/index.js",
+        "node_modules/base/node_modules/is-accessor-descriptor/index.js",
+        "node_modules/base/node_modules/is-data-descriptor/index.js",
+        "node_modules/base/node_modules/is-descriptor/index.js",
+        "node_modules/basic-auth/index.js",
+        "node_modules/batch/index.js",
+        "node_modules/bcryptjs/dist/bcrypt.js",
+        "node_modules/bcryptjs/dist/bcrypt.min.js",
+        "node_modules/bcryptjs/externs/bcrypt.js",
+        "node_modules/bcryptjs/externs/minimal-env.js",
+        "node_modules/bcryptjs/index.js",
+        "node_modules/bcryptjs/scripts/build.js",
+        "node_modules/bcryptjs/src/bcrypt/impl.js",
+        "node_modules/bcryptjs/src/bcrypt/prng/accum.js",
+        "node_modules/bcryptjs/src/bcrypt/prng/isaac.js",
+        "node_modules/bcryptjs/src/bcrypt/util/base64.js",
+        "node_modules/bcryptjs/src/bcrypt/util.js",
+        "node_modules/bcryptjs/src/bcrypt.js",
+        "node_modules/bcryptjs/src/wrap.js",
+        "node_modules/braces/index.js",
+        "node_modules/braces/lib/braces.js",
+        "node_modules/braces/lib/compilers.js",
+        "node_modules/braces/lib/parsers.js",
+        "node_modules/braces/lib/utils.js",
+        "node_modules/braces/node_modules/extend-shallow/index.js",
+        "node_modules/cache-base/index.js",
+        "node_modules/chokidar/index.js",
+        "node_modules/chokidar/lib/fsevents-handler.js",
+        "node_modules/chokidar/lib/nodefs-handler.js",
+        "node_modules/class-utils/index.js",
+        "node_modules/class-utils/node_modules/define-property/index.js",
+        "node_modules/collection-visit/index.js",
+        "node_modules/colors/examples/normal-usage.js",
+        "node_modules/colors/examples/safe-string.js",
+        "node_modules/colors/lib/colors.js",
+        "node_modules/colors/lib/custom/trap.js",
+        "node_modules/colors/lib/custom/zalgo.js",
+        "node_modules/colors/lib/extendStringPrototype.js",
+        "node_modules/colors/lib/index.js",
+        "node_modules/colors/lib/maps/america.js",
+        "node_modules/colors/lib/maps/rainbow.js",
+        "node_modules/colors/lib/maps/random.js",
+        "node_modules/colors/lib/maps/zebra.js",
+        "node_modules/colors/lib/styles.js",
+        "node_modules/colors/lib/system/has-flag.js",
+        "node_modules/colors/lib/system/supports-colors.js",
+        "node_modules/colors/safe.js",
+        "node_modules/colors/themes/generic-logging.js",
+        "node_modules/component-emitter/index.js",
+        "node_modules/connect/index.js",
+        "node_modules/copy-descriptor/index.js",
+        "node_modules/core-util-is/lib/util.js",
+        "node_modules/core-util-is/test.js",
+        "node_modules/cors/lib/index.js",
+        "node_modules/debug/karma.conf.js",
+        "node_modules/debug/node.js",
+        "node_modules/debug/src/browser.js",
+        "node_modules/debug/src/debug.js",
+        "node_modules/debug/src/index.js",
+        "node_modules/debug/src/inspector-log.js",
+        "node_modules/debug/src/node.js",
+        "node_modules/decode-uri-component/index.js",
+        "node_modules/define-property/index.js",
+        "node_modules/define-property/node_modules/is-accessor-descriptor/index.js",
+        "node_modules/define-property/node_modules/is-data-descriptor/index.js",
+        "node_modules/define-property/node_modules/is-descriptor/index.js",
+        "node_modules/depd/index.js",
+        "node_modules/depd/lib/browser/index.js",
+        "node_modules/destroy/index.js",
+        "node_modules/duplexer/index.js",
+        "node_modules/ee-first/index.js",
+        "node_modules/encodeurl/index.js",
+        "node_modules/escape-html/index.js",
+        "node_modules/etag/index.js",
+        "node_modules/event-stream/examples/pretty.js",
+        "node_modules/event-stream/index.js",
+        "node_modules/expand-brackets/index.js",
+        "node_modules/expand-brackets/lib/compilers.js",
+        "node_modules/expand-brackets/lib/parsers.js",
+        "node_modules/expand-brackets/lib/utils.js",
+        "node_modules/expand-brackets/node_modules/define-property/index.js",
+        "node_modules/expand-brackets/node_modules/extend-shallow/index.js",
+        "node_modules/extend-shallow/index.js",
+        "node_modules/extend-shallow/node_modules/is-extendable/index.js",
+        "node_modules/extglob/index.js",
+        "node_modules/extglob/lib/compilers.js",
+        "node_modules/extglob/lib/extglob.js",
+        "node_modules/extglob/lib/parsers.js",
+        "node_modules/extglob/lib/utils.js",
+        "node_modules/extglob/node_modules/define-property/index.js",
+        "node_modules/extglob/node_modules/extend-shallow/index.js",
+        "node_modules/extglob/node_modules/is-accessor-descriptor/index.js",
+        "node_modules/extglob/node_modules/is-data-descriptor/index.js",
+        "node_modules/extglob/node_modules/is-descriptor/index.js",
+        "node_modules/faye-websocket/lib/faye/eventsource.js",
+        "node_modules/faye-websocket/lib/faye/websocket/api/event.js",
+        "node_modules/faye-websocket/lib/faye/websocket/api/event_target.js",
+        "node_modules/faye-websocket/lib/faye/websocket/api.js",
+        "node_modules/faye-websocket/lib/faye/websocket/client.js",
+        "node_modules/faye-websocket/lib/faye/websocket.js",
+        "node_modules/fill-range/index.js",
+        "node_modules/fill-range/node_modules/extend-shallow/index.js",
+        "node_modules/finalhandler/index.js",
+        "node_modules/for-in/index.js",
+        "node_modules/fragment-cache/index.js",
+        "node_modules/fresh/index.js",
+        "node_modules/from/index.js",
+        "node_modules/get-value/index.js",
+        "node_modules/glob-parent/index.js",
+        "node_modules/glob-parent/node_modules/is-glob/index.js",
+        "node_modules/graceful-fs/clone.js",
+        "node_modules/graceful-fs/graceful-fs.js",
+        "node_modules/graceful-fs/legacy-streams.js",
+        "node_modules/graceful-fs/polyfills.js",
+        "node_modules/has-value/index.js",
+        "node_modules/has-values/index.js",
+        "node_modules/has-values/node_modules/kind-of/index.js",
+        "node_modules/http-auth/src/auth/base.js",
+        "node_modules/http-auth/src/auth/basic.js",
+        "node_modules/http-auth/src/auth/digest.js",
+        "node_modules/http-auth/src/auth/utils.js",
+        "node_modules/http-auth/src/http-auth.js",
+        "node_modules/http-auth/src/server/connect.js",
+        "node_modules/http-auth/src/server/hapi.js",
+        "node_modules/http-auth/src/server/http.js",
+        "node_modules/http-auth/src/server/https.js",
+        "node_modules/http-auth/src/server/koa.js",
+        "node_modules/http-auth/src/server/passport.js",
+        "node_modules/http-auth/src/server/proxy.js",
+        "node_modules/http-errors/index.js",
+        "node_modules/http-errors/node_modules/depd/index.js",
+        "node_modules/http-errors/node_modules/depd/lib/browser/index.js",
+        "node_modules/http-errors/node_modules/depd/lib/compat/callsite-tostring.js",
+        "node_modules/http-errors/node_modules/depd/lib/compat/event-listener-count.js",
+        "node_modules/http-errors/node_modules/depd/lib/compat/index.js",
+        "node_modules/http-parser-js/http-parser.js",
+        "node_modules/inherits/inherits.js",
+        "node_modules/inherits/inherits_browser.js",
+        "node_modules/is-accessor-descriptor/index.js",
+        "node_modules/is-accessor-descriptor/node_modules/kind-of/index.js",
+        "node_modules/is-binary-path/index.js",
+        "node_modules/is-buffer/index.js",
+        "node_modules/is-data-descriptor/index.js",
+        "node_modules/is-data-descriptor/node_modules/kind-of/index.js",
+        "node_modules/is-descriptor/index.js",
+        "node_modules/is-descriptor/node_modules/kind-of/index.js",
+        "node_modules/is-extendable/index.js",
+        "node_modules/is-extglob/index.js",
+        "node_modules/is-glob/index.js",
+        "node_modules/is-number/index.js",
+        "node_modules/is-number/node_modules/kind-of/index.js",
+        "node_modules/is-plain-object/index.js",
+        "node_modules/is-windows/index.js",
+        "node_modules/is-wsl/index.js",
+        "node_modules/isarray/index.js",
+        "node_modules/isarray/test.js",
+        "node_modules/isobject/index.js",
+        "node_modules/json5/lib/cli.js",
+        "node_modules/json5/lib/json5.js",
+        "node_modules/json5/lib/require.js",
+        "node_modules/kind-of/index.js",
+        "node_modules/live-server/index.js",
+        "node_modules/live-server/live-server.js",
+        "node_modules/live-server/middleware/example.js",
+        "node_modules/live-server/middleware/spa-ignore-assets.js",
+        "node_modules/live-server/middleware/spa.js",
+        "node_modules/map-cache/index.js",
+        "node_modules/map-stream/examples/pretty.js",
+        "node_modules/map-stream/index.js",
+        "node_modules/map-visit/index.js",
+        "node_modules/micromatch/index.js",
+        "node_modules/micromatch/lib/cache.js",
+        "node_modules/micromatch/lib/compilers.js",
+        "node_modules/micromatch/lib/parsers.js",
+        "node_modules/micromatch/lib/utils.js",
+        "node_modules/mime/cli.js",
+        "node_modules/mime/mime.js",
+        "node_modules/mime/src/build.js",
+        "node_modules/mime/src/test.js",
+        "node_modules/mime-db/index.js",
+        "node_modules/mime-types/index.js",
+        "node_modules/mixin-deep/index.js",
+        "node_modules/mixin-deep/node_modules/is-extendable/index.js",
+        "node_modules/morgan/index.js",
+        "node_modules/ms/index.js",
+        "node_modules/nanomatch/index.js",
+        "node_modules/nanomatch/lib/cache.js",
+        "node_modules/nanomatch/lib/compilers.js",
+        "node_modules/nanomatch/lib/parsers.js",
+        "node_modules/nanomatch/lib/utils.js",
+        "node_modules/negotiator/index.js",
+        "node_modules/negotiator/lib/charset.js",
+        "node_modules/negotiator/lib/encoding.js",
+        "node_modules/negotiator/lib/language.js",
+        "node_modules/negotiator/lib/mediaType.js",
+        "node_modules/normalize-path/index.js",
+        "node_modules/object-assign/index.js",
+        "node_modules/object-copy/index.js",
+        "node_modules/object-copy/node_modules/define-property/index.js",
+        "node_modules/object-copy/node_modules/kind-of/index.js",
+        "node_modules/object-visit/index.js",
+        "node_modules/object.pick/index.js",
+        "node_modules/on-finished/index.js",
+        "node_modules/on-headers/index.js",
+        "node_modules/opn/index.js",
+        "node_modules/parseurl/index.js",
+        "node_modules/pascalcase/index.js",
+        "node_modules/path-dirname/index.js",
+        "node_modules/path-is-absolute/index.js",
+        "node_modules/pause-stream/index.js",
+        "node_modules/posix-character-classes/index.js",
+        "node_modules/process-nextick-args/index.js",
+        "node_modules/proxy-middleware/index.js",
+        "node_modules/range-parser/index.js",
+        "node_modules/readable-stream/duplex-browser.js",
+        "node_modules/readable-stream/duplex.js",
+        "node_modules/readable-stream/lib/_stream_duplex.js",
+        "node_modules/readable-stream/lib/_stream_passthrough.js",
+        "node_modules/readable-stream/lib/_stream_readable.js",
+        "node_modules/readable-stream/lib/_stream_transform.js",
+        "node_modules/readable-stream/lib/_stream_writable.js",
+        "node_modules/readable-stream/lib/internal/streams/BufferList.js",
+        "node_modules/readable-stream/lib/internal/streams/destroy.js",
+        "node_modules/readable-stream/lib/internal/streams/stream-browser.js",
+        "node_modules/readable-stream/lib/internal/streams/stream.js",
+        "node_modules/readable-stream/passthrough.js",
+        "node_modules/readable-stream/readable-browser.js",
+        "node_modules/readable-stream/readable.js",
+        "node_modules/readable-stream/transform.js",
+        "node_modules/readable-stream/writable-browser.js",
+        "node_modules/readable-stream/writable.js",
+        "node_modules/readdirp/readdirp.js",
+        "node_modules/readdirp/stream-api.js",
+        "node_modules/regex-not/index.js",
+        "node_modules/remove-trailing-separator/index.js",
+        "node_modules/repeat-element/index.js",
+        "node_modules/repeat-string/index.js",
+        "node_modules/resolve-url/resolve-url.js",
+        "node_modules/ret/lib/index.js",
+        "node_modules/ret/lib/positions.js",
+        "node_modules/ret/lib/sets.js",
+        "node_modules/ret/lib/types.js",
+        "node_modules/ret/lib/util.js",
+        "node_modules/safe-buffer/index.js",
+        "node_modules/safe-regex/example/safe.js",
+        "node_modules/safe-regex/index.js",
+        "node_modules/send/index.js",
+        "node_modules/send/node_modules/depd/index.js",
+        "node_modules/send/node_modules/depd/lib/browser/index.js",
+        "node_modules/send/node_modules/depd/lib/compat/callsite-tostring.js",
+        "node_modules/send/node_modules/depd/lib/compat/event-listener-count.js",
+        "node_modules/send/node_modules/depd/lib/compat/index.js",
+        "node_modules/send/node_modules/ms/index.js",
+        "node_modules/serve-index/index.js",
+        "node_modules/serve-index/node_modules/depd/index.js",
+        "node_modules/serve-index/node_modules/depd/lib/browser/index.js",
+        "node_modules/serve-index/node_modules/depd/lib/compat/callsite-tostring.js",
+        "node_modules/serve-index/node_modules/depd/lib/compat/event-listener-count.js",
+        "node_modules/serve-index/node_modules/depd/lib/compat/index.js",
+        "node_modules/serve-index/node_modules/http-errors/index.js",
+        "node_modules/serve-index/node_modules/inherits/inherits.js",
+        "node_modules/serve-index/node_modules/inherits/inherits_browser.js",
+        "node_modules/serve-index/node_modules/setprototypeof/index.js",
+        "node_modules/set-value/index.js",
+        "node_modules/set-value/node_modules/extend-shallow/index.js",
+        "node_modules/setprototypeof/index.js",
+        "node_modules/snapdragon/index.js",
+        "node_modules/snapdragon/lib/compiler.js",
+        "node_modules/snapdragon/lib/parser.js",
+        "node_modules/snapdragon/lib/position.js",
+        "node_modules/snapdragon/lib/source-maps.js",
+        "node_modules/snapdragon/lib/utils.js",
+        "node_modules/snapdragon/node_modules/define-property/index.js",
+        "node_modules/snapdragon/node_modules/extend-shallow/index.js",
+        "node_modules/snapdragon-node/index.js",
+        "node_modules/snapdragon-node/node_modules/define-property/index.js",
+        "node_modules/snapdragon-node/node_modules/is-accessor-descriptor/index.js",
+        "node_modules/snapdragon-node/node_modules/is-data-descriptor/index.js",
+        "node_modules/snapdragon-node/node_modules/is-descriptor/index.js",
+        "node_modules/snapdragon-util/index.js",
+        "node_modules/snapdragon-util/node_modules/kind-of/index.js",
+        "node_modules/source-map/dist/source-map.debug.js",
+        "node_modules/source-map/dist/source-map.js",
+        "node_modules/source-map/dist/source-map.min.js",
+        "node_modules/source-map/lib/array-set.js",
+        "node_modules/source-map/lib/base64-vlq.js",
+        "node_modules/source-map/lib/base64.js",
+        "node_modules/source-map/lib/binary-search.js",
+        "node_modules/source-map/lib/mapping-list.js",
+        "node_modules/source-map/lib/quick-sort.js",
+        "node_modules/source-map/lib/source-map-consumer.js",
+        "node_modules/source-map/lib/source-map-generator.js",
+        "node_modules/source-map/lib/source-node.js",
+        "node_modules/source-map/lib/util.js",
+        "node_modules/source-map/source-map.js",
+        "node_modules/source-map-resolve/lib/decode-uri-component.js",
+        "node_modules/source-map-resolve/lib/resolve-url.js",
+        "node_modules/source-map-resolve/lib/source-map-resolve-node.js",
+        "node_modules/source-map-resolve/source-map-resolve.js",
+        "node_modules/source-map-url/source-map-url.js",
+        "node_modules/split/examples/pretty.js",
+        "node_modules/split/index.js",
+        "node_modules/split-string/index.js",
+        "node_modules/static-extend/index.js",
+        "node_modules/static-extend/node_modules/define-property/index.js",
+        "node_modules/statuses/index.js",
+        "node_modules/stream-combiner/index.js",
+        "node_modules/string_decoder/lib/string_decoder.js",
+        "node_modules/strip-ansi/index.js",
+        "node_modules/through/index.js",
+        "node_modules/to-object-path/index.js",
+        "node_modules/to-object-path/node_modules/kind-of/index.js",
+        "node_modules/to-regex/index.js",
+        "node_modules/to-regex-range/index.js",
+        "node_modules/toidentifier/index.js",
+        "node_modules/union-value/index.js",
+        "node_modules/unix-crypt-td-js/src/unix-crypt-td.js",
+        "node_modules/unix-crypt-td-js/unix-crypt-td.min.js",
+        "node_modules/unpipe/index.js",
+        "node_modules/unset-value/index.js",
+        "node_modules/unset-value/node_modules/has-value/index.js",
+        "node_modules/unset-value/node_modules/has-value/node_modules/isobject/index.js",
+        "node_modules/unset-value/node_modules/has-values/index.js",
+        "node_modules/upath/build/code/upath.js",
+        "node_modules/urix/index.js",
+        "node_modules/use/index.js",
+        "node_modules/util-deprecate/browser.js",
+        "node_modules/util-deprecate/node.js",
+        "node_modules/utils-merge/index.js",
+        "node_modules/uuid/index.js",
+        "node_modules/uuid/lib/bytesToUuid.js",
+        "node_modules/uuid/lib/md5-browser.js",
+        "node_modules/uuid/lib/md5.js",
+        "node_modules/uuid/lib/rng-browser.js",
+        "node_modules/uuid/lib/rng.js",
+        "node_modules/uuid/lib/sha1-browser.js",
+        "node_modules/uuid/lib/sha1.js",
+        "node_modules/uuid/lib/v35.js",
+        "node_modules/uuid/v1.js",
+        "node_modules/uuid/v3.js",
+        "node_modules/uuid/v4.js",
+        "node_modules/uuid/v5.js",
+        "node_modules/vary/index.js",
+        "node_modules/websocket-driver/lib/websocket/driver/base.js",
+        "node_modules/websocket-driver/lib/websocket/driver/client.js",
+        "node_modules/websocket-driver/lib/websocket/driver/draft75.js",
+        "node_modules/websocket-driver/lib/websocket/driver/draft76.js",
+        "node_modules/websocket-driver/lib/websocket/driver/headers.js",
+        "node_modules/websocket-driver/lib/websocket/driver/hybi/frame.js",
+        "node_modules/websocket-driver/lib/websocket/driver/hybi/message.js",
+        "node_modules/websocket-driver/lib/websocket/driver/hybi.js",
+        "node_modules/websocket-driver/lib/websocket/driver/proxy.js",
+        "node_modules/websocket-driver/lib/websocket/driver/server.js",
+        "node_modules/websocket-driver/lib/websocket/driver/stream_reader.js",
+        "node_modules/websocket-driver/lib/websocket/driver.js",
+        "node_modules/websocket-driver/lib/websocket/http_parser.js",
+        "node_modules/websocket-driver/lib/websocket/streams.js",
+        "node_modules/websocket-extensions/lib/parser.js",
+        "node_modules/websocket-extensions/lib/pipeline/cell.js",
+        "node_modules/websocket-extensions/lib/pipeline/functor.js",
+        "node_modules/websocket-extensions/lib/pipeline/index.js",
+        "node_modules/websocket-extensions/lib/pipeline/pledge.js",
+        "node_modules/websocket-extensions/lib/pipeline/ring_buffer.js",
+        "node_modules/websocket-extensions/lib/websocket_extensions.js"
+      ],
+      ".json": [
+        "node_modules/accepts/package.json",
+        "node_modules/ansi-regex/package.json",
+        "node_modules/anymatch/node_modules/normalize-path/package.json",
+        "node_modules/anymatch/package.json",
+        "node_modules/apache-crypt/package.json",
+        "node_modules/apache-md5/package.json",
+        "node_modules/arr-diff/package.json",
+        "node_modules/arr-flatten/package.json",
+        "node_modules/arr-union/package.json",
+        "node_modules/array-unique/package.json",
+        "node_modules/assign-symbols/package.json",
+        "node_modules/async-each/package.json",
+        "node_modules/atob/bower.json",
+        "node_modules/atob/package.json",
+        "node_modules/base/node_modules/define-property/package.json",
+        "node_modules/base/node_modules/is-accessor-descriptor/package.json",
+        "node_modules/base/node_modules/is-data-descriptor/package.json",
+        "node_modules/base/node_modules/is-descriptor/package.json",
+        "node_modules/base/package.json",
+        "node_modules/basic-auth/package.json",
+        "node_modules/batch/component.json",
+        "node_modules/batch/package.json",
+        "node_modules/bcryptjs/.vscode/settings.json",
+        "node_modules/bcryptjs/bower.json",
+        "node_modules/bcryptjs/package.json",
+        "node_modules/bcryptjs/src/bower.json",
+        "node_modules/binary-extensions/binary-extensions.json",
+        "node_modules/binary-extensions/package.json",
+        "node_modules/braces/node_modules/extend-shallow/package.json",
+        "node_modules/braces/package.json",
+        "node_modules/cache-base/package.json",
+        "node_modules/chokidar/package.json",
+        "node_modules/class-utils/node_modules/define-property/package.json",
+        "node_modules/class-utils/package.json",
+        "node_modules/collection-visit/package.json",
+        "node_modules/colors/package.json",
+        "node_modules/component-emitter/package.json",
+        "node_modules/connect/package.json",
+        "node_modules/copy-descriptor/package.json",
+        "node_modules/core-util-is/package.json",
+        "node_modules/cors/package.json",
+        "node_modules/debug/component.json",
+        "node_modules/debug/package.json",
+        "node_modules/decode-uri-component/package.json",
+        "node_modules/define-property/node_modules/is-accessor-descriptor/package.json",
+        "node_modules/define-property/node_modules/is-data-descriptor/package.json",
+        "node_modules/define-property/node_modules/is-descriptor/package.json",
+        "node_modules/define-property/package.json",
+        "node_modules/depd/package.json",
+        "node_modules/destroy/package.json",
+        "node_modules/duplexer/package.json",
+        "node_modules/ee-first/package.json",
+        "node_modules/encodeurl/package.json",
+        "node_modules/escape-html/package.json",
+        "node_modules/etag/package.json",
+        "node_modules/event-stream/package.json",
+        "node_modules/expand-brackets/node_modules/define-property/package.json",
+        "node_modules/expand-brackets/node_modules/extend-shallow/package.json",
+        "node_modules/expand-brackets/package.json",
+        "node_modules/extend-shallow/node_modules/is-extendable/package.json",
+        "node_modules/extend-shallow/package.json",
+        "node_modules/extglob/node_modules/define-property/package.json",
+        "node_modules/extglob/node_modules/extend-shallow/package.json",
+        "node_modules/extglob/node_modules/is-accessor-descriptor/package.json",
+        "node_modules/extglob/node_modules/is-data-descriptor/package.json",
+        "node_modules/extglob/node_modules/is-descriptor/package.json",
+        "node_modules/extglob/package.json",
+        "node_modules/faye-websocket/package.json",
+        "node_modules/fill-range/node_modules/extend-shallow/package.json",
+        "node_modules/fill-range/package.json",
+        "node_modules/finalhandler/package.json",
+        "node_modules/for-in/package.json",
+        "node_modules/fragment-cache/package.json",
+        "node_modules/fresh/package.json",
+        "node_modules/from/package.json",
+        "node_modules/get-value/package.json",
+        "node_modules/glob-parent/node_modules/is-glob/package.json",
+        "node_modules/glob-parent/package.json",
+        "node_modules/graceful-fs/package.json",
+        "node_modules/has-value/package.json",
+        "node_modules/has-values/node_modules/kind-of/package.json",
+        "node_modules/has-values/package.json",
+        "node_modules/http-auth/package.json",
+        "node_modules/http-errors/node_modules/depd/package.json",
+        "node_modules/http-errors/package.json",
+        "node_modules/http-parser-js/package.json",
+        "node_modules/inherits/package.json",
+        "node_modules/is-accessor-descriptor/node_modules/kind-of/package.json",
+        "node_modules/is-accessor-descriptor/package.json",
+        "node_modules/is-binary-path/package.json",
+        "node_modules/is-buffer/package.json",
+        "node_modules/is-data-descriptor/node_modules/kind-of/package.json",
+        "node_modules/is-data-descriptor/package.json",
+        "node_modules/is-descriptor/node_modules/kind-of/package.json",
+        "node_modules/is-descriptor/package.json",
+        "node_modules/is-extendable/package.json",
+        "node_modules/is-extglob/package.json",
+        "node_modules/is-glob/package.json",
+        "node_modules/is-number/node_modules/kind-of/package.json",
+        "node_modules/is-number/package.json",
+        "node_modules/is-plain-object/package.json",
+        "node_modules/is-windows/package.json",
+        "node_modules/is-wsl/package.json",
+        "node_modules/isarray/component.json",
+        "node_modules/isarray/package.json",
+        "node_modules/isobject/package.json",
+        "node_modules/json5/package.json",
+        "node_modules/kind-of/package.json",
+        "node_modules/live-server/package.json",
+        "node_modules/map-cache/package.json",
+        "node_modules/map-stream/package.json",
+        "node_modules/map-visit/package.json",
+        "node_modules/micromatch/package.json",
+        "node_modules/mime/package.json",
+        "node_modules/mime/types.json",
+        "node_modules/mime-db/db.json",
+        "node_modules/mime-db/package.json",
+        "node_modules/mime-types/package.json",
+        "node_modules/mixin-deep/node_modules/is-extendable/package.json",
+        "node_modules/mixin-deep/package.json",
+        "node_modules/morgan/package.json",
+        "node_modules/ms/package.json",
+        "node_modules/nanomatch/package.json",
+        "node_modules/negotiator/package.json",
+        "node_modules/normalize-path/package.json",
+        "node_modules/object-assign/package.json",
+        "node_modules/object-copy/node_modules/define-property/package.json",
+        "node_modules/object-copy/node_modules/kind-of/package.json",
+        "node_modules/object-copy/package.json",
+        "node_modules/object-visit/package.json",
+        "node_modules/object.pick/package.json",
+        "node_modules/on-finished/package.json",
+        "node_modules/on-headers/package.json",
+        "node_modules/opn/package.json",
+        "node_modules/parseurl/package.json",
+        "node_modules/pascalcase/package.json",
+        "node_modules/path-dirname/package.json",
+        "node_modules/path-is-absolute/package.json",
+        "node_modules/pause-stream/package.json",
+        "node_modules/posix-character-classes/package.json",
+        "node_modules/process-nextick-args/package.json",
+        "node_modules/proxy-middleware/package.json",
+        "node_modules/range-parser/package.json",
+        "node_modules/readable-stream/package.json",
+        "node_modules/readdirp/package.json",
+        "node_modules/regex-not/package.json",
+        "node_modules/remove-trailing-separator/package.json",
+        "node_modules/repeat-element/package.json",
+        "node_modules/repeat-string/package.json",
+        "node_modules/resolve-url/bower.json",
+        "node_modules/resolve-url/component.json",
+        "node_modules/resolve-url/package.json",
+        "node_modules/ret/package.json",
+        "node_modules/safe-buffer/package.json",
+        "node_modules/safe-regex/package.json",
+        "node_modules/send/node_modules/depd/package.json",
+        "node_modules/send/node_modules/ms/package.json",
+        "node_modules/send/package.json",
+        "node_modules/serve-index/node_modules/depd/package.json",
+        "node_modules/serve-index/node_modules/http-errors/package.json",
+        "node_modules/serve-index/node_modules/inherits/package.json",
+        "node_modules/serve-index/node_modules/setprototypeof/package.json",
+        "node_modules/serve-index/package.json",
+        "node_modules/set-value/node_modules/extend-shallow/package.json",
+        "node_modules/set-value/package.json",
+        "node_modules/setprototypeof/package.json",
+        "node_modules/snapdragon/node_modules/define-property/package.json",
+        "node_modules/snapdragon/node_modules/extend-shallow/package.json",
+        "node_modules/snapdragon/package.json",
+        "node_modules/snapdragon-node/node_modules/define-property/package.json",
+        "node_modules/snapdragon-node/node_modules/is-accessor-descriptor/package.json",
+        "node_modules/snapdragon-node/node_modules/is-data-descriptor/package.json",
+        "node_modules/snapdragon-node/node_modules/is-descriptor/package.json",
+        "node_modules/snapdragon-node/package.json",
+        "node_modules/snapdragon-util/node_modules/kind-of/package.json",
+        "node_modules/snapdragon-util/package.json",
+        "node_modules/source-map/package.json",
+        "node_modules/source-map-resolve/package.json",
+        "node_modules/source-map-url/bower.json",
+        "node_modules/source-map-url/component.json",
+        "node_modules/source-map-url/package.json",
+        "node_modules/split/package.json",
+        "node_modules/split-string/package.json",
+        "node_modules/static-extend/node_modules/define-property/package.json",
+        "node_modules/static-extend/package.json",
+        "node_modules/statuses/codes.json",
+        "node_modules/statuses/package.json",
+        "node_modules/stream-combiner/package.json",
+        "node_modules/string_decoder/package.json",
+        "node_modules/strip-ansi/package.json",
+        "node_modules/through/package.json",
+        "node_modules/to-object-path/node_modules/kind-of/package.json",
+        "node_modules/to-object-path/package.json",
+        "node_modules/to-regex/package.json",
+        "node_modules/to-regex-range/package.json",
+        "node_modules/toidentifier/package.json",
+        "node_modules/union-value/package.json",
+        "node_modules/unix-crypt-td-js/package.json",
+        "node_modules/unpipe/package.json",
+        "node_modules/unset-value/node_modules/has-value/node_modules/isobject/package.json",
+        "node_modules/unset-value/node_modules/has-value/package.json",
+        "node_modules/unset-value/node_modules/has-values/package.json",
+        "node_modules/unset-value/package.json",
+        "node_modules/upath/package.json",
+        "node_modules/urix/package.json",
+        "node_modules/use/package.json",
+        "node_modules/util-deprecate/package.json",
+        "node_modules/utils-merge/package.json",
+        "node_modules/uuid/package.json",
+        "node_modules/vary/package.json",
+        "node_modules/websocket-driver/package.json",
+        "node_modules/websocket-extensions/package.json",
+        "package-lock.json",
+        "package.json"
+      ]
+    },
+    "folders": [
+      {
+        "paths": [
+          "keymaps",
+          "lib",
+          "menus",
+          "",
+          "spec"
+        ],
+        "dependencies": {
+          "json5": "^0.5.1",
+          "live-server": "^1.2.0",
+          "strip-ansi": "^4.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/accepts"
+        ],
+        "dependencies": {
+          "mime-types": "~2.1.24",
+          "negotiator": "0.6.2"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/anymatch"
+        ],
+        "dependencies": {
+          "micromatch": "^3.1.4",
+          "normalize-path": "^2.1.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/anymatch/node_modules/normalize-path"
+        ],
+        "dependencies": {
+          "remove-trailing-separator": "^1.0.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/apache-crypt",
+          "node_modules/apache-crypt/src"
+        ],
+        "dependencies": {
+          "unix-crypt-td-js": "^1.1.4"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/base"
+        ],
+        "dependencies": {
+          "cache-base": "^1.0.1",
+          "class-utils": "^0.3.5",
+          "component-emitter": "^1.2.1",
+          "define-property": "^1.0.0",
+          "isobject": "^3.0.1",
+          "mixin-deep": "^1.2.0",
+          "pascalcase": "^0.1.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/base/node_modules/define-property"
+        ],
+        "dependencies": {
+          "is-descriptor": "^1.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/base/node_modules/is-accessor-descriptor"
+        ],
+        "dependencies": {
+          "kind-of": "^6.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/base/node_modules/is-data-descriptor"
+        ],
+        "dependencies": {
+          "kind-of": "^6.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/base/node_modules/is-descriptor"
+        ],
+        "dependencies": {
+          "is-accessor-descriptor": "^1.0.0",
+          "is-data-descriptor": "^1.0.0",
+          "kind-of": "^6.0.2"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/basic-auth"
+        ],
+        "dependencies": {
+          "safe-buffer": "5.1.2"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/braces",
+          "node_modules/braces/lib"
+        ],
+        "dependencies": {
+          "arr-flatten": "^1.1.0",
+          "array-unique": "^0.3.2",
+          "extend-shallow": "^2.0.1",
+          "fill-range": "^4.0.0",
+          "isobject": "^3.0.1",
+          "repeat-element": "^1.1.2",
+          "snapdragon": "^0.8.1",
+          "snapdragon-node": "^2.0.1",
+          "split-string": "^3.0.2",
+          "to-regex": "^3.0.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/braces/node_modules/extend-shallow"
+        ],
+        "dependencies": {
+          "is-extendable": "^0.1.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/cache-base"
+        ],
+        "dependencies": {
+          "collection-visit": "^1.0.0",
+          "component-emitter": "^1.2.1",
+          "get-value": "^2.0.6",
+          "has-value": "^1.0.0",
+          "isobject": "^3.0.1",
+          "set-value": "^2.0.0",
+          "to-object-path": "^0.3.0",
+          "union-value": "^1.0.0",
+          "unset-value": "^1.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/chokidar",
+          "node_modules/chokidar/lib"
+        ],
+        "dependencies": {
+          "anymatch": "^2.0.0",
+          "async-each": "^1.0.1",
+          "braces": "^2.3.2",
+          "fsevents": "^1.2.7",
+          "glob-parent": "^3.1.0",
+          "inherits": "^2.0.3",
+          "is-binary-path": "^1.0.0",
+          "is-glob": "^4.0.0",
+          "normalize-path": "^3.0.0",
+          "path-is-absolute": "^1.0.0",
+          "readdirp": "^2.2.1",
+          "upath": "^1.1.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/class-utils"
+        ],
+        "dependencies": {
+          "arr-union": "^3.1.0",
+          "define-property": "^0.2.5",
+          "isobject": "^3.0.0",
+          "static-extend": "^0.1.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/class-utils/node_modules/define-property"
+        ],
+        "dependencies": {
+          "is-descriptor": "^0.1.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/collection-visit"
+        ],
+        "dependencies": {
+          "map-visit": "^1.0.0",
+          "object-visit": "^1.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/connect"
+        ],
+        "dependencies": {
+          "debug": "2.6.9",
+          "finalhandler": "1.1.2",
+          "parseurl": "~1.3.3",
+          "utils-merge": "1.0.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/cors/lib",
+          "node_modules/cors"
+        ],
+        "dependencies": {
+          "object-assign": "^4",
+          "vary": "^1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/debug",
+          "node_modules/debug/src"
+        ],
+        "dependencies": {
+          "ms": "2.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/define-property"
+        ],
+        "dependencies": {
+          "is-descriptor": "^1.0.2",
+          "isobject": "^3.0.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/define-property/node_modules/is-accessor-descriptor"
+        ],
+        "dependencies": {
+          "kind-of": "^6.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/define-property/node_modules/is-data-descriptor"
+        ],
+        "dependencies": {
+          "kind-of": "^6.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/define-property/node_modules/is-descriptor"
+        ],
+        "dependencies": {
+          "is-accessor-descriptor": "^1.0.0",
+          "is-data-descriptor": "^1.0.0",
+          "kind-of": "^6.0.2"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/event-stream/examples",
+          "node_modules/event-stream",
+          "node_modules/event-stream/test",
+          "node_modules/event-stream/test/helper"
+        ],
+        "dependencies": {
+          "duplexer": "~0.1.1",
+          "from": "~0",
+          "map-stream": "~0.1.0",
+          "pause-stream": "0.0.11",
+          "split": "0.3",
+          "stream-combiner": "~0.0.4",
+          "through": "~2.3.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/expand-brackets",
+          "node_modules/expand-brackets/lib"
+        ],
+        "dependencies": {
+          "debug": "^2.3.3",
+          "define-property": "^0.2.5",
+          "extend-shallow": "^2.0.1",
+          "posix-character-classes": "^0.1.0",
+          "regex-not": "^1.0.0",
+          "snapdragon": "^0.8.1",
+          "to-regex": "^3.0.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/expand-brackets/node_modules/define-property"
+        ],
+        "dependencies": {
+          "is-descriptor": "^0.1.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/expand-brackets/node_modules/extend-shallow"
+        ],
+        "dependencies": {
+          "is-extendable": "^0.1.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/extend-shallow"
+        ],
+        "dependencies": {
+          "assign-symbols": "^1.0.0",
+          "is-extendable": "^1.0.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/extend-shallow/node_modules/is-extendable"
+        ],
+        "dependencies": {
+          "is-plain-object": "^2.0.4"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/extglob",
+          "node_modules/extglob/lib"
+        ],
+        "dependencies": {
+          "array-unique": "^0.3.2",
+          "define-property": "^1.0.0",
+          "expand-brackets": "^2.1.4",
+          "extend-shallow": "^2.0.1",
+          "fragment-cache": "^0.2.1",
+          "regex-not": "^1.0.0",
+          "snapdragon": "^0.8.1",
+          "to-regex": "^3.0.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/extglob/node_modules/define-property"
+        ],
+        "dependencies": {
+          "is-descriptor": "^1.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/extglob/node_modules/extend-shallow"
+        ],
+        "dependencies": {
+          "is-extendable": "^0.1.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/extglob/node_modules/is-accessor-descriptor"
+        ],
+        "dependencies": {
+          "kind-of": "^6.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/extglob/node_modules/is-data-descriptor"
+        ],
+        "dependencies": {
+          "kind-of": "^6.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/extglob/node_modules/is-descriptor"
+        ],
+        "dependencies": {
+          "is-accessor-descriptor": "^1.0.0",
+          "is-data-descriptor": "^1.0.0",
+          "kind-of": "^6.0.2"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/faye-websocket/lib/faye",
+          "node_modules/faye-websocket/lib/faye/websocket/api",
+          "node_modules/faye-websocket/lib/faye/websocket",
+          "node_modules/faye-websocket"
+        ],
+        "dependencies": {
+          "websocket-driver": ">=0.5.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fill-range"
+        ],
+        "dependencies": {
+          "extend-shallow": "^2.0.1",
+          "is-number": "^3.0.0",
+          "repeat-string": "^1.6.1",
+          "to-regex-range": "^2.1.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fill-range/node_modules/extend-shallow"
+        ],
+        "dependencies": {
+          "is-extendable": "^0.1.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/finalhandler"
+        ],
+        "dependencies": {
+          "debug": "2.6.9",
+          "encodeurl": "~1.0.2",
+          "escape-html": "~1.0.3",
+          "on-finished": "~2.3.0",
+          "parseurl": "~1.3.3",
+          "statuses": "~1.5.0",
+          "unpipe": "~1.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fragment-cache"
+        ],
+        "dependencies": {
+          "map-cache": "^0.2.2"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/glob-parent"
+        ],
+        "dependencies": {
+          "is-glob": "^3.1.0",
+          "path-dirname": "^1.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/glob-parent/node_modules/is-glob"
+        ],
+        "dependencies": {
+          "is-extglob": "^2.1.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/has-value"
+        ],
+        "dependencies": {
+          "get-value": "^2.0.6",
+          "has-values": "^1.0.0",
+          "isobject": "^3.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/has-values"
+        ],
+        "dependencies": {
+          "is-number": "^3.0.0",
+          "kind-of": "^4.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/has-values/node_modules/kind-of"
+        ],
+        "dependencies": {
+          "is-buffer": "^1.1.5"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/http-auth",
+          "node_modules/http-auth/src/auth",
+          "node_modules/http-auth/src",
+          "node_modules/http-auth/src/server"
+        ],
+        "dependencies": {
+          "apache-crypt": "^1.1.2",
+          "apache-md5": "^1.0.6",
+          "bcryptjs": "^2.3.0",
+          "uuid": "^3.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/http-errors"
+        ],
+        "dependencies": {
+          "depd": "~1.1.2",
+          "inherits": "2.0.4",
+          "setprototypeof": "1.1.1",
+          "statuses": ">= 1.5.0 < 2",
+          "toidentifier": "1.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/is-accessor-descriptor"
+        ],
+        "dependencies": {
+          "kind-of": "^3.0.2"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/is-accessor-descriptor/node_modules/kind-of"
+        ],
+        "dependencies": {
+          "is-buffer": "^1.1.5"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/is-binary-path"
+        ],
+        "dependencies": {
+          "binary-extensions": "^1.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/is-data-descriptor"
+        ],
+        "dependencies": {
+          "kind-of": "^3.0.2"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/is-data-descriptor/node_modules/kind-of"
+        ],
+        "dependencies": {
+          "is-buffer": "^1.1.5"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/is-descriptor"
+        ],
+        "dependencies": {
+          "is-accessor-descriptor": "^0.1.6",
+          "is-data-descriptor": "^0.1.4",
+          "kind-of": "^5.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/is-glob"
+        ],
+        "dependencies": {
+          "is-extglob": "^2.1.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/is-number"
+        ],
+        "dependencies": {
+          "kind-of": "^3.0.2"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/is-number/node_modules/kind-of"
+        ],
+        "dependencies": {
+          "is-buffer": "^1.1.5"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/is-plain-object"
+        ],
+        "dependencies": {
+          "isobject": "^3.0.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/live-server",
+          "node_modules/live-server/middleware",
+          "node_modules/live-server/test",
+          "node_modules/live-server/test/conf",
+          "node_modules/live-server/test/data"
+        ],
+        "dependencies": {
+          "chokidar": "^2.0.4",
+          "connect": "^3.6.6",
+          "event-stream": "3.3.4",
+          "faye-websocket": "0.11.x",
+          "http-auth": "3.1.x",
+          "morgan": "^1.9.1",
+          "serve-index": "^1.9.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/map-visit"
+        ],
+        "dependencies": {
+          "object-visit": "^1.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/micromatch",
+          "node_modules/micromatch/lib"
+        ],
+        "dependencies": {
+          "arr-diff": "^4.0.0",
+          "array-unique": "^0.3.2",
+          "braces": "^2.3.1",
+          "define-property": "^2.0.2",
+          "extend-shallow": "^3.0.2",
+          "extglob": "^2.0.4",
+          "fragment-cache": "^0.2.1",
+          "kind-of": "^6.0.2",
+          "nanomatch": "^1.2.9",
+          "object.pick": "^1.3.0",
+          "regex-not": "^1.0.0",
+          "snapdragon": "^0.8.1",
+          "to-regex": "^3.0.2"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/mime-types"
+        ],
+        "dependencies": {
+          "mime-db": "1.44.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/mixin-deep"
+        ],
+        "dependencies": {
+          "for-in": "^1.0.2",
+          "is-extendable": "^1.0.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/mixin-deep/node_modules/is-extendable"
+        ],
+        "dependencies": {
+          "is-plain-object": "^2.0.4"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/morgan"
+        ],
+        "dependencies": {
+          "basic-auth": "~2.0.1",
+          "debug": "2.6.9",
+          "depd": "~2.0.0",
+          "on-finished": "~2.3.0",
+          "on-headers": "~1.0.2"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/nanomatch",
+          "node_modules/nanomatch/lib"
+        ],
+        "dependencies": {
+          "arr-diff": "^4.0.0",
+          "array-unique": "^0.3.2",
+          "define-property": "^2.0.2",
+          "extend-shallow": "^3.0.2",
+          "fragment-cache": "^0.2.1",
+          "is-windows": "^1.0.2",
+          "kind-of": "^6.0.2",
+          "object.pick": "^1.3.0",
+          "regex-not": "^1.0.0",
+          "snapdragon": "^0.8.1",
+          "to-regex": "^3.0.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/object-copy"
+        ],
+        "dependencies": {
+          "copy-descriptor": "^0.1.0",
+          "define-property": "^0.2.5",
+          "kind-of": "^3.0.3"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/object-copy/node_modules/define-property"
+        ],
+        "dependencies": {
+          "is-descriptor": "^0.1.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/object-copy/node_modules/kind-of"
+        ],
+        "dependencies": {
+          "is-buffer": "^1.1.5"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/object-visit"
+        ],
+        "dependencies": {
+          "isobject": "^3.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/object.pick"
+        ],
+        "dependencies": {
+          "isobject": "^3.0.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/on-finished"
+        ],
+        "dependencies": {
+          "ee-first": "1.1.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/opn"
+        ],
+        "dependencies": {
+          "is-wsl": "^1.1.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/pause-stream",
+          "node_modules/pause-stream/test"
+        ],
+        "dependencies": {
+          "through": "~2.3"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/readable-stream",
+          "node_modules/readable-stream/lib",
+          "node_modules/readable-stream/lib/internal/streams"
+        ],
+        "dependencies": {
+          "core-util-is": "~1.0.0",
+          "inherits": "~2.0.3",
+          "isarray": "~1.0.0",
+          "process-nextick-args": "~2.0.0",
+          "safe-buffer": "~5.1.1",
+          "string_decoder": "~1.1.1",
+          "util-deprecate": "~1.0.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/readdirp"
+        ],
+        "dependencies": {
+          "graceful-fs": "^4.1.11",
+          "micromatch": "^3.1.10",
+          "readable-stream": "^2.0.2"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/regex-not"
+        ],
+        "dependencies": {
+          "extend-shallow": "^3.0.2",
+          "safe-regex": "^1.1.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/safe-regex/example",
+          "node_modules/safe-regex",
+          "node_modules/safe-regex/test"
+        ],
+        "dependencies": {
+          "ret": "~0.1.10"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/send"
+        ],
+        "dependencies": {
+          "debug": "2.6.9",
+          "depd": "~1.1.2",
+          "destroy": "~1.0.4",
+          "encodeurl": "~1.0.2",
+          "escape-html": "~1.0.3",
+          "etag": "~1.8.1",
+          "fresh": "0.5.2",
+          "http-errors": "~1.7.2",
+          "mime": "1.6.0",
+          "ms": "2.1.1",
+          "on-finished": "~2.3.0",
+          "range-parser": "~1.2.1",
+          "statuses": "~1.5.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/serve-index"
+        ],
+        "dependencies": {
+          "accepts": "~1.3.4",
+          "batch": "0.6.1",
+          "debug": "2.6.9",
+          "escape-html": "~1.0.3",
+          "http-errors": "~1.6.2",
+          "mime-types": "~2.1.17",
+          "parseurl": "~1.3.2"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/serve-index/node_modules/http-errors"
+        ],
+        "dependencies": {
+          "depd": "~1.1.2",
+          "inherits": "2.0.3",
+          "setprototypeof": "1.1.0",
+          "statuses": ">= 1.4.0 < 2"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/set-value"
+        ],
+        "dependencies": {
+          "extend-shallow": "^2.0.1",
+          "is-extendable": "^0.1.1",
+          "is-plain-object": "^2.0.3",
+          "split-string": "^3.0.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/set-value/node_modules/extend-shallow"
+        ],
+        "dependencies": {
+          "is-extendable": "^0.1.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/snapdragon",
+          "node_modules/snapdragon/lib"
+        ],
+        "dependencies": {
+          "base": "^0.11.1",
+          "debug": "^2.2.0",
+          "define-property": "^0.2.5",
+          "extend-shallow": "^2.0.1",
+          "map-cache": "^0.2.2",
+          "source-map": "^0.5.6",
+          "source-map-resolve": "^0.5.0",
+          "use": "^3.1.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/snapdragon/node_modules/define-property"
+        ],
+        "dependencies": {
+          "is-descriptor": "^0.1.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/snapdragon/node_modules/extend-shallow"
+        ],
+        "dependencies": {
+          "is-extendable": "^0.1.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/snapdragon-node"
+        ],
+        "dependencies": {
+          "define-property": "^1.0.0",
+          "isobject": "^3.0.0",
+          "snapdragon-util": "^3.0.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/snapdragon-node/node_modules/define-property"
+        ],
+        "dependencies": {
+          "is-descriptor": "^1.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/snapdragon-node/node_modules/is-accessor-descriptor"
+        ],
+        "dependencies": {
+          "kind-of": "^6.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/snapdragon-node/node_modules/is-data-descriptor"
+        ],
+        "dependencies": {
+          "kind-of": "^6.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/snapdragon-node/node_modules/is-descriptor"
+        ],
+        "dependencies": {
+          "is-accessor-descriptor": "^1.0.0",
+          "is-data-descriptor": "^1.0.0",
+          "kind-of": "^6.0.2"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/snapdragon-util"
+        ],
+        "dependencies": {
+          "kind-of": "^3.2.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/snapdragon-util/node_modules/kind-of"
+        ],
+        "dependencies": {
+          "is-buffer": "^1.1.5"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/source-map-resolve/lib",
+          "node_modules/source-map-resolve"
+        ],
+        "dependencies": {
+          "atob": "^2.1.2",
+          "decode-uri-component": "^0.2.0",
+          "resolve-url": "^0.2.1",
+          "source-map-url": "^0.4.0",
+          "urix": "^0.1.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/split/examples",
+          "node_modules/split",
+          "node_modules/split/test"
+        ],
+        "dependencies": {
+          "through": "2"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/split-string"
+        ],
+        "dependencies": {
+          "extend-shallow": "^3.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/static-extend"
+        ],
+        "dependencies": {
+          "define-property": "^0.2.5",
+          "object-copy": "^0.1.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/static-extend/node_modules/define-property"
+        ],
+        "dependencies": {
+          "is-descriptor": "^0.1.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/stream-combiner",
+          "node_modules/stream-combiner/test"
+        ],
+        "dependencies": {
+          "duplexer": "~0.1.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/string_decoder/lib",
+          "node_modules/string_decoder"
+        ],
+        "dependencies": {
+          "safe-buffer": "~5.1.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/strip-ansi"
+        ],
+        "dependencies": {
+          "ansi-regex": "^3.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/to-object-path"
+        ],
+        "dependencies": {
+          "kind-of": "^3.0.2"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/to-object-path/node_modules/kind-of"
+        ],
+        "dependencies": {
+          "is-buffer": "^1.1.5"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/to-regex"
+        ],
+        "dependencies": {
+          "define-property": "^2.0.2",
+          "extend-shallow": "^3.0.2",
+          "regex-not": "^1.0.2",
+          "safe-regex": "^1.1.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/to-regex-range"
+        ],
+        "dependencies": {
+          "is-number": "^3.0.0",
+          "repeat-string": "^1.6.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/union-value"
+        ],
+        "dependencies": {
+          "arr-union": "^3.1.0",
+          "get-value": "^2.0.6",
+          "is-extendable": "^0.1.1",
+          "set-value": "^2.0.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/unset-value"
+        ],
+        "dependencies": {
+          "has-value": "^0.3.1",
+          "isobject": "^3.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/unset-value/node_modules/has-value"
+        ],
+        "dependencies": {
+          "get-value": "^2.0.3",
+          "has-values": "^0.1.4",
+          "isobject": "^2.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/unset-value/node_modules/has-value/node_modules/isobject"
+        ],
+        "dependencies": {
+          "isarray": "1.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/websocket-driver/lib/websocket/driver",
+          "node_modules/websocket-driver/lib/websocket/driver/hybi",
+          "node_modules/websocket-driver/lib/websocket",
+          "node_modules/websocket-driver"
+        ],
+        "dependencies": {
+          "http-parser-js": ">=0.5.1",
+          "safe-buffer": ">=5.1.0",
+          "websocket-extensions": ">=0.1.1"
+        }
+      }
+    ]
+  }
+}

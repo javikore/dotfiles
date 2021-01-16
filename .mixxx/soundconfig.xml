@@ -1,0 +1,6 @@
+<!DOCTYPE SoundManagerConfig>
+<SoundManagerConfig force_network_clock="0" deck_count="4" latency="5" samplerate="44100" sync_buffers="2" api="ALSA">
+ <SoundDevice alsaHwDevice="hw:1,0" portAudioIndex="6" name="Jabra BIZ 1500: USB Audio">
+  <output type="Master" channel_count="2" index="0" channel="0"/>
+ </SoundDevice>
+</SoundManagerConfig>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="audio-volume-high-symbolic.svg"
+   viewBox="0 0 16 16"
+   height="16"
+   width="16"
+   id="svg222"
+   version="1.1">
+  <metadata
+     id="metadata228">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs226" />
+  <sodipodi:namedview
+     inkscape:current-layer="g230"
+     inkscape:window-maximized="0"
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:cy="8"
+     inkscape:cx="8"
+     inkscape:zoom="41.875"
+     showgrid="false"
+     id="namedview224"
+     inkscape:window-height="480"
+     inkscape:window-width="704"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <g
+     id="g230"
+     inkscape:label="Image"
+     inkscape:groupmode="layer">
+    <image
+       id="image232"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAMFBMVEX///8AAAAAvwC/vwAAAL+/
+AL8Av7/AwMCAgID/AAAA/wD//wAAAP//AP8A//////9upjc+AAAAAXRSTlMAQObYZgAAAGVJREFU
+eNpjYGBgYBRggAALCQjNvLEcwrDuqG9gaAAK7Bf/38ABpK1/AxlAAfv6/YL/G0Aqqn+Ly4MZ9fsl
+5Bs6OhiEu39DpBiFQbpAxjBaQ3QxMAh3gM0BChmWg00GCkEthTgDAHxxHh1Fj/oFAAAAAElFTkSu
+QmCC
+"
+       preserveAspectRatio="none"
+       height="16"
+       width="16" />
+  </g>
+</svg>

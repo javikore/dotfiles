@@ -1,0 +1,8 @@
+"*":
+  core:
+    themes: [
+      "dracula-ui"
+      "dracula-night-syntax"
+    ]
+  "exception-reporting":
+    userId: "5d588f64-883e-4d1d-a9d6-833581cb82d8"

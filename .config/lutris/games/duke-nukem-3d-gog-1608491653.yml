@@ -1,0 +1,3 @@
+game:
+  config_file: /home/jsolis/Games/gog/duke-nukem-3d/dosbox/dosboxDuke3D.conf
+  main_file: /home/jsolis/Games/gog/duke-nukem-3d/dosbox/dosboxDuke3D_single.conf

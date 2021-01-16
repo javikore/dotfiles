@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="network-offline.svg"
+   viewBox="0 0 32 32"
+   height="32"
+   width="32"
+   id="svg842"
+   version="1.1">
+  <metadata
+     id="metadata848">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs846" />
+  <sodipodi:namedview
+     inkscape:current-layer="g850"
+     inkscape:window-maximized="0"
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:cy="16"
+     inkscape:cx="16"
+     inkscape:zoom="17.3125"
+     showgrid="false"
+     id="namedview844"
+     inkscape:window-height="480"
+     inkscape:window-width="674"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <g
+     id="g850"
+     inkscape:label="Image"
+     inkscape:groupmode="layer">
+    <image
+       id="image852"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAMFBMVEX///8AAAAAAIAAgICAAACA
+gACAAICAgIDAwMAA/wAAAP8A////AAD//wD/AP/////E7fKLAAAAAXRSTlMAQObYZgAAALhJREFU
+eNp1z7ENAyEMBVCQkK6hAKXIdRmCBRiAZagoo6suY1Fc6W0yADGGgJESS5xOT3zbCFEr1RKzthfW
+aRgc1toV3s4NoDyDlr8xoPwC9fo9pRX2OXY7HALGbOTwKKV84cSpGLF7lGaOxaYpCklgKY/HNHiW
+MvINMIH5CfSUxEBSD/b0XyX/ANSTGYQsNHgGCgRcS48A7cIA1S/MKa3lBA3Q//qm2oe87HPVQay0
+p11WUBxU/eQPVD9MtAakMj4AAAAASUVORK5CYII=
+"
+       preserveAspectRatio="none"
+       height="32"
+       width="32" />
+  </g>
+</svg>

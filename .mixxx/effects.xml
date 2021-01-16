@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='utf-8'?>
+<MixxxEffects schemaVersion="0">
+ <Rack>
+  <Group>[EffectRack1]</Group>
+  <Chains>
+   <EffectChain>
+    <Id></Id>
+    <Name>Cadena vacía</Name>
+    <Description></Description>
+    <MixMode>DRY/WET</MixMode>
+    <SuperParameterValue>0</SuperParameterValue>
+    <Effects>
+     <Effect/>
+     <Effect/>
+     <Effect/>
+     <Effect/>
+    </Effects>
+   </EffectChain>
+   <EffectChain>
+    <Id></Id>
+    <Name>Cadena vacía</Name>
+    <Description></Description>
+    <MixMode>DRY/WET</MixMode>
+    <SuperParameterValue>0</SuperParameterValue>
+    <Effects>
+     <Effect>
+      <MetaParameterValue>0.0674973</MetaParameterValue>
+      <Id>org.mixxx.effects.loudnesscontour</Id>
+      <Version>1.0</Version>
+      <Parameters>
+       <Parameter>
+        <Value>0.0674973</Value>
+        <LinkType>LINKED</LinkType>
+        <LinkInversion>0</LinkInversion>
+        <Id>loudness</Id>
+       </Parameter>
+       <Parameter>
+        <Value>0</Value>
+        <Id>useGain</Id>
+       </Parameter>
+      </Parameters>
+     </Effect>
+     <Effect/>
+     <Effect/>
+     <Effect/>
+    </Effects>
+   </EffectChain>
+   <EffectChain>
+    <Id></Id>
+    <Name>Cadena vacía</Name>
+    <Description></Description>
+    <MixMode>DRY/WET</MixMode>
+    <SuperParameterValue>0</SuperParameterValue>
+    <Effects>
+     <Effect/>
+     <Effect/>
+     <Effect/>
+     <Effect/>
+    </Effects>
+   </EffectChain>
+   <EffectChain>
+    <Id></Id>
+    <Name>Cadena vacía</Name>
+    <Description></Description>
+    <MixMode>DRY/WET</MixMode>
+    <SuperParameterValue>0</SuperParameterValue>
+    <Effects>
+     <Effect/>
+     <Effect/>
+     <Effect/>
+     <Effect/>
+    </Effects>
+   </EffectChain>
+  </Chains>
+ </Rack>
+</MixxxEffects>

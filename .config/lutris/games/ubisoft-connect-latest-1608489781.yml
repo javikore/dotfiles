@@ -1,0 +1,8 @@
+game:
+  exe: drive_c/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/UbisoftConnect.exe
+  prefix: /home/jsolis/Games/Ubisoft_Connect
+wine:
+  esync: true
+  overrides:
+    nvapi,nvapi64: disabled
+  version: lutris-6.0-rc1-x86_64

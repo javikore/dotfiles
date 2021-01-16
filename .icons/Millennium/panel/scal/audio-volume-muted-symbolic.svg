@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="16"
+   height="16"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   version="1.0"
+   sodipodi:docname="audio-volume-muted-symbolic.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:export-filename="/home/andrea/aspetto/icone/mie/stock/flat/volume-0.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#dcdcc8"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="31.678384"
+     inkscape:cx="-2.3788358"
+     inkscape:cy="7.3886501"
+     inkscape:document-units="px"
+     inkscape:current-layer="svg2"
+     showgrid="false"
+     inkscape:window-width="1680"
+     inkscape:window-height="999"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-maximized="1" />
+  <g
+     inkscape:label="Livello 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-16)" />
+  <path
+     style="fill:#9d1919;fill-opacity:1;stroke:none"
+     d="M 8,3.9999999 8,12 l 8,0 0,-8.0000001 -8,0 z m 2.28125,1.125 1.71875,1.71875 1.71875,-1.71875 1.15625,1.15625 -1.71875,1.71875 1.71875,1.71875 L 13.71875,10.875 12,9.1562499 10.28125,10.875 9.125,9.7187499 l 1.71875,-1.71875 -1.71875,-1.71875 1.15625,-1.15625 z"
+     id="rect2442-1"
+     inkscape:connector-curvature="0"
+     class="error" />
+  <path
+     style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-opacity:1;marker:none;enable-background:accumulate"
+     d="m 6.2663,1.2933093 c -0.073711,0.0326 -0.1374922,0.08727 -0.1809818,0.155127 L 2.9827736,5.4300353 H 0.9818834 c -0.2165925,2.2e-5 -0.4136509,0.197081 -0.4136726,0.413673 v 4.1367264 c 2.17e-5,0.2165933 0.1970801,0.4136513 0.4136726,0.4136733 h 2.0008902 l 3.1025446,3.955743 C 6.2963824,14.59232 6.778987,14.437201 6.8092453,14.11716 V 1.7069823 C 6.8227193,1.4397593 6.5203617,1.2093923 6.2663,1.2933093 Z"
+     id="path4131-1"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cccccccccccc" />
+</svg>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+

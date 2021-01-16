@@ -1,0 +1,1370 @@
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: aa
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: aac
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: ac3
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: acm
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: act
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: adf
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: adp
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: ads
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: adx
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: aea
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: afc
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: aiff
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: aix
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: alp
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: amr
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: amrnb
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: amrwb
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: anm
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: apc
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: ape
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: apm
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: apng
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: aptx
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: aptx_hd
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: aqtitle
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: argo_asf
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: asf
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: asf_o
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: ass
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: ast
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: au
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: av1
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: avi
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: avisynth
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: avr
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: avs
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: avs2
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: bethsoftvid
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: bfi
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: bin
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: bink
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: bit
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: bmv
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: bfstm
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: brstm
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: boa
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: c93
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: caf
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: cavsvideo
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: cdg
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: cdxl
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: cine
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: codec2
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: codec2raw
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: concat
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: dash
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: data
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: daud
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: dcstr
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: derf
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: dfa
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: dhav
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: dirac
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: dnxhd
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: dsf
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: dsicin
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: dss
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: dts
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: dtshd
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: dv
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: dvbsub
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: dvbtxt
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: dxa
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: ea
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: ea_cdata
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: eac3
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: epaf
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: ffmetadata
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: filmstrip
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: fits
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: flac
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: flic
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: flv
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: live_flv
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: 4xm
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: frm
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: fsb
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: fwse
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: g722
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: g723_1
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: g726
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: g726le
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: g729
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: gdv
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: genh
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: gif
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: gsm
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: gxf
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: h261
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: h263
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: h264
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: hca
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: hcom
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: hevc
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: hls
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: hnm
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: ico
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: idcin
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: idf
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: iff
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: ifv
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: ilbc
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: image2
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: image2pipe
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: alias_pix
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: brender_pix
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: ingenient
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: ipmovie
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: ircam
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: iss
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: iv8
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: ivf
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: ivr
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: jacosub
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: jv
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: kux
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: kvag
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: lmlm4
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: loas
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: lrc
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: lvf
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: lxf
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: m4v
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: matroska,webm
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: mgsts
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: microdvd
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: mjpeg
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: mjpeg_2000
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: mlp
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: mlv
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: mm
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: mmf
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: mov,mp4,m4a,3gp,3g2,mj2
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: mp3
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: mpc
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: mpc8
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: mpeg
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: mpegts
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: mpegtsraw
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: mpegvideo
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: mpjpeg
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: mpl2
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: mpsub
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: msf
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: msnwctcp
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: mtaf
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: mtv
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: musx
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: mv
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: mvi
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: mxf
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: mxg
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: nc
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: nistsphere
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: nsp
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: nsv
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: nut
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: nuv
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: ogg
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: oma
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: paf
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: alaw
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: mulaw
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: vidc
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: f64be
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: f64le
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: f32be
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: f32le
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: s32be
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: s32le
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: s24be
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: s24le
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: s16be
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: s16le
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: s8
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: u32be
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: u32le
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: u24be
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: u24le
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: u16be
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: u16le
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: u8
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: pjs
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: pmp
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: pp_bnk
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: pva
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: pvf
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: qcp
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: r3d
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: rawvideo
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: realtext
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: redspark
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: rl2
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: rm
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: roq
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: rpl
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: rsd
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: rso
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: rtp
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: rtsp
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: s337m
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: sami
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: sap
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: sbc
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: sbg
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: scc
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: sdp
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: sdr2
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: sds
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: sdx
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: film_cpk
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: ser
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: shn
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: siff
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: sln
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: smk
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: smjpeg
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: smush
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: sol
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: sox
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: spdif
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: srt
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: psxstr
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: stl
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: subviewer1
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: subviewer
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: sup
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: svag
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: swf
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: tak
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: tedcaptions
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: thp
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: 3dostr
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: tiertexseq
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: tmv
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: truehd
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: tta
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: txd
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: tty
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: ty
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: v210
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: v210x
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: vag
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: vc1
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: vc1test
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: vividas
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: vivo
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: vmd
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: vobsub
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: voc
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: vpk
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: vplayer
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: vqf
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: w64
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: wav
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: wc3movie
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: webm_dash_manifest
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: webvtt
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: wsaud
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: wsd
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: wsvqa
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: wtv
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: wve
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: wv
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: xa
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: xbin
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: xmv
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: xvag
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: xwma
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: yop
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: yuv4mpegpipe
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: bmp_pipe
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: dds_pipe
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: dpx_pipe
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: exr_pipe
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: gif_pipe
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: j2k_pipe
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: jpeg_pipe
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: jpegls_pipe
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: pam_pipe
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: pbm_pipe
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: pcx_pipe
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: pgmyuv_pipe
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: pgm_pipe
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: pictor_pipe
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: png_pipe
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: ppm_pipe
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: psd_pipe
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: qdraw_pipe
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: sgi_pipe
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: svg_pipe
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: sunrast_pipe
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: tiff_pipe
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: webp_pipe
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: xpm_pipe
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: xwd_pipe
+Debug [Main]: SoundSourceFFmpeg - FFmpeg input format: libmodplug
+Info [Main]: SoundSourceProxy - Loading SoundSource plugins "/usr/lib/mixxx/plugins/soundsourceqt5"
+Info [Main]: SoundSourcePluginLibrary - Dynamically loaded plugin library "/usr/lib/mixxx/plugins/soundsourceqt5/libsoundsourcem4a.so"
+Info [Main]: SoundSourcePluginLibrary - Dynamically loaded plugin library "/usr/lib/mixxx/plugins/soundsourceqt5/libsoundsourcewv.so"
+Debug [Main]: "Mixxx" "2.2.4" "(built on: Aug 16 2020 @ 14:41:39; flags: asan=0 battery=1 buildtime=1 bulk=1 color=0 coreaudio=0 faad=1 ffmpeg=1 hid=1 hss1394=0 ipod=0 lilv=1 localecompare=1 macappstore=0 mad=1 mediafoundation=0 modplug=1 opengles=0 optimize=portable opus=1 perftools=1 perftools_profiler=1 profiling=0 qt_sqlite_plugin=0 qtkeychain=1 shoutcast=1 test=1 tsan=0 ubsan=0 vamp=1 verbose=1 vinylcontrol=1 wv=1)" is starting...
+Debug [Main]: Compile time library versions:
+Debug [Main]: Qt: 5.15.2
+Debug [Main]: libshout: 2.4.1
+Debug [Main]: PortAudio: 1246720 PortAudio V19.6.0-devel, revision 396fe4b6699ae929d3a685b3ef8a7e97396139a4
+Debug [Main]: RubberBand: 1.8.2
+Debug [Main]: SoundTouch: 2.1.2
+Debug [Main]: TagLib: 1.11.1
+Debug [Main]: ChromaPrint: 1.5.0
+Debug [Main]: Vorbis: Xiph.Org libVorbis 1.3.7
+Debug [Main]: libsndfile: libsndfile-1.0.28
+Debug [Main]: FLAC: 1.3.3
+Debug [Main]: QDesktopServices::storageLocation(HomeLocation): "/home/jsolis"
+Debug [Main]: QDesktopServices::storageLocation(DataLocation): "/home/jsolis/.local/share/data//Mixxx"
+Debug [Main]: QCoreApplication::applicationDirPath() "/usr/bin"
+Debug [Main]: Loading resources from  "/usr/share/mixxx/"
+Debug [Main]: Configuration file is at the current version 2.2.4
+Info [Main]: BroadcastSettings - Found 1 profile(s)
+Debug [Main]: Loading resources from  "/usr/share/mixxx/"
+Debug [Main]: "/usr/share/mixxx/keyboard/es_AR.kbd.cfg"  not found, using en_US.kbd.cfg
+Debug [Main]: Loading resources from  "/usr/share/mixxx/"
+Debug [Main]: Loading translations for locale "es_AR" from translations folder "/usr/share/mixxx/translations/" : success
+Debug [Main]: "Error: Unable to import console: no such extension"
+Debug [Main]: "Error: Unable to import svg: no such extension"
+Debug [Main]: Loading resources from  "/usr/share/mixxx/"
+Debug [Main]: Compressor attack per frame:  0.000408163 decay per frame:  4.08163e-05
+Debug [Main]: JACK client name set
+Debug [Main]: EngineNetworkStream - addWorker: worker added
+Debug [Main]: EngineNetworkStream - worker slots used: "1 out of 16"
+Debug [Main]: BroadcastManager - addConnection: created connection for profile "Connection 1"
+Debug [Main]: WARNING: AudioInput already registered!
+Debug [Main]: WARNING: AudioInput already registered!
+Debug [Main]: WARNING: AudioInput already registered!
+Debug [Main]: WARNING: AudioInput already registered!
+Info [Main]: DbConnection - Available drivers for database connections: ("QIBASE", "QSQLITE", "QMARIADB", "QMYSQL", "QMYSQL3", "QODBC", "QODBC3", "QPSQL", "QPSQL7", "QTDS", "QTDS7")
+Info [Main]: DbConnectionPool - Cloned thread-local database connection "MIXXX-1" QSqlDatabase(driver="QSQLITE", database="/home/jsolis/.mixxx/mixxxdb.sqlite", host="localhost", port=-1, user="mixxx", open=true)
+Info [Main]: MixxxMainWindow - Connecting to database
+Info [Main]: MixxxMainWindow - Initializing or upgrading database schema
+Info [Main]: SchemaManager - Database schema is up-to-date at version 28
+Debug [Main]: LibraryScanner - Starting thread
+Info [Main]: Library - Connecting database
+Debug [LibraryScanner 1]: LibraryScanner - Entering thread
+Info [LibraryScanner 1]: DbConnectionPool - Cloned thread-local database connection "MIXXX-2" QSqlDatabase(driver="QSQLITE", database="/home/jsolis/.mixxx/mixxxdb.sqlite", host="localhost", port=-1, user="mixxx", open=true)
+Info [LibraryScanner 1]: LibraryScanner - Cleaning up database...
+Info [LibraryScanner 1]: LibraryScanner - Finished database cleanup: 1 ms
+Debug [LibraryScanner 1]: LibraryScanner - Event loop starting
+Debug [Main]: Committing transaction on "MIXXX-1" result: true
+Debug [Main]: CrateFeature::rebuildChildModel() -1
+Warning [Main]: QList::insert(): Index out of range.
+Debug [Main]: Default quick links: ("/home/jsolis/OneDrive/Música/", "/home/jsolis/OneDrive/Escritorio/", "/home/jsolis/OneDrive/Documentos/")
+Debug [Main]: Appending Quick Link:  "Música" --- "/home/jsolis/OneDrive/Música/"
+Debug [Main]: Appending Quick Link:  "Escritorio" --- "/home/jsolis/OneDrive/Escritorio/"
+Debug [Main]: Appending Quick Link:  "Documentos" --- "/home/jsolis/OneDrive/Documentos/"
+Debug [Main]: Committing transaction on "MIXXX-1" result: true
+Debug [Main]: Found  "Traktor 2.9.0"
+Debug [Main]: Traktor Library Location=[ "/home/jsolis/OneDrive/Documentos/Native Instruments/Traktor 2.9.0/collection.nml" ]
+Debug [Main]: Checking for access to user's library directories:
+Debug [Main]: Checking for access to "/home/jsolis/OneDrive/Música" : true
+Debug [AnalyzerQueue 1]: AnalyzerQueue - Entering thread
+Info [AnalyzerQueue 1]: DbConnectionPool - Cloned thread-local database connection "MIXXX-3" QSqlDatabase(driver="QSQLITE", database="/home/jsolis/.mixxx/mixxxdb.sqlite", host="localhost", port=-1, user="mixxx", open=true)
+Debug [Main]: Creating ControllerManager
+Debug [Controller]: ControllerManager:slotInitialize
+Debug [Main]: Set root GL Context widget valid: QGLWidget(0x558faa829ec0) true
+Debug [Main]: Created root GL Context valid: 0x558faa80e510 true
+Debug [Main]: Root GL Context format:
+Debug [Main]: Double Buffering: true
+Debug [Main]: Swap interval: 0
+Debug [Main]: Depth buffer: true
+Debug [Main]: Direct rendering: true
+Debug [Main]: Has overlay: false
+Debug [Main]: RGBA: true
+Debug [Main]: Sample buffers: false
+Debug [Main]: Samples: -1
+Debug [Main]: Stencil buffers: true
+Debug [Main]: Stereo: false
+Debug [Main]: "openGLVersionFlags 0xff07f" "4.6 (Compatibility Profile) Mesa 20.2.3" "Intel" "Mesa Intel(R) HD Graphics 520 (SKL GT2)"
+Debug [Main]: DBus interface  org.freedesktop.ScreenSaver  not valid
+Debug [Main]: DBus interface  org.gnome.ScreenSaver  not valid
+Debug [Main]: DBus interface  org.kde.screensaver  not valid
+Debug [Main]: RLimit Cur  0
+Debug [Main]: RLimit Max  0
+Debug [Main]: ControllerManager::getControllerList
+Info [Main]: VampPluginAdapter - Current VAMP_PATH is: ""
+Debug [Main]: VampPluginAdapter - Ignoring non-existent path: "/home/jsolis/.local/share/data/Mixxx"
+Debug [Main]: VampPluginAdapter - Ignoring non-existent path: "/usr/bin"
+Debug [Main]: VampPluginAdapter - Ignoring non-existent path: "/usr/bin"
+Info [Main]: VampPluginAdapter - Setting VAMP_PATH to: "/usr/lib/mixxx/plugins/vampqt5"
+Debug [Main]: VampPluginLoader::listPlugins() returned 4 plugins
+Debug [Main]: Plugin output displayname: "mixxxbpmdetection:0" "SoundTouch BPM Detector (Legacy)"
+Debug [Main]: Plugin output displayname: "qm-barbeattracker:0" "Bar and Beat Tracker"
+Debug [Main]: Plugin output displayname: "qm-barbeattracker:1" "Bar and Beat Tracker"
+Debug [Main]: Plugin output displayname: "qm-barbeattracker:2" "Bar and Beat Tracker"
+Debug [Main]: Plugin output displayname: "qm-barbeattracker:3" "Bar and Beat Tracker"
+Debug [Main]: Plugin output displayname: "qm-keydetector:0" "Key Detector"
+Debug [Main]: Plugin output displayname: "qm-keydetector:1" "Key Detector"
+Debug [Main]: Plugin output displayname: "qm-keydetector:2" "Key Detector"
+Debug [Main]: Plugin output displayname: "qm-keydetector:3" "Key Detector"
+Debug [Main]: Plugin output displayname: "qm-tempotracker:0" "Tempo and Beat Tracker"
+Debug [Main]: Plugin output displayname: "qm-tempotracker:1" "Tempo and Beat Tracker"
+Debug [Main]: Plugin output displayname: "qm-tempotracker:2" "Tempo and Beat Tracker"
+Debug [Main]: VampPluginLoader::listPlugins() returned 4 plugins
+Debug [Main]: Plugin output displayname: "mixxxbpmdetection:0" "SoundTouch BPM Detector (Legacy)"
+Debug [Main]: Plugin output displayname: "qm-barbeattracker:0" "Bar and Beat Tracker"
+Debug [Main]: Plugin output displayname: "qm-barbeattracker:1" "Bar and Beat Tracker"
+Debug [Main]: Plugin output displayname: "qm-barbeattracker:2" "Bar and Beat Tracker"
+Debug [Main]: Plugin output displayname: "qm-barbeattracker:3" "Bar and Beat Tracker"
+Debug [Main]: Plugin output displayname: "qm-keydetector:0" "Key Detector"
+Debug [Main]: Plugin output displayname: "qm-keydetector:1" "Key Detector"
+Debug [Main]: Plugin output displayname: "qm-keydetector:2" "Key Detector"
+Debug [Main]: Plugin output displayname: "qm-keydetector:3" "Key Detector"
+Debug [Main]: Plugin output displayname: "qm-tempotracker:0" "Tempo and Beat Tracker"
+Debug [Main]: Plugin output displayname: "qm-tempotracker:1" "Tempo and Beat Tracker"
+Debug [Main]: Plugin output displayname: "qm-tempotracker:2" "Tempo and Beat Tracker"
+Debug [Main]: DlgPrefKey::loadSettings
+Debug [Main]: Key plugin ID: "qm-keydetector:2"
+Debug [Main]: LegacySkinParser loading skin: "/usr/share/mixxx/skins/Deere"
+Debug [Main]: "Error: Unable to import console: no such extension"
+Debug [Main]: "Error: Unable to import svg: no such extension"
+Debug [Controller]: Extension .midi.xml total 114 presets
+Debug [Controller]: Extension .hid.xml total 11 presets
+Debug [Controller]: Extension .bulk.xml total 1 presets
+Debug [Main]: Skin is a >=1.12.0 style skin.
+Debug [Main]: WSpinny(): Created QGLWidget, Context Valid: true Sharing: true
+Debug [Main]: WSpinny(): Created QGLWidget, Context Valid: true Sharing: true
+Warning [Main]: Using QByteRef with an index pointing outside the valid range of a QByteArray. The corresponding behavior is deprecated, and will be changed in a future version of Qt.
+Debug [Main]: Created QGLWidget. Context Valid: true Sharing: true
+Debug [Main]: GLWaveformRendererSignalShader::loadShaders
+Debug [Main]: WaveformWidgetFactory::setWaveformWidget - waveform widget added in factory, index 0
+Debug [Main]: WSpinny(): Created QGLWidget, Context Valid: true Sharing: true
+Debug [Main]: WSpinny(): Created QGLWidget, Context Valid: true Sharing: true
+Warning [Main]: Using QByteRef with an index pointing outside the valid range of a QByteArray. The corresponding behavior is deprecated, and will be changed in a future version of Qt.
+Debug [Main]: Created QGLWidget. Context Valid: true Sharing: true
+Debug [Main]: GLWaveformRendererSignalShader::loadShaders
+Debug [Main]: WaveformWidgetFactory::setWaveformWidget - waveform widget added in factory, index 1
+Debug [Main]: WSpinny(): Created QGLWidget, Context Valid: true Sharing: true
+Debug [Main]: WSpinny(): Created QGLWidget, Context Valid: true Sharing: true
+Warning [Main]: Using QByteRef with an index pointing outside the valid range of a QByteArray. The corresponding behavior is deprecated, and will be changed in a future version of Qt.
+Debug [Main]: Created QGLWidget. Context Valid: true Sharing: true
+Debug [Main]: GLWaveformRendererSignalShader::loadShaders
+Debug [Main]: WaveformWidgetFactory::setWaveformWidget - waveform widget added in factory, index 2
+Debug [Main]: WSpinny(): Created QGLWidget, Context Valid: true Sharing: true
+Debug [Main]: WSpinny(): Created QGLWidget, Context Valid: true Sharing: true
+Warning [Main]: Using QByteRef with an index pointing outside the valid range of a QByteArray. The corresponding behavior is deprecated, and will be changed in a future version of Qt.
+Debug [Main]: Created QGLWidget. Context Valid: true Sharing: true
+Debug [Main]: GLWaveformRendererSignalShader::loadShaders
+Debug [Main]: WaveformWidgetFactory::setWaveformWidget - waveform widget added in factory, index 3
+Warning [Main]: Using QByteRef with an index pointing outside the valid range of a QByteArray. The corresponding behavior is deprecated, and will be changed in a future version of Qt.
+Debug [Main]: WSearchLineEdit - Background color: QColor(ARGB 1, 1, 1, 1)
+Debug [Main]: WSearchLineEdit - Foreground color: QColor(ARGB 1, 0, 0, 0)
+Debug [Main]: WTrackTableView::loadTrackModel() HiddenTableModel(0x558fb6f9f880)
+Debug [Main]: WTrackTableView::loadTrackModel() MissingTableModel(0x558fb6fa1c00)
+Debug [Main]: WTrackTableView::loadTrackModel() PlaylistTableModel(0x558fa6dafa40)
+Warning [Main]: QList::insert(): Index out of range.
+Debug [Main]: Recordings folder set to "/home/jsolis"
+Debug [Main]: WTrackTableView::loadTrackModel() QSortFilterProxyModel(0x558fb6fba790)
+Debug [BrowseThread]: Append last  0
+Debug [Main]: WTrackTableView::loadTrackModel() AnalysisLibraryTableModel(0x558fb7d57c00)
+Debug [Main]: BaseTrackCache(0x558fa2d32d00) updateIndexWithQuery took 3 ms
+Debug [Main]: AnalysisLibraryTableModel(0x558fb7d57c00) select() took 7 ms 275
+Debug [Main]: AnalysisLibraryTableModel(0x558fb7d57c00) select() took 2 ms 275
+Debug [Main]: DlgAnalysis(0x558fb7d10000, name="DlgAnalysis") analysisActive false
+Warning [Main]: src/skin/legacyskinparser.cpp:2110 SKIN ERROR at skin:tool_bar.xml:344 <Connection>: LegacySkinParser::setupConnections(): EmitOnPressAndRelease must not set false
+Warning [Main]: Using QByteRef with an index pointing outside the valid range of a QByteArray. The corresponding behavior is deprecated, and will be changed in a future version of Qt.
+Warning [Main]: Using QByteRef with an index pointing outside the valid range of a QByteArray. The corresponding behavior is deprecated, and will be changed in a future version of Qt.
+Warning [Main]: Using QByteRef with an index pointing outside the valid range of a QByteArray. The corresponding behavior is deprecated, and will be changed in a future version of Qt.
+Warning [Main]: Using QByteRef with an index pointing outside the valid range of a QByteArray. The corresponding behavior is deprecated, and will be changed in a future version of Qt.
+Warning [Main]: Using QByteRef with an index pointing outside the valid range of a QByteArray. The corresponding behavior is deprecated, and will be changed in a future version of Qt.
+Warning [Main]: Using QByteRef with an index pointing outside the valid range of a QByteArray. The corresponding behavior is deprecated, and will be changed in a future version of Qt.
+Warning [Main]: Using QByteRef with an index pointing outside the valid range of a QByteArray. The corresponding behavior is deprecated, and will be changed in a future version of Qt.
+Warning [Main]: Using QByteRef with an index pointing outside the valid range of a QByteArray. The corresponding behavior is deprecated, and will be changed in a future version of Qt.
+Warning [Main]: Using QByteRef with an index pointing outside the valid range of a QByteArray. The corresponding behavior is deprecated, and will be changed in a future version of Qt.
+Warning [Main]: Using QByteRef with an index pointing outside the valid range of a QByteArray. The corresponding behavior is deprecated, and will be changed in a future version of Qt.
+Warning [Main]: Using QByteRef with an index pointing outside the valid range of a QByteArray. The corresponding behavior is deprecated, and will be changed in a future version of Qt.
+Warning [Main]: Using QByteRef with an index pointing outside the valid range of a QByteArray. The corresponding behavior is deprecated, and will be changed in a future version of Qt.
+Warning [Main]: Using QByteRef with an index pointing outside the valid range of a QByteArray. The corresponding behavior is deprecated, and will be changed in a future version of Qt.
+Warning [Main]: Using QByteRef with an index pointing outside the valid range of a QByteArray. The corresponding behavior is deprecated, and will be changed in a future version of Qt.
+Warning [Main]: Using QByteRef with an index pointing outside the valid range of a QByteArray. The corresponding behavior is deprecated, and will be changed in a future version of Qt.
+Warning [Main]: Using QByteRef with an index pointing outside the valid range of a QByteArray. The corresponding behavior is deprecated, and will be changed in a future version of Qt.
+Warning [Main]: src/skin/legacyskinparser.cpp:2110 SKIN ERROR at skin:skin_settings.xml:40 <Connection>: LegacySkinParser::setupConnections(): EmitOnPressAndRelease must not set false
+Debug [Main]: MixxxLibraryFeature::activate()
+Debug [Main]: WTrackTableView::loadTrackModel() LibraryTableModel(0x558fa6daf880)
+Debug [Main]: LibraryTableModel(0x558fa6daf880) select() took 3 ms 275
+Debug [Main]: trying to restore position
+Debug [Controller]: ControllerManager: Setting up devices
+Debug [Controller]: Scanning PortMIDI devices:
+Debug [Controller]:  Found output device # 2 DN-S1200 MIDI 1
+Debug [Controller]:  Found output device # 4 DN-S1200 MIDI 1
+Debug [Controller]:  Found input device # 3 DN-S1200 MIDI 1
+Debug [Controller]:     Linking to output device # 2 "DN-S1200 MIDI 1"
+Debug [Controller]:  Found input device # 5 DN-S1200 MIDI 1
+Debug [Controller]:     Linking to output device # 4 "DN-S1200 MIDI 1"
+Debug [Controller]: Scanning USB Bulk devices:
+Debug [Controller]: Scanning HID devices:
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler1]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler2]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler3]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler4]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler5]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler6]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler7]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler8]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler9]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler10]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler11]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler12]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler13]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler14]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler15]"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Sampler16]"
+Debug [Main]: SoundManager::setupDevices()
+Debug [Main]: SoundDevicePortAudio::open() "SoundDeviceId(Jabra BIZ 1500: USB Audio, hw:1,0, 6)"
+Debug [Main]: framesPerBuffer: 1024
+Debug [Main]: Requested sample rate:  44100 Hz, latency: 23.22 ms
+Debug [Main]: Output channels: 2 | Input channels: 0
+Debug [Main]: Opening stream with id 6
+Debug [Main]: Opened PortAudio stream successfully... starting
+Debug [Main]: Dynamically loaded PortAudio library
+Debug [Main]: PortAudio: Started stream successfully
+Debug [Main]:    Actual sample rate:  44100 Hz, latency: 23.22 ms
+Debug [Main]: SoundDeviceNetwork - open: "Network stream"
+Debug [Main]: framesPerBuffer: 1024
+Debug [Main]: Requested sample rate:  44100 Hz, latency: 23219954 ns
+Debug [Main]: Using "Jabra BIZ 1500: USB Audio (hw:1,0)" as output sound device clock reference
+Debug [Main]: 2 output sound devices opened
+Debug [Main]: 0 input sound devices opened
+Debug [Main]: Displaying main window
+Debug [Main]: Running Mixxx
+Debug [Controller]: Found "" "" "r1" S/N "" "Interface 3"
+Warning [Controller]: USB permissions problem (or device error.) Your account needs write access to USB HID controllers.
+Debug [Controller]: Found "" "" "r258" S/N "" "Interface 3"
+Warning [Controller]: USB permissions problem (or device error.) Your account needs write access to USB HID controllers.
+Debug [Controller]: Found "" "" "r1" S/N "" "Interface 3"
+Warning [Controller]: USB permissions problem (or device error.) Your account needs write access to USB HID controllers.
+Debug [Controller]: Found "" "" "r1" S/N "" "Interface 0"
+Warning [Controller]: USB permissions problem (or device error.) Your account needs write access to USB HID controllers.
+Debug [Controller]: Found "" "" "r1" S/N "" "Interface 1"
+Warning [Controller]: USB permissions problem (or device error.) Your account needs write access to USB HID controllers.
+Debug [Controller]: Found "" "" "r9304" S/N "" "Interface 0"
+Warning [Controller]: USB permissions problem (or device error.) Your account needs write access to USB HID controllers.
+Debug [Controller]: Found "" "" "r9304" S/N "" "Interface 1"
+Warning [Controller]: USB permissions problem (or device error.) Your account needs write access to USB HID controllers.
+Debug [Controller]: ControllerManager::getControllerList
+Debug [Controller]: Searching for controller preset "DN-S1200_MIDI_1.midi.xml" in paths: "/home/jsolis/.mixxx/controllers/,/usr/share/mixxx/controllers/"
+Debug [Controller]: Could not find "DN-S1200_MIDI_1.midi.xml" in any preset path.
+Debug [Controller]: Searching for controller preset "DN-S1200_MIDI_1--2.midi.xml" in paths: "/home/jsolis/.mixxx/controllers/,/usr/share/mixxx/controllers/"
+Debug [Controller]: Could not find "DN-S1200_MIDI_1--2.midi.xml" in any preset path.
+Debug [Controller]: Controller polling stopped.
+Debug []: SSE: Denormals to zero mode already enabled
+Debug []: SSE: Flush to zero mode already enabled
+Debug []: Denormals to zero mode is working
+Debug [Main]: ControllerManager::getControllerList
+Debug [Main]: Setting input delegate for column 0 QStyledItemDelegate(0x558fbaf08550)
+Debug [Main]: Setting input delegate for column 1 QStyledItemDelegate(0x558fbaf08580)
+Debug [Main]: Setting input delegate for column 2 QStyledItemDelegate(0x558fbaf085a0)
+Debug [Main]: Setting input delegate for column 3 MidiOptionsDelegate(0x558fbaf085c0)
+Debug [Main]: Setting input delegate for column 4 ControlDelegate(0x558fbaee79a0)
+Debug [Main]: Setting output delegate for column 0 QStyledItemDelegate(0x558fbbd070a0)
+Debug [Main]: Setting output delegate for column 1 QStyledItemDelegate(0x558fbbd070d0)
+Debug [Main]: Setting output delegate for column 2 QStyledItemDelegate(0x558fbbd070f0)
+Debug [Main]: Setting output delegate for column 3 QStyledItemDelegate(0x558fbbd07110)
+Debug [Main]: Setting output delegate for column 4 QStyledItemDelegate(0x558fbbd07130)
+Debug [Main]: Setting output delegate for column 5 ControlDelegate(0x558fbb920040)
+Debug [Main]: Setting input delegate for column 0 QStyledItemDelegate(0x558fbcba8950)
+Debug [Main]: Setting input delegate for column 1 QStyledItemDelegate(0x558fbcba8980)
+Debug [Main]: Setting input delegate for column 2 QStyledItemDelegate(0x558fbcba89a0)
+Debug [Main]: Setting input delegate for column 3 MidiOptionsDelegate(0x558fbcba89c0)
+Debug [Main]: Setting input delegate for column 4 ControlDelegate(0x558fbcbbec80)
+Debug [Main]: Setting output delegate for column 0 QStyledItemDelegate(0x558fbd9f94a0)
+Debug [Main]: Setting output delegate for column 1 QStyledItemDelegate(0x558fbd9f94d0)
+Debug [Main]: Setting output delegate for column 2 QStyledItemDelegate(0x558fbd9f94f0)
+Debug [Main]: Setting output delegate for column 3 QStyledItemDelegate(0x558fbd9f9510)
+Debug [Main]: Setting output delegate for column 4 QStyledItemDelegate(0x558fbd9f9530)
+Debug [Main]: Setting output delegate for column 5 ControlDelegate(0x558fbd5dd300)
+Debug [Main]: Successfully deserialized BeatGrid
+Debug [Main]: Successfully deserialized KeyMap
+Debug [Main]: BaseTrackCache(0x558fa2d32d00) updateIndexWithQuery took 0 ms
+Debug [Main]: WCoverArt::slotCoverFound WCoverArt(0x558fb24f1800, name = "LibraryCoverArt")  "CoverInfoRelative(NONE,GUESSED,,0x0)" QSize(0, 0)
+Debug [Main]: dropEventFiles() true (QUrl("file:///home/jsolis/OneDrive/Música/Retro/Reflex vs. Pfirter - Do You Wanna Jump-msuEbi9X55w.m4a.mp3"))
+Debug [Main]: mimeData.hasText() true "library"
+Debug [Main]: dropEventFiles() true (QUrl("file:///home/jsolis/OneDrive/Música/Retro/Reflex vs. Pfirter - Do You Wanna Jump-msuEbi9X55w.m4a.mp3"))
+Debug [Main]: mimeData.hasText() true "library"
+Debug [Main]: dropEventFiles() true (QUrl("file:///home/jsolis/OneDrive/Música/Retro/Reflex vs. Pfirter - Do You Wanna Jump-msuEbi9X55w.m4a.mp3"))
+Debug [Main]: mimeData.hasText() true "library"
+Debug [Main]: dropEventFiles() true (QUrl("file:///home/jsolis/OneDrive/Música/Retro/Reflex vs. Pfirter - Do You Wanna Jump-msuEbi9X55w.m4a.mp3"))
+Debug [Main]: mimeData.hasText() true "library"
+Debug [Main]: dropEventFiles() true (QUrl("file:///home/jsolis/OneDrive/Música/Retro/Reflex vs. Pfirter - Do You Wanna Jump-msuEbi9X55w.m4a.mp3"))
+Debug [Main]: mimeData.hasText() true "library"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Channel1]"
+Debug [CachingReaderWorker 1]: SoundSourceProxy - Opening file "file:///home/jsolis/OneDrive/Música/Retro/Reflex vs. Pfirter - Do You Wanna Jump-msuEbi9X55w.m4a.mp3" with provider "MAD: MPEG Audio Decoder" using mode Strict
+Debug [CachingReaderWorker 1]: SoundSourceMP3 - MP3 frame header | layer: 0 mode: 0 #channels: 1 #samples: 36 bitrate: 0 samplerate: 0 flags: "0x0000"
+Debug [Main]: BaseTrackPlayerImpl::slotTrackLoaded
+Warning [Main]: QPixmap::scaled: Pixmap is a null pixmap
+Debug [AnalyzerQueue 1]: AnalyzerQueue - Analyzing "Reflex vs. Pfirter - Do You Wanna Jump-msuEbi9X55w.m4a" "/home/jsolis/OneDrive/Música/Retro/Reflex vs. Pfirter - Do You Wanna Jump-msuEbi9X55w.m4a.mp3"
+Debug [Main]: WSpinny::slotCoverFound WSpinny(0x558fadf2bb80, name = "SpinnySingletonWithCover[Channel1]")  "CoverInfoRelative(NONE,GUESSED,,0x0)" QSize(0, 0)
+Debug [AnalyzerQueue 1]: SoundSourceProxy - Opening file "file:///home/jsolis/OneDrive/Música/Retro/Reflex vs. Pfirter - Do You Wanna Jump-msuEbi9X55w.m4a.mp3" with provider "MAD: MPEG Audio Decoder" using mode Strict
+Warning [Main]: QPixmap::scaled: Pixmap is a null pixmap
+Debug [Main]: WSpinny::slotCoverFound WSpinny(0x558fae0782c0, name = "SpinnySingletonNoCover[Channel1]")  "CoverInfoRelative(NONE,GUESSED,,0x0)" QSize(0, 0)
+Debug [AnalyzerQueue 1]: SoundSourceMP3 - MP3 frame header | layer: 0 mode: 0 #channels: 1 #samples: 36 bitrate: 0 samplerate: 0 flags: "0x0000"
+Warning [Main]: QPixmap::scaled: Pixmap is a null pixmap
+Debug [Main]: WCoverArt::slotCoverFound WCoverArt(0x558fb24f1e00, name = "DeckCoverArt")  "CoverInfoRelative(NONE,GUESSED,,0x0)" QSize(0, 0)
+Debug [AnalyzerQueue 1]: AnalysisDAO fetched 2 analyses, 2335150 bytes for track 91 in 64 ms
+Debug [AnalyzerQueue 1]: Reading waveform from byte array: allSignalSize 263832 visualSampleRate 441 audioVisualRatio 100
+Debug [AnalyzerQueue 1]: Reading waveform from byte array: allSignalSize 3842 visualSampleRate 6.41865 audioVisualRatio 6870.6
+Debug [AnalyzerQueue 1]: AnalyzerWaveform - loadStored - Stored waveform loaded
+Debug [AnalyzerQueue 1]: Beat calculation will not start
+Debug [AnalyzerQueue 1]: Keys version/sub-version unchanged since previous analysis. Not analyzing.
+Debug [AnalyzerQueue 1]: Key calculation will not start.
+Debug [AnalyzerQueue 1]: AnalyzerQueue - Skipping track analysis because no analyzer initialized.
+Debug [Main]: Committing transaction on "MIXXX-1" result: true
+Debug [Main]: Searching for controller preset "/usr/share/mixxx/controllers/Denon DN SC2000.midi.xml" in paths: "/home/jsolis/.mixxx/controllers/,/usr/share/mixxx/controllers/"
+Debug [Main]: Loading controller preset from "/usr/share/mixxx/controllers/Denon DN SC2000.midi.xml"
+Debug [Main]: MidiControllerPresetFileHandler: Input mapping parsing complete.
+Debug [Main]: MidiPresetFileHandler: Output mapping parsing complete.
+Debug [Main]: ControllerManager::importScript importing script "/usr/share/mixxx/controllers/Denon-DN-SC2000.midi.js" to "/home/jsolis/.mixxx/controllers"
+Debug [Main]: Setting input delegate for column 0 QStyledItemDelegate(0x558fbf3b9240)
+Debug [Main]: Setting input delegate for column 1 QStyledItemDelegate(0x558fbf3b9280)
+Debug [Main]: Setting input delegate for column 2 QStyledItemDelegate(0x558fbf3b9270)
+Debug [Main]: Setting input delegate for column 3 MidiOptionsDelegate(0x558fbf3b92a0)
+Debug [Main]: Setting input delegate for column 4 ControlDelegate(0x558fbd09dde0)
+Debug [Main]: Setting output delegate for column 0 QStyledItemDelegate(0x558fc059d620)
+Debug [Main]: Setting output delegate for column 1 QStyledItemDelegate(0x558fc059d650)
+Debug [Main]: Setting output delegate for column 2 QStyledItemDelegate(0x558fc059d670)
+Debug [Main]: Setting output delegate for column 3 QStyledItemDelegate(0x558fc059d690)
+Debug [Main]: Setting output delegate for column 4 QStyledItemDelegate(0x558fc059d6b0)
+Debug [Main]: Setting output delegate for column 5 ControlDelegate(0x558fc01a3b00)
+Debug [Main]: Setting input delegate for column 0 QStyledItemDelegate(0x558fc14636a0)
+Debug [Main]: Setting input delegate for column 1 QStyledItemDelegate(0x558fc14636d0)
+Debug [Main]: Setting input delegate for column 2 QStyledItemDelegate(0x558fc1463690)
+Debug [Main]: Setting input delegate for column 3 MidiOptionsDelegate(0x558fc1463640)
+Debug [Controller]: Controller in script engine is: "DN-S1200 MIDI 1"
+Debug [Controller]: Controller polling started.
+Debug [Controller]: Applying controller preset...
+Debug [Controller]: ControllerEngine: Watching JS File: "/usr/share/mixxx/controllers/common-controller-scripts.js"
+Debug [Controller]: ControllerEngine: Loading "/usr/share/mixxx/controllers/common-controller-scripts.js"
+Debug [Controller]: ControllerEngine: Watching JS File: "/home/jsolis/.mixxx/controllers/Denon-DN-SC2000.midi.js"
+Debug [Controller]: ControllerEngine: Loading "/home/jsolis/.mixxx/controllers/Denon-DN-SC2000.midi.js"
+Debug [Main]: Setting input delegate for column 4 ControlDelegate(0x558fc10704a0)
+Debug [Main]: Setting output delegate for column 0 QStyledItemDelegate(0x558fc238f030)
+Debug [Main]: Setting output delegate for column 1 QStyledItemDelegate(0x558fc238f060)
+Debug [Main]: Setting output delegate for column 2 QStyledItemDelegate(0x558fc238f080)
+Debug [Main]: Setting output delegate for column 3 QStyledItemDelegate(0x558fc238f0a0)
+Debug [Main]: Setting output delegate for column 4 QStyledItemDelegate(0x558fc238f0c0)
+Debug [Main]: Setting output delegate for column 5 ControlDelegate(0x558fbd479b40)
+Debug [Main]: Searching for controller preset "/usr/share/mixxx/controllers/Denon DN SC2000.midi.xml" in paths: "/home/jsolis/.mixxx/controllers/,/usr/share/mixxx/controllers/"
+Debug [Main]: Loading controller preset from "/usr/share/mixxx/controllers/Denon DN SC2000.midi.xml"
+Debug [Main]: MidiControllerPresetFileHandler: Input mapping parsing complete.
+Debug [Main]: MidiPresetFileHandler: Output mapping parsing complete.
+Debug [Main]: ControllerManager::importScript importing script "/usr/share/mixxx/controllers/Denon-DN-SC2000.midi.js" to "/home/jsolis/.mixxx/controllers"
+Debug [Main]: ControllerManager::importScript "Denon-DN-SC2000.midi.js" had identical checksum to a file of the same name. Skipping import.
+Debug [Main]: Setting input delegate for column 0 QStyledItemDelegate(0x558fc3251bb0)
+Debug [Main]: Setting input delegate for column 1 QStyledItemDelegate(0x558fc3251bf0)
+Debug [Main]: Setting input delegate for column 2 QStyledItemDelegate(0x558fc3251710)
+Debug [Main]: Setting input delegate for column 3 MidiOptionsDelegate(0x558fc3251bd0)
+Debug [Main]: Setting input delegate for column 4 ControlDelegate(0x558fc253c7e0)
+Debug [Main]: Setting output delegate for column 0 QStyledItemDelegate(0x558fc40c28e0)
+Debug [Main]: Setting output delegate for column 1 QStyledItemDelegate(0x558fc40c2910)
+Debug [Main]: Setting output delegate for column 2 QStyledItemDelegate(0x558fc40c2930)
+Debug [Main]: Setting output delegate for column 3 QStyledItemDelegate(0x558fc40c2950)
+Debug [Main]: Setting output delegate for column 4 QStyledItemDelegate(0x558fc40c2970)
+Debug [Main]: Setting output delegate for column 5 ControlDelegate(0x558fc3cc8000)
+Debug [Controller]: Controller in script engine is: "DN-S1200 MIDI 1"
+Debug [Controller]: Applying controller preset...
+Debug [Controller]: ControllerEngine: Watching JS File: "/usr/share/mixxx/controllers/common-controller-scripts.js"
+Debug [Controller]: ControllerEngine: Loading "/usr/share/mixxx/controllers/common-controller-scripts.js"
+Debug [Main]: Setting input delegate for column 0 QStyledItemDelegate(0x558fc4f9b320)
+Debug [Main]: Setting input delegate for column 1 QStyledItemDelegate(0x558fc4f9b340)
+Debug [Main]: Setting input delegate for column 2 QStyledItemDelegate(0x558fc4f9b2d0)
+Debug [Main]: Setting input delegate for column 3 MidiOptionsDelegate(0x558fc4f9b210)
+Debug [Controller]: ControllerEngine: Watching JS File: "/home/jsolis/.mixxx/controllers/Denon-DN-SC2000.midi.js"
+Debug [Controller]: ControllerEngine: Loading "/home/jsolis/.mixxx/controllers/Denon-DN-SC2000.midi.js"
+Debug [Main]: Setting input delegate for column 4 ControlDelegate(0x558fc4c47200)
+Debug [Main]: Setting output delegate for column 0 QStyledItemDelegate(0x558fc5e04330)
+Debug [Main]: Setting output delegate for column 1 QStyledItemDelegate(0x558fc5e04360)
+Debug [Main]: Setting output delegate for column 2 QStyledItemDelegate(0x558fc5e04380)
+Debug [Main]: Setting output delegate for column 3 QStyledItemDelegate(0x558fc5e043a0)
+Debug [Main]: Setting output delegate for column 4 QStyledItemDelegate(0x558fc5e043c0)
+Debug [Main]: Setting output delegate for column 5 ControlDelegate(0x558fc2287fa0)
+Debug [Main]: DlgPrefVinyl::Apply
+Debug [Main]: in VinylGainSlotApply() with gain: 0 dB
+Debug [Controller]: ControllerManager::getControllerList
+Debug [Controller]: Saving preset for "DN-S1200 MIDI 1" to "/home/jsolis/.mixxx/controllers/DN-S1200_MIDI_1.midi.xml"
+Debug [Controller]: writing script block for "Denon-DN-SC2000.midi.js"
+Debug [Main]: DlgPrefLV2::slotApply 0x0
+Debug [Controller]: Saving preset for "DN-S1200 MIDI 1" to "/home/jsolis/.mixxx/controllers/DN-S1200_MIDI_1--2.midi.xml"
+Debug [Controller]: writing script block for "Denon-DN-SC2000.midi.js"
+Debug [Main]: Recordings path was empty in dialog
+Debug [Main]: Setting input delegate for column 0 QStyledItemDelegate(0x558fc6d11700)
+Debug [Main]: Setting input delegate for column 1 QStyledItemDelegate(0x558fc6d11710)
+Debug [Main]: Setting input delegate for column 2 QStyledItemDelegate(0x558fc6d116a0)
+Debug [Main]: Setting input delegate for column 3 MidiOptionsDelegate(0x558fc6d11690)
+Debug [Main]: Setting input delegate for column 4 ControlDelegate(0x558fc6c74420)
+Debug [Main]: Setting output delegate for column 0 QStyledItemDelegate(0x558fc7addb00)
+Debug [Main]: Setting output delegate for column 1 QStyledItemDelegate(0x558fc7addb30)
+Debug [Main]: Setting output delegate for column 2 QStyledItemDelegate(0x558fc7addb50)
+Debug [Main]: Setting output delegate for column 3 QStyledItemDelegate(0x558fc7addb70)
+Debug [Main]: Setting output delegate for column 4 QStyledItemDelegate(0x558fc7addb90)
+Debug [Main]: Setting output delegate for column 5 ControlDelegate(0x558fc4d663c0)
+Debug [Main]: Setting input delegate for column 0 QStyledItemDelegate(0x558fc8988640)
+Debug [Main]: Setting input delegate for column 1 QStyledItemDelegate(0x558fc8988670)
+Debug [Main]: Setting input delegate for column 2 QStyledItemDelegate(0x558fc8988690)
+Debug [Main]: Setting input delegate for column 3 MidiOptionsDelegate(0x558fc89886b0)
+Debug [Main]: Setting input delegate for column 4 ControlDelegate(0x558fc8985e60)
+Debug [Main]: Setting output delegate for column 0 QStyledItemDelegate(0x558fc97f7170)
+Debug [Main]: Setting output delegate for column 1 QStyledItemDelegate(0x558fc97f71a0)
+Debug [Main]: Setting output delegate for column 2 QStyledItemDelegate(0x558fc97f71c0)
+Debug [Main]: Setting output delegate for column 3 QStyledItemDelegate(0x558fc97f71e0)
+Debug [Main]: Setting output delegate for column 4 QStyledItemDelegate(0x558fc97f7200)
+Debug [Main]: Setting output delegate for column 5 ControlDelegate(0x558fc118a940)
+Debug [Main]: Successfully deserialized BeatGrid
+Debug [Main]: Successfully deserialized KeyMap
+Debug [Main]: BaseTrackCache(0x558fa2d32d00) updateIndexWithQuery took 0 ms
+Debug [Main]: WCoverArt::slotCoverFound WCoverArt(0x558fb24f1800, name = "LibraryCoverArt")  "CoverInfoRelative(NONE,GUESSED,,0x0)" QSize(0, 0)
+Debug [Main]: dropEventFiles() true (QUrl("file:///home/jsolis/OneDrive/Música/Retro/Ralphi Rosario featuring. Rosabel - La Puta-AAqkhS37UN8.webm.mp3"))
+Debug [Main]: mimeData.hasText() true "library"
+Debug [Main]: dropEventFiles() true (QUrl("file:///home/jsolis/OneDrive/Música/Retro/Ralphi Rosario featuring. Rosabel - La Puta-AAqkhS37UN8.webm.mp3"))
+Debug [Main]: mimeData.hasText() true "library"
+Debug [Main]: dropEventFiles() true (QUrl("file:///home/jsolis/OneDrive/Música/Retro/Ralphi Rosario featuring. Rosabel - La Puta-AAqkhS37UN8.webm.mp3"))
+Debug [Main]: mimeData.hasText() true "library"
+Debug [Main]: dropEventFiles() true (QUrl("file:///home/jsolis/OneDrive/Música/Retro/Ralphi Rosario featuring. Rosabel - La Puta-AAqkhS37UN8.webm.mp3"))
+Debug [Main]: mimeData.hasText() true "library"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Channel2]"
+Debug [CachingReaderWorker 2]: SoundSourceProxy - Opening file "file:///home/jsolis/OneDrive/Música/Retro/Ralphi Rosario featuring. Rosabel - La Puta-AAqkhS37UN8.webm.mp3" with provider "MAD: MPEG Audio Decoder" using mode Strict
+Debug [CachingReaderWorker 2]: SoundSourceMP3 - MP3 frame header | layer: 0 mode: 0 #channels: 1 #samples: 36 bitrate: 0 samplerate: 0 flags: "0x0000"
+Debug [Main]: BaseTrackPlayerImpl::slotTrackLoaded
+Debug [AnalyzerQueue 1]: AnalyzerQueue - Analyzing "Ralphi Rosario featuring. Rosabel - La Puta-AAqkhS37UN8.webm" "/home/jsolis/OneDrive/Música/Retro/Ralphi Rosario featuring. Rosabel - La Puta-AAqkhS37UN8.webm.mp3"
+Debug [AnalyzerQueue 1]: SoundSourceProxy - Opening file "file:///home/jsolis/OneDrive/Música/Retro/Ralphi Rosario featuring. Rosabel - La Puta-AAqkhS37UN8.webm.mp3" with provider "MAD: MPEG Audio Decoder" using mode Strict
+Debug [AnalyzerQueue 1]: SoundSourceMP3 - MP3 frame header | layer: 0 mode: 0 #channels: 1 #samples: 36 bitrate: 0 samplerate: 0 flags: "0x0000"
+Warning [Main]: QPixmap::scaled: Pixmap is a null pixmap
+Debug [Main]: WSpinny::slotCoverFound WSpinny(0x558fae078580, name = "SpinnySingletonWithCover[Channel2]")  "CoverInfoRelative(NONE,GUESSED,,0x0)" QSize(0, 0)
+Warning [Main]: QPixmap::scaled: Pixmap is a null pixmap
+Debug [Main]: WSpinny::slotCoverFound WSpinny(0x558fae078840, name = "SpinnySingletonNoCover[Channel2]")  "CoverInfoRelative(NONE,GUESSED,,0x0)" QSize(0, 0)
+Warning [Main]: QPixmap::scaled: Pixmap is a null pixmap
+Debug [Main]: WCoverArt::slotCoverFound WCoverArt(0x558fb8a69b00, name = "DeckCoverArt")  "CoverInfoRelative(NONE,GUESSED,,0x0)" QSize(0, 0)
+Debug [AnalyzerQueue 1]: AnalysisDAO fetched 2 analyses, 2176028 bytes for track 21 in 40 ms
+Debug [AnalyzerQueue 1]: Reading waveform from byte array: allSignalSize 254272 visualSampleRate 441 audioVisualRatio 108.844
+Debug [AnalyzerQueue 1]: Reading waveform from byte array: allSignalSize 3842 visualSampleRate 6.66001 audioVisualRatio 7207.2
+Debug [AnalyzerQueue 1]: AnalyzerWaveform - loadStored - Stored waveform loaded
+Debug [AnalyzerQueue 1]: Beat calculation will not start
+Debug [AnalyzerQueue 1]: Keys version/sub-version unchanged since previous analysis. Not analyzing.
+Debug [AnalyzerQueue 1]: Key calculation will not start.
+Debug [AnalyzerQueue 1]: AnalyzerQueue - Skipping track analysis because no analyzer initialized.
+Debug [Main]: Successfully deserialized BeatGrid
+Debug [Main]: Successfully deserialized KeyMap
+Debug [Main]: BaseTrackCache(0x558fa2d32d00) updateIndexWithQuery took 0 ms
+Debug [Main]: WCoverArt::slotCoverFound WCoverArt(0x558fb24f1800, name = "LibraryCoverArt")  "CoverInfoRelative(NONE,GUESSED,,0x0)" QSize(0, 0)
+Debug [Main]: Successfully deserialized BeatGrid
+Debug [Main]: Successfully deserialized KeyMap
+Debug [Main]: BaseTrackCache(0x558fa2d32d00) updateIndexWithQuery took 0 ms
+Debug [Main]: WCoverArt::slotCoverFound WCoverArt(0x558fb24f1800, name = "LibraryCoverArt")  "CoverInfoRelative(NONE,GUESSED,,0x0)" QSize(0, 0)
+Debug [Main]: WCoverArt::slotCoverFound WCoverArt(0x558fb24f1800, name = "LibraryCoverArt")  "CoverInfoRelative(NONE,GUESSED,,0x0)" QSize(0, 0)
+Debug [Main]: WCoverArt::slotCoverFound WCoverArt(0x558fb24f1800, name = "LibraryCoverArt")  "CoverInfoRelative(NONE,GUESSED,,0x0)" QSize(0, 0)
+Debug [Main]: Successfully deserialized BeatGrid
+Debug [Main]: Successfully deserialized KeyMap
+Debug [Main]: BaseTrackCache(0x558fa2d32d00) updateIndexWithQuery took 0 ms
+Debug [Main]: WCoverArt::slotCoverFound WCoverArt(0x558fb24f1800, name = "LibraryCoverArt")  "CoverInfoRelative(NONE,GUESSED,,0x0)" QSize(0, 0)
+Debug [Main]: Successfully deserialized BeatGrid
+Debug [Main]: Successfully deserialized KeyMap
+Debug [Main]: BaseTrackCache(0x558fa2d32d00) updateIndexWithQuery took 0 ms
+Debug [Main]: WCoverArt::slotCoverFound WCoverArt(0x558fb24f1800, name = "LibraryCoverArt")  "CoverInfoRelative(NONE,GUESSED,,0x0)" QSize(0, 0)
+Debug [Main]: WCoverArt::slotCoverFound WCoverArt(0x558fb24f1800, name = "LibraryCoverArt")  "CoverInfoRelative(NONE,GUESSED,,0x0)" QSize(0, 0)
+Debug [Main]: BeatFactory::loadBeatsFromByteArray could not parse serialized beats.
+Debug [Main]: BaseTrackCache(0x558fa2d32d00) updateIndexWithQuery took 0 ms
+Debug [Main]: WCoverArt::slotCoverFound WCoverArt(0x558fb24f1800, name = "LibraryCoverArt")  "CoverInfoRelative(NONE,GUESSED,,0x0)" QSize(0, 0)
+Debug [Main]: WCoverArt::slotCoverFound WCoverArt(0x558fb24f1800, name = "LibraryCoverArt")  "CoverInfoRelative(NONE,GUESSED,,0x0)" QSize(0, 0)
+Debug [Main]: BeatFactory::loadBeatsFromByteArray could not parse serialized beats.
+Debug [Main]: BaseTrackCache(0x558fa2d32d00) updateIndexWithQuery took 1 ms
+Debug [Main]: WCoverArt::slotCoverFound WCoverArt(0x558fb24f1800, name = "LibraryCoverArt")  "CoverInfoRelative(NONE,GUESSED,,0x0)" QSize(0, 0)
+Debug [Main]: WCoverArt::slotCoverFound WCoverArt(0x558fb24f1800, name = "LibraryCoverArt")  "CoverInfoRelative(NONE,GUESSED,,0x0)" QSize(0, 0)
+Debug [Main]: Successfully deserialized BeatGrid
+Debug [Main]: Successfully deserialized KeyMap
+Debug [Main]: BaseTrackCache(0x558fa2d32d00) updateIndexWithQuery took 1 ms
+Debug [Main]: WCoverArt::slotCoverFound WCoverArt(0x558fb24f1800, name = "LibraryCoverArt")  "CoverInfoRelative(NONE,GUESSED,,0x0)" QSize(0, 0)
+Debug [Main]: BeatFactory::loadBeatsFromByteArray could not parse serialized beats.
+Debug [Main]: BaseTrackCache(0x558fa2d32d00) updateIndexWithQuery took 0 ms
+Debug [Main]: WCoverArt::slotCoverFound WCoverArt(0x558fb24f1800, name = "LibraryCoverArt")  "CoverInfoRelative(NONE,GUESSED,,0x0)" QSize(0, 0)
+Debug [Main]: dropEventFiles() true (QUrl("file:///home/jsolis/OneDrive/Música/Retro/Total Bang - Let's Gooooo-EuI6rORew2s.webm.mp3"))
+Debug [Main]: mimeData.hasText() true "library"
+Debug [Main]: dropEventFiles() true (QUrl("file:///home/jsolis/OneDrive/Música/Retro/Total Bang - Let's Gooooo-EuI6rORew2s.webm.mp3"))
+Debug [Main]: mimeData.hasText() true "library"
+Debug [Main]: dropEventFiles() true (QUrl("file:///home/jsolis/OneDrive/Música/Retro/Total Bang - Let's Gooooo-EuI6rORew2s.webm.mp3"))
+Debug [Main]: mimeData.hasText() true "library"
+Debug [Main]: dropEventFiles() true (QUrl("file:///home/jsolis/OneDrive/Música/Retro/Total Bang - Let's Gooooo-EuI6rORew2s.webm.mp3"))
+Debug [Main]: mimeData.hasText() true "library"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Channel2]"
+Debug [CachingReaderWorker 2]: SoundSourceProxy - Opening file "file:///home/jsolis/OneDrive/Música/Retro/Total Bang - Let's Gooooo-EuI6rORew2s.webm.mp3" with provider "MAD: MPEG Audio Decoder" using mode Strict
+Debug [CachingReaderWorker 2]: SoundSourceMP3 - MP3 frame header | layer: 0 mode: 0 #channels: 1 #samples: 36 bitrate: 0 samplerate: 0 flags: "0x0000"
+Debug [Main]: BaseTrackPlayerImpl::slotTrackLoaded
+Debug [AnalyzerQueue 1]: AnalyzerQueue - Analyzing "Total Bang - Let's Gooooo-EuI6rORew2s.webm" "/home/jsolis/OneDrive/Música/Retro/Total Bang - Let's Gooooo-EuI6rORew2s.webm.mp3"
+Debug [AnalyzerQueue 1]: SoundSourceProxy - Opening file "file:///home/jsolis/OneDrive/Música/Retro/Total Bang - Let's Gooooo-EuI6rORew2s.webm.mp3" with provider "MAD: MPEG Audio Decoder" using mode Strict
+Debug [AnalyzerQueue 1]: SoundSourceMP3 - MP3 frame header | layer: 0 mode: 0 #channels: 1 #samples: 36 bitrate: 0 samplerate: 0 flags: "0x0000"
+Warning [Main]: QPixmap::scaled: Pixmap is a null pixmap
+Debug [Main]: WSpinny::slotCoverFound WSpinny(0x558fae078580, name = "SpinnySingletonWithCover[Channel2]")  "CoverInfoRelative(NONE,GUESSED,,0x0)" QSize(0, 0)
+Warning [Main]: QPixmap::scaled: Pixmap is a null pixmap
+Debug [Main]: WSpinny::slotCoverFound WSpinny(0x558fae078840, name = "SpinnySingletonNoCover[Channel2]")  "CoverInfoRelative(NONE,GUESSED,,0x0)" QSize(0, 0)
+Warning [Main]: QPixmap::scaled: Pixmap is a null pixmap
+Debug [Main]: WCoverArt::slotCoverFound WCoverArt(0x558fb8a69b00, name = "DeckCoverArt")  "CoverInfoRelative(NONE,GUESSED,,0x0)" QSize(0, 0)
+Debug [AnalyzerQueue 1]: AnalysisDAO fetched 0 analyses, 0 bytes for track 1 in 0 ms
+Debug [AnalyzerQueue 1]: VampAnalyzer BlockSize:  1114
+Debug [AnalyzerQueue 1]: VampAnalyzer StepSize:  557
+Debug [AnalyzerQueue 1]: Beat calculation started with plugin "qm-tempotracker:0"
+Debug [AnalyzerQueue 1]: VampAnalyzer BlockSize:  32768
+Debug [AnalyzerQueue 1]: VampAnalyzer StepSize:  32768
+Debug [AnalyzerQueue 1]: Key calculation started with plugin "qm-keydetector:2"
+Debug [AnalyzerQueue 1]: Writing waveform from byte array: dataSize 272370 allSignalSize 272370 visualSampleRate 441 audioVisualRatio 108.844
+Debug [AnalyzerQueue 1]: AnalysisDAO saved analysis 15 "2355939 (1103101 compressed)" bytes for track 1 in 833 ms
+Debug [AnalyzerQueue 1]: Saved waveform analysis for trackId 1 analysisId 15
+Debug [AnalyzerQueue 1]: Writing waveform from byte array: dataSize 3842 allSignalSize 3842 visualSampleRate 6.21746 audioVisualRatio 7720.2
+Debug [AnalyzerQueue 1]: AnalysisDAO saved analysis 16 "33034 (16840 compressed)" bytes for track 1 in 23 ms
+Debug [AnalyzerQueue 1]: Saved waveform summary analysis for trackId 1 analysisId 16
+Debug [AnalyzerQueue 1]: AnalyzerWaveform - Waveform generation for track 1 done 65 s
+Debug [AnalyzerQueue 1]: ReplayGain 2.0 (libebur128) result is -6.80555 dB for "/home/jsolis/OneDrive/Música/Retro/Total Bang - Let's Gooooo-EuI6rORew2s.webm.mp3"
+Debug [AnalyzerQueue 1]: Beat Calculation complete
+Debug [AnalyzerQueue 1]: Key Detection complete
+Debug [AnalyzerQueue 1]: Key Histogram
+Debug [AnalyzerQueue 1]: 1 : "C" 2.06438e+06
+Debug [AnalyzerQueue 1]: 2 : "D♭" 1.50733e+06
+Debug [AnalyzerQueue 1]: 3 : "D" 327680
+Debug [AnalyzerQueue 1]: 9 : "A♭" 589824
+Debug [AnalyzerQueue 1]: 11 : "B♭" 98304
+Debug [AnalyzerQueue 1]: 13 : "Cm" 2.62144e+06
+Debug [AnalyzerQueue 1]: 14 : "C♯m" 3.57171e+06
+Debug [AnalyzerQueue 1]: 15 : "Dm" 229376
+Debug [AnalyzerQueue 1]: 17 : "Em" 688128
+Debug [AnalyzerQueue 1]: 18 : "Fm" 2.76416e+06
+Debug [AnalyzerQueue 1]: 19 : "F♯m" 360448
+Warning [Controller]: ControlDoublePrivate::getControl returning NULL for ( "[Flanger]" , "lfoDepth" )
+Warning [Controller]: ControlDoublePrivate::getControl returning NULL for ( "[Flanger]" , "lfoDelay" )
+Warning [Controller]: ControlDoublePrivate::getControl returning NULL for ( "[Flanger]" , "lfoDelay" )
+Warning [Controller]: ControlDoublePrivate::getControl returning NULL for ( "[Flanger]" , "lfoDelay" )
+Warning [Controller]: ControlDoublePrivate::getControl returning NULL for ( "[Flanger]" , "lfoPeriod" )
+Warning [Controller]: ControlDoublePrivate::getControl returning NULL for ( "[Flanger]" , "lfoDelay" )
+Warning [Controller]: ControlDoublePrivate::getControl returning NULL for ( "[Flanger]" , "lfoDepth" )
+Debug [Main]: Committing transaction on "MIXXX-1" result: true
+Debug [Main]: PlaylistTableModel(0x558fa6dafa40) select() took 1 ms 0
+Debug [Main]: MixxxLibraryFeature::activate()
+Debug [Main]: WTrackTableView::loadTrackModel() LibraryTableModel(0x558fa6daf880)
+Debug [Main]: LibraryTableModel(0x558fa6daf880) select() took 13 ms 275
+Debug [Main]: trying to restore position
+Debug [Main]: WCoverArt::slotCoverFound WCoverArt(0x558fb24f1800, name = "LibraryCoverArt")  "CoverInfoRelative(NONE,GUESSED,,0x0)" QSize(0, 0)
+Debug [Main]: BeatFactory::loadBeatsFromByteArray could not parse serialized beats.
+Debug [Main]: BaseTrackCache(0x558fa2d32d00) updateIndexWithQuery took 0 ms
+Debug [Main]: WCoverArt::slotCoverFound WCoverArt(0x558fb24f1800, name = "LibraryCoverArt")  "CoverInfoRelative(NONE,GUESSED,,0x0)" QSize(0, 0)
+Debug [Main]: dropEventFiles() true (QUrl("file:///home/jsolis/OneDrive/Música/Retro/Da Tekno Warriors - Da Beat-pBgbxNL6Ilc.webm.mp3"))
+Debug [Main]: mimeData.hasText() true "library"
+Debug [Main]: dropEventFiles() true (QUrl("file:///home/jsolis/OneDrive/Música/Retro/Da Tekno Warriors - Da Beat-pBgbxNL6Ilc.webm.mp3"))
+Debug [Main]: mimeData.hasText() true "library"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Channel1]"
+Debug [CachingReaderWorker 1]: SoundSourceProxy - Opening file "file:///home/jsolis/OneDrive/Música/Retro/Da Tekno Warriors - Da Beat-pBgbxNL6Ilc.webm.mp3" with provider "MAD: MPEG Audio Decoder" using mode Strict
+Debug [CachingReaderWorker 1]: SoundSourceMP3 - MP3 frame header | layer: 0 mode: 0 #channels: 1 #samples: 36 bitrate: 0 samplerate: 0 flags: "0x0000"
+Debug [Main]: BaseTrackPlayerImpl::slotTrackLoaded
+Debug [AnalyzerQueue 1]: AnalyzerQueue - Analyzing "Da Tekno Warriors - Da Beat-pBgbxNL6Ilc.webm" "/home/jsolis/OneDrive/Música/Retro/Da Tekno Warriors - Da Beat-pBgbxNL6Ilc.webm.mp3"
+Debug [AnalyzerQueue 1]: SoundSourceProxy - Opening file "file:///home/jsolis/OneDrive/Música/Retro/Da Tekno Warriors - Da Beat-pBgbxNL6Ilc.webm.mp3" with provider "MAD: MPEG Audio Decoder" using mode Strict
+Debug [AnalyzerQueue 1]: SoundSourceMP3 - MP3 frame header | layer: 0 mode: 0 #channels: 1 #samples: 36 bitrate: 0 samplerate: 0 flags: "0x0000"
+Warning [Main]: QPixmap::scaled: Pixmap is a null pixmap
+Debug [Main]: WSpinny::slotCoverFound WSpinny(0x558fadf2bb80, name = "SpinnySingletonWithCover[Channel1]")  "CoverInfoRelative(NONE,GUESSED,,0x0)" QSize(0, 0)
+Warning [Main]: QPixmap::scaled: Pixmap is a null pixmap
+Debug [Main]: WSpinny::slotCoverFound WSpinny(0x558fae0782c0, name = "SpinnySingletonNoCover[Channel1]")  "CoverInfoRelative(NONE,GUESSED,,0x0)" QSize(0, 0)
+Warning [Main]: QPixmap::scaled: Pixmap is a null pixmap
+Debug [Main]: WCoverArt::slotCoverFound WCoverArt(0x558fb24f1e00, name = "DeckCoverArt")  "CoverInfoRelative(NONE,GUESSED,,0x0)" QSize(0, 0)
+Debug [Main]: TrackDAO: Saving track 91 "/home/jsolis/OneDrive/Música/Retro/Reflex vs. Pfirter - Do You Wanna Jump-msuEbi9X55w.m4a.mp3"
+Debug [Main]: TrackDAO: Updating track in database 91 "/home/jsolis/OneDrive/Música/Retro/Reflex vs. Pfirter - Do You Wanna Jump-msuEbi9X55w.m4a.mp3"
+Debug [Main]: BaseTrackCache(0x558fa2d32d00) updateIndexWithQuery took 0 ms
+Debug [AnalyzerQueue 1]: AnalysisDAO fetched 0 analyses, 0 bytes for track 10 in 33 ms
+Debug [AnalyzerQueue 1]: VampAnalyzer BlockSize:  1114
+Debug [AnalyzerQueue 1]: VampAnalyzer StepSize:  557
+Debug [AnalyzerQueue 1]: Beat calculation started with plugin "qm-tempotracker:0"
+Debug [AnalyzerQueue 1]: VampAnalyzer BlockSize:  32768
+Debug [AnalyzerQueue 1]: VampAnalyzer StepSize:  32768
+Debug [AnalyzerQueue 1]: Key calculation started with plugin "qm-keydetector:2"
+Debug [Main]: Committing transaction on "MIXXX-1" result: true
+Debug [AnalyzerQueue 1]: Writing waveform from byte array: dataSize 285260 allSignalSize 285260 visualSampleRate 441 audioVisualRatio 108.844
+Debug [AnalyzerQueue 1]: AnalysisDAO saved analysis 17 "2570331 (1201033 compressed)" bytes for track 10 in 715 ms
+Debug [AnalyzerQueue 1]: Saved waveform analysis for trackId 10 analysisId 17
+Debug [AnalyzerQueue 1]: Writing waveform from byte array: dataSize 3842 allSignalSize 3842 visualSampleRate 5.93648 audioVisualRatio 8085.6
+Debug [AnalyzerQueue 1]: AnalysisDAO saved analysis 18 "34654 (16293 compressed)" bytes for track 10 in 17 ms
+Debug [AnalyzerQueue 1]: Saved waveform summary analysis for trackId 10 analysisId 18
+Debug [AnalyzerQueue 1]: AnalyzerWaveform - Waveform generation for track 10 done 58 s
+Debug [AnalyzerQueue 1]: ReplayGain 2.0 (libebur128) result is -9.28104 dB for "/home/jsolis/OneDrive/Música/Retro/Da Tekno Warriors - Da Beat-pBgbxNL6Ilc.webm.mp3"
+Debug [AnalyzerQueue 1]: Beat Calculation complete
+Debug [AnalyzerQueue 1]: Key Detection complete
+Debug [AnalyzerQueue 1]: Key Histogram
+Debug [AnalyzerQueue 1]: 2 : "D♭" 786432
+Debug [AnalyzerQueue 1]: 8 : "G" 327680
+Debug [AnalyzerQueue 1]: 12 : "B" 6.02931e+06
+Debug [AnalyzerQueue 1]: 13 : "Cm" 65536
+Debug [AnalyzerQueue 1]: 14 : "C♯m" 4.44877e+06
+Debug [AnalyzerQueue 1]: 16 : "D♯m/E♭m" 1.37626e+06
+Debug [AnalyzerQueue 1]: 17 : "Em" 196608
+Debug [AnalyzerQueue 1]: 21 : "G♯m" 65536
+Debug [AnalyzerQueue 1]: 22 : "Am" 1.93331e+06
+Debug [AnalyzerQueue 1]: 24 : "Bm" 294912
+Debug [Main]: Searching for controller preset "/usr/share/mixxx/controllers/Denon DN SC2000.midi.xml" in paths: "/home/jsolis/.mixxx/controllers/,/usr/share/mixxx/controllers/"
+Debug [Main]: Loading controller preset from "/usr/share/mixxx/controllers/Denon DN SC2000.midi.xml"
+Debug [Main]: MidiControllerPresetFileHandler: Input mapping parsing complete.
+Debug [Main]: MidiPresetFileHandler: Output mapping parsing complete.
+Debug [Main]: ControllerManager::importScript importing script "/usr/share/mixxx/controllers/Denon-DN-SC2000.midi.js" to "/home/jsolis/.mixxx/controllers"
+Debug [Main]: ControllerManager::importScript "Denon-DN-SC2000.midi.js" had identical checksum to a file of the same name. Skipping import.
+Debug [Main]: Setting input delegate for column 0 QStyledItemDelegate(0x558fbe90c6e0)
+Debug [Main]: Setting input delegate for column 1 QStyledItemDelegate(0x558fca6fe5d0)
+Debug [Main]: Setting input delegate for column 2 QStyledItemDelegate(0x558fbe90c9d0)
+Debug [Main]: Setting input delegate for column 3 MidiOptionsDelegate(0x558fc6cd8820)
+Debug [Main]: Setting input delegate for column 4 ControlDelegate(0x558fc7625ee0)
+Debug [Main]: Setting output delegate for column 0 QStyledItemDelegate(0x558fcc5876e0)
+Debug [Main]: Setting output delegate for column 1 QStyledItemDelegate(0x558fcc587710)
+Debug [Main]: Setting output delegate for column 2 QStyledItemDelegate(0x558fcc587730)
+Debug [Main]: Setting output delegate for column 3 QStyledItemDelegate(0x558fcc587750)
+Debug [Main]: Setting output delegate for column 4 QStyledItemDelegate(0x558fcc587770)
+Debug [Main]: Setting output delegate for column 5 ControlDelegate(0x558fbbe45b20)
+Debug [Main]: Setting input delegate for column 0 QStyledItemDelegate(0x558fcd3bf4d0)
+Debug [Main]: Setting input delegate for column 1 QStyledItemDelegate(0x558fcd3bf490)
+Debug [Main]: Setting input delegate for column 2 QStyledItemDelegate(0x558fcd3bf450)
+Debug [Main]: Setting input delegate for column 3 MidiOptionsDelegate(0x558fcd3bf480)
+Debug [Main]: Setting input delegate for column 4 ControlDelegate(0x558fcd20c100)
+Debug [Main]: Setting output delegate for column 0 QStyledItemDelegate(0x558fce1fcb30)
+Debug [Main]: Setting output delegate for column 1 QStyledItemDelegate(0x558fce1fcb60)
+Debug [Main]: Setting output delegate for column 2 QStyledItemDelegate(0x558fce1fcb80)
+Debug [Main]: Setting output delegate for column 3 QStyledItemDelegate(0x558fce1fcba0)
+Debug [Main]: Setting output delegate for column 4 QStyledItemDelegate(0x558fce1fcbc0)
+Debug [Main]: Setting output delegate for column 5 ControlDelegate(0x558fbb4a6680)
+Debug [Controller]: "DN-S1200 MIDI 1" started learning
+Debug [Main]: Setting input delegate for column 0 QStyledItemDelegate(0x558fd015be20)
+Debug [Main]: Setting input delegate for column 1 QStyledItemDelegate(0x558fd015be50)
+Debug [Main]: Setting input delegate for column 2 QStyledItemDelegate(0x558fd015be70)
+Debug [Main]: Setting input delegate for column 3 MidiOptionsDelegate(0x558fd015be90)
+Debug [Main]: Setting input delegate for column 4 ControlDelegate(0x558fcff3c540)
+Debug [Main]: Setting output delegate for column 0 QStyledItemDelegate(0x558fd0fbe950)
+Debug [Main]: Setting output delegate for column 1 QStyledItemDelegate(0x558fd0fbe980)
+Debug [Main]: Setting output delegate for column 2 QStyledItemDelegate(0x558fd0fbe9a0)
+Debug [Main]: Setting output delegate for column 3 QStyledItemDelegate(0x558fd0fbe9c0)
+Debug [Main]: Setting output delegate for column 4 QStyledItemDelegate(0x558fd0fbe9e0)
+Debug [Main]: Setting output delegate for column 5 ControlDelegate(0x558fc253c740)
+Debug [Main]: Setting input delegate for column 0 QStyledItemDelegate(0x558fd1edf3c0)
+Debug [Main]: Setting input delegate for column 1 QStyledItemDelegate(0x558fd1edf2e0)
+Debug [Main]: Setting input delegate for column 2 QStyledItemDelegate(0x558fd1edf3a0)
+Debug [Main]: Setting input delegate for column 3 MidiOptionsDelegate(0x558fd1edf2b0)
+Debug [Main]: Setting input delegate for column 4 ControlDelegate(0x558fcf6fbec0)
+Debug [Main]: Setting output delegate for column 0 QStyledItemDelegate(0x558fbaf66460)
+Debug [Main]: Setting output delegate for column 1 QStyledItemDelegate(0x558fbaf66490)
+Debug [Main]: Setting output delegate for column 2 QStyledItemDelegate(0x558fbaf664b0)
+Debug [Main]: Setting output delegate for column 3 QStyledItemDelegate(0x558fbaf664d0)
+Debug [Main]: Setting output delegate for column 4 QStyledItemDelegate(0x558fbaf664f0)
+Debug [Main]: Setting output delegate for column 5 ControlDelegate(0x558fcff3b760)
+Debug [Main]: Setting input delegate for column 0 QStyledItemDelegate(0x558fd2c4f150)
+Debug [Main]: Setting input delegate for column 1 QStyledItemDelegate(0x558fd2c4f0f0)
+Debug [Main]: Setting input delegate for column 2 QStyledItemDelegate(0x558fd2c4f130)
+Debug [Main]: Setting input delegate for column 3 MidiOptionsDelegate(0x558fd2c4f0b0)
+Debug [Main]: Setting input delegate for column 4 ControlDelegate(0x558fd29287c0)
+Debug [Main]: Setting output delegate for column 0 QStyledItemDelegate(0x558fd3989a60)
+Debug [Main]: Setting output delegate for column 1 QStyledItemDelegate(0x558fd3989a90)
+Debug [Main]: Setting output delegate for column 2 QStyledItemDelegate(0x558fd3989ab0)
+Debug [Main]: Setting output delegate for column 3 QStyledItemDelegate(0x558fd3989ad0)
+Debug [Main]: Setting output delegate for column 4 QStyledItemDelegate(0x558fd3989af0)
+Debug [Main]: Setting output delegate for column 5 ControlDelegate(0x558fcd3836a0)
+Debug [Main]: Setting input delegate for column 0 QStyledItemDelegate(0x558fd4824e50)
+Debug [Main]: Setting input delegate for column 1 QStyledItemDelegate(0x558fd4824e60)
+Debug [Main]: Setting input delegate for column 2 QStyledItemDelegate(0x558fd4824e70)
+Debug [Main]: Setting input delegate for column 3 MidiOptionsDelegate(0x558fd4824df0)
+Debug [Main]: Setting input delegate for column 4 ControlDelegate(0x558fd4665540)
+Debug [Main]: Setting output delegate for column 0 QStyledItemDelegate(0x558fd56bcf00)
+Debug [Main]: Setting output delegate for column 1 QStyledItemDelegate(0x558fd56bcf30)
+Debug [Main]: Setting output delegate for column 2 QStyledItemDelegate(0x558fd56bcf50)
+Debug [Main]: Setting output delegate for column 3 QStyledItemDelegate(0x558fd56bcf70)
+Debug [Main]: Setting output delegate for column 4 QStyledItemDelegate(0x558fd56bcf90)
+Debug [Main]: Setting output delegate for column 5 ControlDelegate(0x558fd2b06400)
+Debug [Main]: Setting input delegate for column 0 QStyledItemDelegate(0x558fd3989a30)
+Debug [Main]: Setting input delegate for column 1 QStyledItemDelegate(0x558fd4824cd0)
+Debug [Main]: Setting input delegate for column 2 QStyledItemDelegate(0x558fd4824f80)
+Debug [Main]: Setting input delegate for column 3 MidiOptionsDelegate(0x558fcd3bf560)
+Debug [Main]: Setting input delegate for column 4 ControlDelegate(0x558fd6372c40)
+Debug [Main]: Setting output delegate for column 0 QStyledItemDelegate(0x558fd73945c0)
+Debug [Main]: Setting output delegate for column 1 QStyledItemDelegate(0x558fd73945f0)
+Debug [Main]: Setting output delegate for column 2 QStyledItemDelegate(0x558fd7394610)
+Debug [Main]: Setting output delegate for column 3 QStyledItemDelegate(0x558fd7394630)
+Debug [Main]: Setting output delegate for column 4 QStyledItemDelegate(0x558fd7394650)
+Debug [Main]: Setting output delegate for column 5 ControlDelegate(0x558fd4806ce0)
+Debug [Main]: DlgPrefVinyl::Apply
+Debug [Main]: in VinylGainSlotApply() with gain: 0 dB
+Debug [Controller]: ControllerManager::getControllerList
+Debug [Controller]: Saving preset for "DN-S1200 MIDI 1" to "/home/jsolis/.mixxx/controllers/DN-S1200_MIDI_1.midi.xml"
+Debug [Controller]: writing script block for "Denon-DN-SC2000.midi.js"
+Debug [Main]: DlgPrefLV2::slotApply 0x0
+Debug [Controller]: Saving preset for "DN-S1200 MIDI 1" to "/home/jsolis/.mixxx/controllers/DN-S1200_MIDI_1--2.midi.xml"
+Debug [Controller]: writing script block for "Denon-DN-SC2000.midi.js"
+Debug [Main]: Recordings path was empty in dialog
+Debug [Main]: Setting input delegate for column 0 QStyledItemDelegate(0x558fd64ddcb0)
+Debug [Main]: Setting input delegate for column 1 QStyledItemDelegate(0x558fd64ddce0)
+Debug [Main]: Setting input delegate for column 2 QStyledItemDelegate(0x558fd64ddcd0)
+Debug [Main]: Setting input delegate for column 3 MidiOptionsDelegate(0x558fd64ddc50)
+Debug [Main]: Setting input delegate for column 4 ControlDelegate(0x558fd8238320)
+Debug [Main]: Setting output delegate for column 0 QStyledItemDelegate(0x558fd90bbdd0)
+Debug [Main]: Setting output delegate for column 1 QStyledItemDelegate(0x558fd90bbe00)
+Debug [Main]: Setting output delegate for column 2 QStyledItemDelegate(0x558fd90bbe20)
+Debug [Main]: Setting output delegate for column 3 QStyledItemDelegate(0x558fd90bbe40)
+Debug [Main]: Setting output delegate for column 4 QStyledItemDelegate(0x558fd90bbe60)
+Debug [Main]: Setting output delegate for column 5 ControlDelegate(0x558fd65123e0)
+Debug [Main]: Setting input delegate for column 0 QStyledItemDelegate(0x558fd9f82910)
+Debug [Main]: Setting input delegate for column 1 QStyledItemDelegate(0x558fd9f82940)
+Debug [Main]: Setting input delegate for column 2 QStyledItemDelegate(0x558fd9f82960)
+Debug [Main]: Setting input delegate for column 3 MidiOptionsDelegate(0x558fd9f82980)
+Debug [Main]: Setting input delegate for column 4 ControlDelegate(0x558fd9fa6640)
+Debug [Main]: Setting output delegate for column 0 QStyledItemDelegate(0x558fdadfd440)
+Debug [Main]: Setting output delegate for column 1 QStyledItemDelegate(0x558fdadfd470)
+Debug [Main]: Setting output delegate for column 2 QStyledItemDelegate(0x558fdadfd490)
+Debug [Main]: Setting output delegate for column 3 QStyledItemDelegate(0x558fdadfd4b0)
+Debug [Main]: Setting output delegate for column 4 QStyledItemDelegate(0x558fdadfd4d0)
+Debug [Main]: Setting output delegate for column 5 ControlDelegate(0x558fcf9f5e80)
+Debug [Main]: Searching for controller preset "/usr/share/mixxx/controllers/Denon DN HS5500.midi.xml" in paths: "/home/jsolis/.mixxx/controllers/,/usr/share/mixxx/controllers/"
+Debug [Main]: Loading controller preset from "/usr/share/mixxx/controllers/Denon DN HS5500.midi.xml"
+Debug [Main]: MidiControllerPresetFileHandler: Input mapping parsing complete.
+Debug [Main]: MidiPresetFileHandler: Output mapping parsing complete.
+Debug [Main]: ControllerManager::importScript importing script "/usr/share/mixxx/controllers/Denon-DN-HS5500-scripts.js" to "/home/jsolis/.mixxx/controllers"
+Debug [Main]: Setting input delegate for column 0 QStyledItemDelegate(0x558fdbd18930)
+Debug [Main]: Setting input delegate for column 1 QStyledItemDelegate(0x558fdbd18a50)
+Debug [Main]: Setting input delegate for column 2 QStyledItemDelegate(0x558fdbd18bd0)
+Debug [Main]: Setting input delegate for column 3 MidiOptionsDelegate(0x558fdbd18ab0)
+Debug [Main]: Setting input delegate for column 4 ControlDelegate(0x558fd8899b60)
+Debug [Main]: Setting output delegate for column 0 QStyledItemDelegate(0x558fdcc7d790)
+Debug [Main]: Setting output delegate for column 1 QStyledItemDelegate(0x558fdcc7d7c0)
+Debug [Main]: Setting output delegate for column 2 QStyledItemDelegate(0x558fdcc7d7e0)
+Debug [Main]: Setting output delegate for column 3 QStyledItemDelegate(0x558fdcc7d800)
+Debug [Main]: Setting output delegate for column 4 QStyledItemDelegate(0x558fdcc7d820)
+Debug [Main]: Setting output delegate for column 5 ControlDelegate(0x558fd1c65b40)
+Debug [Main]: Setting input delegate for column 0 QStyledItemDelegate(0x558fddb12ec0)
+Debug [Main]: Setting input delegate for column 1 QStyledItemDelegate(0x558fddb12e30)
+Debug [Main]: Setting input delegate for column 2 QStyledItemDelegate(0x558fddb12df0)
+Debug [Main]: Setting input delegate for column 3 MidiOptionsDelegate(0x558fddb12e60)
+Debug [Main]: Setting input delegate for column 4 ControlDelegate(0x558fdd998580)
+Debug [Main]: Setting output delegate for column 0 QStyledItemDelegate(0x558fde9aad20)
+Debug [Main]: Setting output delegate for column 1 QStyledItemDelegate(0x558fde9aad50)
+Debug [Main]: Setting output delegate for column 2 QStyledItemDelegate(0x558fde9aad70)
+Debug [Main]: Setting output delegate for column 3 QStyledItemDelegate(0x558fde9aad90)
+Debug [Main]: Setting output delegate for column 4 QStyledItemDelegate(0x558fde9aadb0)
+Debug [Main]: Setting output delegate for column 5 ControlDelegate(0x558fd86869a0)
+Debug [Main]: Setting input delegate for column 0 QStyledItemDelegate(0x558fdf8311e0)
+Debug [Main]: Setting input delegate for column 1 QStyledItemDelegate(0x558fdf830e20)
+Debug [Main]: Setting input delegate for column 2 QStyledItemDelegate(0x558fdf831170)
+Debug [Main]: Setting input delegate for column 3 MidiOptionsDelegate(0x558fdf8311c0)
+Debug [Main]: Setting input delegate for column 4 ControlDelegate(0x558fdf67ed00)
+Debug [Main]: Setting output delegate for column 0 QStyledItemDelegate(0x558fe068c3c0)
+Debug [Main]: Setting output delegate for column 1 QStyledItemDelegate(0x558fe068c3f0)
+Debug [Main]: Setting output delegate for column 2 QStyledItemDelegate(0x558fe068c410)
+Debug [Main]: Setting output delegate for column 3 QStyledItemDelegate(0x558fe068c430)
+Debug [Main]: Setting output delegate for column 4 QStyledItemDelegate(0x558fe068c450)
+Debug [Main]: Setting output delegate for column 5 ControlDelegate(0x558fddadf120)
+Debug [Main]: Setting input delegate for column 0 QStyledItemDelegate(0x558fddb12e20)
+Debug [Main]: Setting input delegate for column 1 QStyledItemDelegate(0x558fddb12ee0)
+Debug [Main]: Setting input delegate for column 2 QStyledItemDelegate(0x558fdf831230)
+Debug [Main]: Setting input delegate for column 3 MidiOptionsDelegate(0x558fdf831280)
+Debug [Main]: Setting input delegate for column 4 ControlDelegate(0x558fe137f9a0)
+Debug [Main]: Setting output delegate for column 0 QStyledItemDelegate(0x558fe2341920)
+Debug [Main]: Setting output delegate for column 1 QStyledItemDelegate(0x558fe2341950)
+Debug [Main]: Setting output delegate for column 2 QStyledItemDelegate(0x558fe2341970)
+Debug [Main]: Setting output delegate for column 3 QStyledItemDelegate(0x558fe2341990)
+Debug [Main]: Setting output delegate for column 4 QStyledItemDelegate(0x558fe23419b0)
+Debug [Main]: Setting output delegate for column 5 ControlDelegate(0x558fdf7c73e0)
+Debug [Main]: DlgPrefVinyl::Apply
+Debug [Controller]: ControllerManager::getControllerList
+Debug [Main]: in VinylGainSlotApply() with gain: 0 dB
+Debug [Controller]: Saving preset for "DN-S1200 MIDI 1" to "/home/jsolis/.mixxx/controllers/DN-S1200_MIDI_1.midi.xml"
+Debug [Controller]: writing script block for "Denon-DN-HS5500-scripts.js"
+Debug [Main]: DlgPrefLV2::slotApply 0x0
+Debug [Controller]: Saving preset for "DN-S1200 MIDI 1" to "/home/jsolis/.mixxx/controllers/DN-S1200_MIDI_1--2.midi.xml"
+Debug [Controller]: writing script block for "Denon-DN-SC2000.midi.js"
+Debug [Main]: Recordings path was empty in dialog
+Debug [Main]: Setting input delegate for column 0 QStyledItemDelegate(0x558fe3210c60)
+Debug [Main]: Setting input delegate for column 1 QStyledItemDelegate(0x558fe3210cb0)
+Debug [Main]: Setting input delegate for column 2 QStyledItemDelegate(0x558fe3210c90)
+Debug [Main]: Setting input delegate for column 3 MidiOptionsDelegate(0x558fe3210c80)
+Debug [Main]: Setting input delegate for column 4 ControlDelegate(0x558fdbacce00)
+Debug [Main]: Setting output delegate for column 0 QStyledItemDelegate(0x558fe409d3f0)
+Debug [Main]: Setting output delegate for column 1 QStyledItemDelegate(0x558fe409d420)
+Debug [Main]: Setting output delegate for column 2 QStyledItemDelegate(0x558fe409d440)
+Debug [Main]: Setting output delegate for column 3 QStyledItemDelegate(0x558fe409d460)
+Debug [Main]: Setting output delegate for column 4 QStyledItemDelegate(0x558fe409d480)
+Debug [Main]: Setting output delegate for column 5 ControlDelegate(0x558fe14f6840)
+Debug [Main]: Setting input delegate for column 0 QStyledItemDelegate(0x558fe4ed3f30)
+Debug [Main]: Setting input delegate for column 1 QStyledItemDelegate(0x558fe4ed3f60)
+Debug [Main]: Setting input delegate for column 2 QStyledItemDelegate(0x558fe4ed3f80)
+Debug [Main]: Setting input delegate for column 3 MidiOptionsDelegate(0x558fe4ed3fa0)
+Debug [Main]: Setting input delegate for column 4 ControlDelegate(0x558fe4f2ea20)
+Debug [Main]: Setting output delegate for column 0 QStyledItemDelegate(0x558fe5d9ea60)
+Debug [Main]: Setting output delegate for column 1 QStyledItemDelegate(0x558fe5d9ea90)
+Debug [Main]: Setting output delegate for column 2 QStyledItemDelegate(0x558fe5d9eab0)
+Debug [Main]: Setting output delegate for column 3 QStyledItemDelegate(0x558fe5d9ead0)
+Debug [Main]: Setting output delegate for column 4 QStyledItemDelegate(0x558fe5d9eaf0)
+Debug [Main]: Setting output delegate for column 5 ControlDelegate(0x558fd46650c0)
+Warning [Controller]: ControllerEngine: "Excepción no controlada en la línea 1 en el código introducido: ReferenceError: Can't find variable: DNHS5500"
+Debug [Controller]: MidiController: Invalid script function "DNHS5500.wheelTouch"
+Warning [Controller]: ControllerEngine: "Excepción no controlada en la línea 1 en el código introducido: ReferenceError: Can't find variable: DNHS5500"
+Debug [Controller]: MidiController: Invalid script function "DNHS5500.wheelTouch"
+Debug [Main]: BeatFactory::loadBeatsFromByteArray could not parse serialized beats.
+Debug [Main]: BaseTrackCache(0x558fa2d32d00) updateIndexWithQuery took 0 ms
+Debug [Main]: WCoverArt::slotCoverFound WCoverArt(0x558fb24f1800, name = "LibraryCoverArt")  "CoverInfoRelative(NONE,GUESSED,,0x0)" QSize(0, 0)
+Debug [Main]: dropEventFiles() true (QUrl("file:///home/jsolis/OneDrive/Música/Retro/Mercosur - Batucada N°2 (Chiki-Chika RMX)-Hfb7Xpc5wLw.webm.mp3"))
+Debug [Main]: mimeData.hasText() true "library"
+Debug [Main]: dropEventFiles() true (QUrl("file:///home/jsolis/OneDrive/Música/Retro/Mercosur - Batucada N°2 (Chiki-Chika RMX)-Hfb7Xpc5wLw.webm.mp3"))
+Debug [Main]: mimeData.hasText() true "library"
+Debug [Main]: dropEventFiles() true (QUrl("file:///home/jsolis/OneDrive/Música/Retro/Mercosur - Batucada N°2 (Chiki-Chika RMX)-Hfb7Xpc5wLw.webm.mp3"))
+Debug [Main]: mimeData.hasText() true "library"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Channel2]"
+Debug [CachingReaderWorker 2]: SoundSourceProxy - Opening file "file:///home/jsolis/OneDrive/Música/Retro/Mercosur - Batucada N°2 (Chiki-Chika RMX)-Hfb7Xpc5wLw.webm.mp3" with provider "MAD: MPEG Audio Decoder" using mode Strict
+Debug [CachingReaderWorker 2]: SoundSourceMP3 - MP3 frame header | layer: 0 mode: 0 #channels: 1 #samples: 36 bitrate: 0 samplerate: 0 flags: "0x0000"
+Debug [Main]: BaseTrackPlayerImpl::slotTrackLoaded
+Debug [AnalyzerQueue 1]: AnalyzerQueue - Analyzing "Mercosur - Batucada N°2 (Chiki-Chika RMX)-Hfb7Xpc5wLw.webm" "/home/jsolis/OneDrive/Música/Retro/Mercosur - Batucada N°2 (Chiki-Chika RMX)-Hfb7Xpc5wLw.webm.mp3"
+Debug [AnalyzerQueue 1]: SoundSourceProxy - Opening file "file:///home/jsolis/OneDrive/Música/Retro/Mercosur - Batucada N°2 (Chiki-Chika RMX)-Hfb7Xpc5wLw.webm.mp3" with provider "MAD: MPEG Audio Decoder" using mode Strict
+Debug [AnalyzerQueue 1]: SoundSourceMP3 - MP3 frame header | layer: 0 mode: 0 #channels: 1 #samples: 36 bitrate: 0 samplerate: 0 flags: "0x0000"
+Warning [Main]: QPixmap::scaled: Pixmap is a null pixmap
+Debug [Main]: WSpinny::slotCoverFound WSpinny(0x558fae078580, name = "SpinnySingletonWithCover[Channel2]")  "CoverInfoRelative(NONE,GUESSED,,0x0)" QSize(0, 0)
+Warning [Main]: QPixmap::scaled: Pixmap is a null pixmap
+Debug [Main]: WSpinny::slotCoverFound WSpinny(0x558fae078840, name = "SpinnySingletonNoCover[Channel2]")  "CoverInfoRelative(NONE,GUESSED,,0x0)" QSize(0, 0)
+Warning [Main]: QPixmap::scaled: Pixmap is a null pixmap
+Debug [Main]: WCoverArt::slotCoverFound WCoverArt(0x558fb8a69b00, name = "DeckCoverArt")  "CoverInfoRelative(NONE,GUESSED,,0x0)" QSize(0, 0)
+Debug [Main]: TrackDAO: Saving track 1 "/home/jsolis/OneDrive/Música/Retro/Total Bang - Let's Gooooo-EuI6rORew2s.webm.mp3"
+Debug [Main]: TrackDAO: Updating track in database 1 "/home/jsolis/OneDrive/Música/Retro/Total Bang - Let's Gooooo-EuI6rORew2s.webm.mp3"
+Debug [AnalyzerQueue 1]: AnalysisDAO fetched 0 analyses, 0 bytes for track 11 in 0 ms
+Debug [Main]: BaseTrackCache(0x558fa2d32d00) updateIndexWithQuery took 0 ms
+Debug [AnalyzerQueue 1]: VampAnalyzer BlockSize:  1114
+Debug [AnalyzerQueue 1]: VampAnalyzer StepSize:  557
+Debug [AnalyzerQueue 1]: Beat calculation started with plugin "qm-tempotracker:0"
+Debug [AnalyzerQueue 1]: VampAnalyzer BlockSize:  32768
+Debug [AnalyzerQueue 1]: VampAnalyzer StepSize:  32768
+Debug [AnalyzerQueue 1]: Key calculation started with plugin "qm-keydetector:2"
+Debug [Main]: BeatFactory::loadBeatsFromByteArray could not parse serialized beats.
+Debug [Main]: BaseTrackCache(0x558fa2d32d00) updateIndexWithQuery took 0 ms
+Debug [Main]: WCoverArt::slotCoverFound WCoverArt(0x558fb24f1800, name = "LibraryCoverArt")  "CoverInfoRelative(NONE,GUESSED,,0x0)" QSize(0, 0)
+Debug [Main]: dropEventFiles() true (QUrl("file:///home/jsolis/OneDrive/Música/Retro/Dj Zany - Sky High-zdNq3rVrYDg.webm.mp3"))
+Debug [Main]: mimeData.hasText() true "library"
+Debug [Main]: Ignoring drag enter event, loading not allowed
+Debug [Main]: dropEventFiles() true (QUrl("file:///home/jsolis/OneDrive/Música/Retro/Dj Zany - Sky High-zdNq3rVrYDg.webm.mp3"))
+Debug [Main]: mimeData.hasText() true "library"
+Debug [Main]: dropEventFiles() true (QUrl("file:///home/jsolis/OneDrive/Música/Retro/Dj Zany - Sky High-zdNq3rVrYDg.webm.mp3"))
+Debug [Main]: mimeData.hasText() true "library"
+Debug [Main]: dropEventFiles() true (QUrl("file:///home/jsolis/OneDrive/Música/Retro/Dj Zany - Sky High-zdNq3rVrYDg.webm.mp3"))
+Debug [Main]: mimeData.hasText() true "library"
+Debug [Main]: BaseTrackPlayerImpl::slotLoadTrack "[Channel2]"
+Debug [CachingReaderWorker 2]: SoundSourceProxy - Opening file "file:///home/jsolis/OneDrive/Música/Retro/Dj Zany - Sky High-zdNq3rVrYDg.webm.mp3" with provider "MAD: MPEG Audio Decoder" using mode Strict
+Debug [CachingReaderWorker 2]: SoundSourceMP3 - MP3 frame header | layer: 0 mode: 0 #channels: 1 #samples: 36 bitrate: 0 samplerate: 0 flags: "0x0000"
+Debug [Main]: BaseTrackPlayerImpl::slotTrackLoaded
+Warning [Main]: QPixmap::scaled: Pixmap is a null pixmap
+Debug [Main]: WSpinny::slotCoverFound WSpinny(0x558fae078580, name = "SpinnySingletonWithCover[Channel2]")  "CoverInfoRelative(NONE,GUESSED,,0x0)" QSize(0, 0)
+Warning [Main]: QPixmap::scaled: Pixmap is a null pixmap
+Debug [Main]: WSpinny::slotCoverFound WSpinny(0x558fae078840, name = "SpinnySingletonNoCover[Channel2]")  "CoverInfoRelative(NONE,GUESSED,,0x0)" QSize(0, 0)
+Warning [Main]: QPixmap::scaled: Pixmap is a null pixmap
+Debug [Main]: WCoverArt::slotCoverFound WCoverArt(0x558fb8a69b00, name = "DeckCoverArt")  "CoverInfoRelative(NONE,GUESSED,,0x0)" QSize(0, 0)
+Debug [AnalyzerQueue 1]: AnalysisDAO fetched 0 analyses, 0 bytes for track 9 in 0 ms
+Debug [AnalyzerQueue 1]: AnalyzerQueue - Interrupting analysis to give preference to a loaded track.
+Debug [AnalyzerQueue 1]: AnalyzerQueue - Prioritizing "Dj Zany - Sky High-zdNq3rVrYDg.webm" "/home/jsolis/OneDrive/Música/Retro/Dj Zany - Sky High-zdNq3rVrYDg.webm.mp3"
+Debug [AnalyzerQueue 1]: AnalyzerQueue - Analyzing "Dj Zany - Sky High-zdNq3rVrYDg.webm" "/home/jsolis/OneDrive/Música/Retro/Dj Zany - Sky High-zdNq3rVrYDg.webm.mp3"
+Debug [AnalyzerQueue 1]: SoundSourceProxy - Opening file "file:///home/jsolis/OneDrive/Música/Retro/Dj Zany - Sky High-zdNq3rVrYDg.webm.mp3" with provider "MAD: MPEG Audio Decoder" using mode Strict
+Debug [AnalyzerQueue 1]: SoundSourceMP3 - MP3 frame header | layer: 0 mode: 0 #channels: 1 #samples: 36 bitrate: 0 samplerate: 0 flags: "0x0000"
+Debug [AnalyzerQueue 1]: AnalysisDAO fetched 0 analyses, 0 bytes for track 9 in 0 ms
+Debug [AnalyzerQueue 1]: VampAnalyzer BlockSize:  1114
+Debug [AnalyzerQueue 1]: VampAnalyzer StepSize:  557
+Debug [AnalyzerQueue 1]: Beat calculation started with plugin "qm-tempotracker:0"
+Debug [AnalyzerQueue 1]: VampAnalyzer BlockSize:  32768
+Debug [AnalyzerQueue 1]: VampAnalyzer StepSize:  32768
+Debug [AnalyzerQueue 1]: Key calculation started with plugin "qm-keydetector:2"
+Debug [Main]: Committing transaction on "MIXXX-1" result: true
+Warning [Controller]: ControllerEngine: "Excepción no controlada en la línea 1 en el código introducido: ReferenceError: Can't find variable: DNHS5500"
+Debug [Controller]: MidiController: Invalid script function "DNHS5500.wheelTurn"
+Warning [Controller]: ControllerEngine: "Excepción no controlada en la línea 1 en el código introducido: ReferenceError: Can't find variable: DNHS5500"
+Debug [Controller]: MidiController: Invalid script function "DNHS5500.wheelTurn"
+Warning [Controller]: ControllerEngine: "Excepción no controlada en la línea 1 en el código introducido: ReferenceError: Can't find variable: DNHS5500"
+Debug [Controller]: MidiController: Invalid script function "DNHS5500.wheelTurn"
+Warning [Controller]: ControllerEngine: "Excepción no controlada en la línea 1 en el código introducido: ReferenceError: Can't find variable: DNHS5500"
+Debug [Controller]: MidiController: Invalid script function "DNHS5500.wheelTurn"
+Warning [Controller]: ControllerEngine: "Excepción no controlada en la línea 1 en el código introducido: ReferenceError: Can't find variable: DNHS5500"
+Debug [Controller]: MidiController: Invalid script function "DNHS5500.wheelTurn"
+Warning [Controller]: ControllerEngine: "Excepción no controlada en la línea 1 en el código introducido: ReferenceError: Can't find variable: DNHS5500"
+Debug [Controller]: MidiController: Invalid script function "DNHS5500.wheelTurn"
+Warning [Controller]: ControllerEngine: "Excepción no controlada en la línea 1 en el código introducido: ReferenceError: Can't find variable: DNHS5500"
+Debug [Controller]: MidiController: Invalid script function "DNHS5500.wheelTurn"
+Warning [Controller]: ControllerEngine: "Excepción no controlada en la línea 1 en el código introducido: ReferenceError: Can't find variable: DNHS5500"
+Debug [Controller]: MidiController: Invalid script function "DNHS5500.wheelTurn"
+Warning [Controller]: ControllerEngine: "Excepción no controlada en la línea 1 en el código introducido: ReferenceError: Can't find variable: DNHS5500"
+Debug [Controller]: MidiController: Invalid script function "DNHS5500.wheelTurn"
+Warning [Controller]: ControllerEngine: "Excepción no controlada en la línea 1 en el código introducido: ReferenceError: Can't find variable: DNHS5500"
+Debug [Controller]: MidiController: Invalid script function "DNHS5500.wheelTurn"
+Warning [Controller]: ControllerEngine: "Excepción no controlada en la línea 1 en el código introducido: ReferenceError: Can't find variable: DNHS5500"
+Debug [Controller]: MidiController: Invalid script function "DNHS5500.wheelTurn"
+Warning [Controller]: ControllerEngine: "Excepción no controlada en la línea 1 en el código introducido: ReferenceError: Can't find variable: DNHS5500"
+Debug [Controller]: MidiController: Invalid script function "DNHS5500.wheelTurn"
+Warning [Controller]: ControllerEngine: "Excepción no controlada en la línea 1 en el código introducido: ReferenceError: Can't find variable: DNHS5500"
+Debug [Controller]: MidiController: Invalid script function "DNHS5500.wheelTurn"
+Warning [Controller]: ControllerEngine: "Excepción no controlada en la línea 1 en el código introducido: ReferenceError: Can't find variable: DNHS5500"
+Debug [Controller]: MidiController: Invalid script function "DNHS5500.wheelTurn"
+Warning [Controller]: ControllerEngine: "Excepción no controlada en la línea 1 en el código introducido: ReferenceError: Can't find variable: DNHS5500"
+Debug [Controller]: MidiController: Invalid script function "DNHS5500.wheelTurn"
+Warning [Controller]: ControllerEngine: "Excepción no controlada en la línea 1 en el código introducido: ReferenceError: Can't find variable: DNHS5500"
+Debug [Controller]: MidiController: Invalid script function "DNHS5500.wheelTurn"
+Warning [Controller]: ControllerEngine: "Excepción no controlada en la línea 1 en el código introducido: ReferenceError: Can't find variable: DNHS5500"
+Debug [Controller]: MidiController: Invalid script function "DNHS5500.wheelTurn"
+Warning [Controller]: ControllerEngine: "Excepción no controlada en la línea 1 en el código introducido: ReferenceError: Can't find variable: DNHS5500"
+Debug [Controller]: MidiController: Invalid script function "DNHS5500.wheelTurn"
+Warning [Controller]: ControllerEngine: "Excepción no controlada en la línea 1 en el código introducido: ReferenceError: Can't find variable: DNHS5500"
+Debug [Controller]: MidiController: Invalid script function "DNHS5500.wheelTurn"
+Warning [Controller]: ControllerEngine: "Excepción no controlada en la línea 1 en el código introducido: ReferenceError: Can't find variable: DNHS5500"
+Debug [Controller]: MidiController: Invalid script function "DNHS5500.wheelTurn"
+Warning [Controller]: ControllerEngine: "Excepción no controlada en la línea 1 en el código introducido: ReferenceError: Can't find variable: DNHS5500"
+Debug [Controller]: MidiController: Invalid script function "DNHS5500.wheelTurn"
+Warning [Controller]: ControllerEngine: "Excepción no controlada en la línea 1 en el código introducido: ReferenceError: Can't find variable: DNHS5500"
+Debug [Controller]: MidiController: Invalid script function "DNHS5500.wheelTurn"
+Warning [Controller]: ControllerEngine: "Excepción no controlada en la línea 1 en el código introducido: ReferenceError: Can't find variable: DNHS5500"
+Debug [Controller]: MidiController: Invalid script function "DNHS5500.wheelTurn"
+Warning [Controller]: ControllerEngine: "Excepción no controlada en la línea 1 en el código introducido: ReferenceError: Can't find variable: DNHS5500"
+Debug [Controller]: MidiController: Invalid script function "DNHS5500.wheelTurn"
+Warning [Controller]: ControllerEngine: "Excepción no controlada en la línea 1 en el código introducido: ReferenceError: Can't find variable: DNHS5500"
+Debug [Controller]: MidiController: Invalid script function "DNHS5500.wheelTurn"
+Warning [Controller]: ControllerEngine: "Excepción no controlada en la línea 1 en el código introducido: ReferenceError: Can't find variable: DNHS5500"
+Debug [Controller]: MidiController: Invalid script function "DNHS5500.wheelTurn"
+Warning [Controller]: ControllerEngine: "Excepción no controlada en la línea 1 en el código introducido: ReferenceError: Can't find variable: DNHS5500"
+Debug [Controller]: MidiController: Invalid script function "DNHS5500.wheelTurn"
+Warning [Controller]: ControllerEngine: "Excepción no controlada en la línea 1 en el código introducido: ReferenceError: Can't find variable: DNHS5500"
+Debug [Controller]: MidiController: Invalid script function "DNHS5500.wheelTurn"
+Warning [Controller]: ControllerEngine: "Excepción no controlada en la línea 1 en el código introducido: ReferenceError: Can't find variable: DNHS5500"
+Debug [Controller]: MidiController: Invalid script function "DNHS5500.wheelTurn"
+Warning [Controller]: ControllerEngine: "Excepción no controlada en la línea 1 en el código introducido: ReferenceError: Can't find variable: DNHS5500"
+Debug [Controller]: MidiController: Invalid script function "DNHS5500.wheelTurn"
+Warning [Controller]: ControllerEngine: "Excepción no controlada en la línea 1 en el código introducido: ReferenceError: Can't find variable: DNHS5500"
+Debug [Controller]: MidiController: Invalid script function "DNHS5500.wheelTurn"
+Warning [Controller]: ControllerEngine: "Excepción no controlada en la línea 1 en el código introducido: ReferenceError: Can't find variable: DNHS5500"
+Debug [Controller]: MidiController: Invalid script function "DNHS5500.wheelTurn"
+Warning [Controller]: ControllerEngine: "Excepción no controlada en la línea 1 en el código introducido: ReferenceError: Can't find variable: DNHS5500"
+Debug [Controller]: MidiController: Invalid script function "DNHS5500.wheelTurn"
+Warning [Controller]: ControllerEngine: "Excepción no controlada en la línea 1 en el código introducido: ReferenceError: Can't find variable: DNHS5500"
+Debug [Controller]: MidiController: Invalid script function "DNHS5500.wheelTurn"
+Warning [Controller]: ControllerEngine: "Excepción no controlada en la línea 1 en el código introducido: ReferenceError: Can't find variable: DNHS5500"
+Debug [Controller]: MidiController: Invalid script function "DNHS5500.wheelTurn"
+Warning [Controller]: ControllerEngine: "Excepción no controlada en la línea 1 en el código introducido: ReferenceError: Can't find variable: DNHS5500"
+Debug [Controller]: MidiController: Invalid script function "DNHS5500.wheelTurn"
+Warning [Controller]: ControllerEngine: "Excepción no controlada en la línea 1 en el código introducido: ReferenceError: Can't find variable: DNHS5500"
+Debug [Controller]: MidiController: Invalid script function "DNHS5500.wheelTurn"
+Warning [Controller]: ControllerEngine: "Excepción no controlada en la línea 1 en el código introducido: ReferenceError: Can't find variable: DNHS5500"
+Debug [Controller]: MidiController: Invalid script function "DNHS5500.wheelTurn"
+Warning [Controller]: ControllerEngine: "Excepción no controlada en la línea 1 en el código introducido: ReferenceError: Can't find variable: DNHS5500"
+Debug [Controller]: MidiController: Invalid script function "DNHS5500.wheelTurn"
+Warning [Controller]: ControllerEngine: "Excepción no controlada en la línea 1 en el código introducido: ReferenceError: Can't find variable: DNHS5500"
+Debug [Controller]: MidiController: Invalid script function "DNHS5500.wheelTurn"
+Warning [Controller]: ControllerEngine: "Excepción no controlada en la línea 1 en el código introducido: ReferenceError: Can't find variable: DNHS5500"
+Debug [Controller]: MidiController: Invalid script function "DNHS5500.wheelTurn"
+Warning [Controller]: ControllerEngine: "Excepción no controlada en la línea 1 en el código introducido: ReferenceError: Can't find variable: DNHS5500"
+Debug [Controller]: MidiController: Invalid script function "DNHS5500.wheelTurn"
+Warning [Controller]: ControllerEngine: "Excepción no controlada en la línea 1 en el código introducido: ReferenceError: Can't find variable: DNHS5500"
+Debug [Controller]: MidiController: Invalid script function "DNHS5500.playButton"
+Warning [Controller]: ControllerEngine: "Excepción no controlada en la línea 1 en el código introducido: ReferenceError: Can't find variable: DNHS5500"
+Debug [Controller]: MidiController: Invalid script function "DNHS5500.playButton"
+Warning [Controller]: ControllerEngine: "Excepción no controlada en la línea 1 en el código introducido: ReferenceError: Can't find variable: DNHS5500"
+Debug [Controller]: MidiController: Invalid script function "DNHS5500.playButton"
+Warning [Controller]: ControllerEngine: "Excepción no controlada en la línea 1 en el código introducido: ReferenceError: Can't find variable: DNHS5500"
+Debug [Controller]: MidiController: Invalid script function "DNHS5500.playButton"
+Debug [AnalyzerQueue 1]: Writing waveform from byte array: dataSize 323110 allSignalSize 323110 visualSampleRate 441 audioVisualRatio 108.844
+Debug [AnalyzerQueue 1]: AnalysisDAO saved analysis 19 "2670139 (1145527 compressed)" bytes for track 9 in 840 ms
+Debug [AnalyzerQueue 1]: Saved waveform analysis for trackId 9 analysisId 19
+Debug [AnalyzerQueue 1]: Writing waveform from byte array: dataSize 3842 allSignalSize 3842 visualSampleRate 5.24109 audioVisualRatio 9158.4
+Debug [AnalyzerQueue 1]: AnalysisDAO saved analysis 20 "31800 (13965 compressed)" bytes for track 9 in 15 ms
+Debug [AnalyzerQueue 1]: Saved waveform summary analysis for trackId 9 analysisId 20
+Debug [AnalyzerQueue 1]: AnalyzerWaveform - Waveform generation for track 9 done 71 s
+Debug [AnalyzerQueue 1]: ReplayGain 2.0 (libebur128) result is -3.5948 dB for "/home/jsolis/OneDrive/Música/Retro/Dj Zany - Sky High-zdNq3rVrYDg.webm.mp3"
+Debug [AnalyzerQueue 1]: Beat Calculation complete
+Debug [AnalyzerQueue 1]: Key Detection complete
+Debug [AnalyzerQueue 1]: Key Histogram
+Debug [AnalyzerQueue 1]: 1 : "C" 131072
+Debug [AnalyzerQueue 1]: 2 : "D♭" 720896
+Debug [AnalyzerQueue 1]: 3 : "D" 1.93331e+06
+Debug [AnalyzerQueue 1]: 5 : "E" 65536
+Debug [AnalyzerQueue 1]: 6 : "F" 1.2329e+06
+Debug [AnalyzerQueue 1]: 7 : "F♯/G♭" 819200
+Debug [AnalyzerQueue 1]: 10 : "A" 3.96493e+06
+Debug [AnalyzerQueue 1]: 11 : "B♭" 1.31072e+06
+Debug [AnalyzerQueue 1]: 12 : "B" 720896
+Debug [AnalyzerQueue 1]: 14 : "C♯m" 688128
+Debug [AnalyzerQueue 1]: 15 : "Dm" 4.22707e+06
+Debug [AnalyzerQueue 1]: 16 : "D♯m/E♭m" 819200
+Debug [AnalyzerQueue 1]: 19 : "F♯m" 65536
+Debug [AnalyzerQueue 1]: 22 : "Am" 32768
+Debug [AnalyzerQueue 1]: 23 : "B♭m" 622592
+Debug [AnalyzerQueue 1]: 24 : "Bm" 229376
+Debug [AnalyzerQueue 1]: AnalyzerQueue - Analyzing "Mercosur - Batucada N°2 (Chiki-Chika RMX)-Hfb7Xpc5wLw.webm" "/home/jsolis/OneDrive/Música/Retro/Mercosur - Batucada N°2 (Chiki-Chika RMX)-Hfb7Xpc5wLw.webm.mp3"
+Debug [AnalyzerQueue 1]: SoundSourceProxy - Opening file "file:///home/jsolis/OneDrive/Música/Retro/Mercosur - Batucada N°2 (Chiki-Chika RMX)-Hfb7Xpc5wLw.webm.mp3" with provider "MAD: MPEG Audio Decoder" using mode Strict
+Debug [AnalyzerQueue 1]: SoundSourceMP3 - MP3 frame header | layer: 0 mode: 0 #channels: 1 #samples: 36 bitrate: 0 samplerate: 0 flags: "0x0000"
+Debug [AnalyzerQueue 1]: AnalysisDAO fetched 0 analyses, 0 bytes for track 11 in 0 ms
+Debug [AnalyzerQueue 1]: VampAnalyzer BlockSize:  1114
+Debug [AnalyzerQueue 1]: VampAnalyzer StepSize:  557
+Debug [AnalyzerQueue 1]: Beat calculation started with plugin "qm-tempotracker:0"
+Debug [AnalyzerQueue 1]: VampAnalyzer BlockSize:  32768
+Debug [AnalyzerQueue 1]: VampAnalyzer StepSize:  32768
+Debug [AnalyzerQueue 1]: Key calculation started with plugin "qm-keydetector:2"
+Debug [AnalyzerQueue 1]: Writing waveform from byte array: dataSize 207490 allSignalSize 207490 visualSampleRate 441 audioVisualRatio 108.844
+Debug [AnalyzerQueue 1]: AnalysisDAO saved analysis 21 "1823644 (891796 compressed)" bytes for track 11 in 614 ms
+Debug [AnalyzerQueue 1]: Saved waveform analysis for trackId 11 analysisId 21
+Debug [AnalyzerQueue 1]: Writing waveform from byte array: dataSize 3842 allSignalSize 3842 visualSampleRate 8.1616 audioVisualRatio 5881.2
+Debug [AnalyzerQueue 1]: AnalysisDAO saved analysis 22 "33572 (17284 compressed)" bytes for track 11 in 20 ms
+Debug [AnalyzerQueue 1]: Saved waveform summary analysis for trackId 11 analysisId 22
+Debug [AnalyzerQueue 1]: AnalyzerWaveform - Waveform generation for track 11 done 55 s
+Debug [AnalyzerQueue 1]: ReplayGain 2.0 (libebur128) result is -7.72089 dB for "/home/jsolis/OneDrive/Música/Retro/Mercosur - Batucada N°2 (Chiki-Chika RMX)-Hfb7Xpc5wLw.webm.mp3"
+Debug [AnalyzerQueue 1]: Beat Calculation complete
+Debug [AnalyzerQueue 1]: Key Detection complete
+Debug [AnalyzerQueue 1]: Key Histogram
+Debug [AnalyzerQueue 1]: 1 : "C" 3.19821e+06
+Debug [AnalyzerQueue 1]: 2 : "D♭" 196608
+Debug [AnalyzerQueue 1]: 3 : "D" 983040
+Debug [AnalyzerQueue 1]: 4 : "E♭" 163840
+Debug [AnalyzerQueue 1]: 12 : "B" 32768
+Debug [AnalyzerQueue 1]: 13 : "Cm" 5.27565e+06
+Debug [AnalyzerQueue 1]: 14 : "C♯m" 65536
+Debug [AnalyzerQueue 1]: 15 : "Dm" 491520
+Debug [AnalyzerQueue 1]: 17 : "Em" 360448
+Debug [AnalyzerQueue 1]: 20 : "Gm" 491520
+Debug [AnalyzerQueue 1]: 24 : "Bm" 32768
+Debug [Main]: TrackDAO: Saving track 11 "/home/jsolis/OneDrive/Música/Retro/Mercosur - Batucada N°2 (Chiki-Chika RMX)-Hfb7Xpc5wLw.webm.mp3"
+Debug [Main]: TrackDAO: Updating track in database 11 "/home/jsolis/OneDrive/Música/Retro/Mercosur - Batucada N°2 (Chiki-Chika RMX)-Hfb7Xpc5wLw.webm.mp3"
+Debug [Main]: BaseTrackCache(0x558fa2d32d00) updateIndexWithQuery took 0 ms
+Debug [Main]: Destroying MixxxMainWindow
+Debug [Main]: 0 ms saving configuration
+Debug [Main]: 0 ms deleting skin
+Debug [Main]: ~DlgAutoDJ()
+Debug [Main]: 296 ms deleting menubar
+Debug [Main]: 297 ms deleting SoundManager
+Debug [Main]: 305 ms deleting ControllerManager
+Debug [Controller]: Controller polling stopped.
+Debug [Controller]: Deleting PortMIDI devices...
+Debug [Controller]: ControllerEngine shutting down...
+Debug [Controller]: ControllerEngine shutting down...
+Debug [Controller]: Deleting USB Bulk devices...
+Debug [Controller]: Deleting HID devices...
+Debug [Main]: 318 ms deleting VinylControlManager
+Debug [Main]: ~CoverArtCache()
+Debug [Main]: 319 ms deleting PlayerManager
+Debug [AnalyzerQueue 1]: AnalyzerQueue - Exiting thread
+Debug [Main]: AnalyzerWaveform - ~AnalyzerWaveform():
+Debug [Main]: 327215572 ns deactivating GlobalTrackCache
+Debug [Main]: TrackDAO: Saving track 9 "/home/jsolis/OneDrive/Música/Retro/Dj Zany - Sky High-zdNq3rVrYDg.webm.mp3"
+Debug [Main]: TrackDAO: Updating track in database 9 "/home/jsolis/OneDrive/Música/Retro/Dj Zany - Sky High-zdNq3rVrYDg.webm.mp3"
+Debug [Main]: BaseTrackCache(0x558fa2d32d00) updateIndexWithQuery took 0 ms
+Debug [Main]: TrackDAO: Saving track 10 "/home/jsolis/OneDrive/Música/Retro/Da Tekno Warriors - Da Beat-pBgbxNL6Ilc.webm.mp3"
+Debug [Main]: TrackDAO: Updating track in database 10 "/home/jsolis/OneDrive/Música/Retro/Da Tekno Warriors - Da Beat-pBgbxNL6Ilc.webm.mp3"
+Debug [Main]: BaseTrackCache(0x558fa2d32d00) updateIndexWithQuery took 0 ms
+Debug [Main]: 347 ms deleting Library
+Debug [Main]: Wait to finish browser background thread
+Debug [Main]: Browser background thread terminated!
+Info [Main]: Library - Disconnecting database
+Debug [Main]: TrackDAO::finish()
+Debug [Main]: Clearing played information for this session
+Debug [Main]: Cleaning LibraryHashes/track_locations tables.
+Debug [Main]: ~TrackDAO()
+Debug [LibraryScanner 1]: LibraryScanner - Event loop stopped
+Warning [LibraryScanner 1]: QSqlDatabasePrivate::removeDatabase: connection 'MIXXX-2' is still in use, all queries will cease to work.
+Debug [LibraryScanner 1]: LibraryScanner - Exiting thread
+Debug [Main]: ~TrackDAO()
+Debug [Main]: 365 ms closing database connection(s)
+Debug [Main]: 368 ms deleting RecordingManager
+Debug [Main]: Delete RecordingManager
+Debug [Main]: 368 ms deleting BroadcastManager
+Debug [Main]: DlgPrefBroadcast - broadcastEnabledChanged() 0
+Debug [Main]: 372 ms deleting EngineMaster
+Debug [Main]: in ~EngineMaster()
+Debug [Main]: 416 ms deleting DlgPreferences
+Debug [Main]: 438 ms deleting EffectsManager
+Debug [Main]: 474 ms deleting SettingsManager
+Debug [Main]: Mixxx shutdown complete with code 0

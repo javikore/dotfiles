@@ -1,0 +1,745 @@
+#########################################################################################################################
+#################                          Espacio de Trabajo                                       #####################
+#########################################################################################################################
+
+# Define names for default workspaces for which we configure key bindings later on.
+# We use variables to avoid repeating the names in multiple places.
+
+set $ws1 "1: "
+set $ws2 "2: "
+set $ws3 "3: "
+set $ws4 "4: "
+set $ws5 "5: "
+set $ws6 "6: "
+set $ws7 "7: "
+set $ws8 "8: "
+set $ws9 "9: "
+set $ws10 "10: "
+
+set $ws11 "11: "
+set $ws12 "12: "
+set $ws13 "13: "
+set $ws14 "14: "
+set $ws15 "15: "
+set $ws16 "16: "
+set $ws17 "17: "
+set $ws18 "18: "
+set $ws19 "19: "
+set $ws20 "20: "
+
+
+set $firstMonitor HDMI-1
+set $secondMonitor eDP-1
+
+workspace 1 output $firstMonitor
+workspace 2 output $firstMonitor
+workspace 3 output $firstMonitor
+workspace 4 output $firstMonitor
+workspace 5 output $firstMonitor
+workspace 6 output $firstMonitor
+workspace 7 output $firstMonitor
+workspace 8 output $firstMonitor
+workspace 9 output $firstMonitor
+workspace 10 output $firstMonitor
+workspace 11 output $secondMonitor
+workspace 12 output $secondMonitor
+workspace 13 output $secondMonitor
+workspace 14 output $secondMonitor
+workspace 15 output $secondMonitor
+workspace 16 output $secondMonitor
+workspace 17 output $secondMonitor
+workspace 18 output $secondMonitor
+workspace 19 output $secondMonitor
+workspace 20 output $secondMonitor
+
+# switch to workspace
+bindsym $mod+1 workspace number $ws1
+bindsym $mod+2 workspace number $ws2
+bindsym $mod+3 workspace number $ws3
+bindsym $mod+4 workspace number $ws4
+bindsym $mod+5 workspace number $ws5
+bindsym $mod+6 workspace number $ws6
+bindsym $mod+7 workspace number $ws7
+bindsym $mod+8 workspace number $ws8
+bindsym $mod+9 workspace number $ws9
+bindsym $mod+0 workspace number $ws10
+
+bindsym mod1+1 workspace number $ws11
+bindsym mod1+2 workspace number $ws12
+bindsym mod1+3 workspace number $ws13
+bindsym mod1+4 workspace number $ws14
+bindsym mod1+5 workspace number $ws15
+bindsym mod1+6 workspace number $ws16
+bindsym mod1+7 workspace number $ws17
+bindsym mod1+8 workspace number $ws18
+bindsym mod1+9 workspace number $ws19
+bindsym mod1+0 workspace number $ws20
+
+# move focused container to workspace
+bindsym $mod+Shift+1 move container to workspace number $ws1
+bindsym $mod+Shift+2 move container to workspace number $ws2
+bindsym $mod+Shift+3 move container to workspace number $ws3
+bindsym $mod+Shift+4 move container to workspace number $ws4
+bindsym $mod+Shift+5 move container to workspace number $ws5
+bindsym $mod+Shift+6 move container to workspace number $ws6
+bindsym $mod+Shift+7 move container to workspace number $ws7
+bindsym $mod+Shift+8 move container to workspace number $ws8
+bindsym $mod+Shift+9 move container to workspace number $ws9
+bindsym $mod+Shift+0 move container to workspace number $ws10
+# move focused container to workspace
+bindsym mod1+Shift+1 move container to workspace number $ws11
+bindsym mod1+Shift+2 move container to workspace number $ws12
+bindsym mod1+Shift+3 move container to workspace number $ws13
+bindsym mod1+Shift+4 move container to workspace number $ws14
+bindsym mod1+Shift+5 move container to workspace number $ws15
+bindsym mod1+Shift+6 move container to workspace number $ws16
+bindsym mod1+Shift+7 move container to workspace number $ws17
+bindsym mod1+Shift+8 move container to workspace number $ws18
+bindsym mod1+Shift+9 move container to workspace number $ws19
+bindsym mod1+Shift+0 move container to workspace number $ws20
+
+# Focus the big output
+bindsym $mod+p focus output eDP-1
+
+# Focus the primary output
+bindsym $mod+o focus output primary
+
+
+#########################################################################################################################
+#################                          Aplicaciones al Inicio                                   #####################
+#########################################################################################################################
+
+# REFRESCAR i3wm al iniciar
+exec i3-msg restart
+exec i3-msg reload
+exec i3-msg restart
+
+#Resolucion para Notebook 2 pantallas HDMI Primario
+exec --no-startup-id xrandr --output eDP-1 --mode 1920x1080 --pos 1680x0 --rotate normal --output HDMI-1 --primary --mode 1680x1050 --pos 0x0 --rotate normal
+
+exec --no-startup-id xset -b &
+
+#exec_always --no-startup-id ~/polybar-collection/material/launch.sh &
+#exec_always --no-startup-id xfce4-panel &
+exec_always --no-startup-id wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)
+exec_always --no-startup-id numlockx on
+exec_always --no-startup-id autotiling
+
+# exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
+
+# TRAY APPLICATIONS
+
+# applications that are not installed will not start
+# you may see a wheel - hashtag out things you do not want
+
+exec --no-startup-id nm-applet
+exec --no-startup-id blueberry-tray
+exec --no-startup-id variety
+exec --no-startup-id pamac-tray
+exec --no-startup-id pasystray
+exec --no-startup-id redshift &
+exec --no-startup-id slimbookbattery &
+exec --no-startup-id copyq
+exec --no-startup-id mopidy &
+exec --no-startup-id mpd &
+exec --no-startup-id cbatticon &
+
+#if you want transparency on non-focused windows, ...
+# exec_always --no-startup-id picom -b
+# exec --no-startup-id "picom -b"
+#bindsym control+mod1+o exec --no-startup-id ~/.config/i3/scripts/picom-toggle.sh
+
+##########################################################################################################################
+#################                          I3 configuracion y colores                                        ######################
+##########################################################################################################################
+
+font pango:DejaVu Sans Book 11
+
+# Color Class               Border      BG         FG
+#client.focused             #1793D0   #1793D0    #FFFFFF
+#client.focused_inactive    #000000   #333333    #FFFFFF
+#client.unfocused           #000000   #333333    #FFFFFF
+#client.urgent              #FF0000   #FF0000    #FF0000
+# bar.focused                #1793D0   #000000    #FFFFFF
+# bar.unfocused              #333333   #000000    #FFFFFF
+# bar.urgent                 #FF0000 #000000 #FF0000
+
+# Set colors from Xresources
+# Change 'color7' and 'color2' to whatever colors you want i3 to use
+# from the generated scheme.
+# NOTE: The '#f0f0f0' in the lines below is the color i3 will use if
+# it fails to get colors from Xresources.
+ #set_from_resource $1 i3wm.color1 #f0f0f0
+ #set_from_resource $2 i3wm.color2 #f0f0f0
+ #set_from_resource $3 i3wm.color3 #f0f0f0
+ #set_from_resource $4 i3wm.color4 #f0f0f0
+ #set_from_resource $5 i3wm.color5 #f0f0f0
+ #set_from_resource $6 i3wm.color6 #f0f0f0
+ #set_from_resource $7 i3wm.color7 #f0f0f0
+ #set_from_resource $8 i3wm.color8 #f0f0f0
+ #set_from_resource $9 i3wm.color9 #f0f0f0
+ #set_from_resource $10 i3wm.color10 #f0f0f0
+
+set $mod Mod4
+
+# Use Mouse+$mod to drag floating windows to their wanted position
+floating_modifier $mod
+
+# switch to workspace with urgent window automatically
+for_window [urgent=latest] focus
+
+
+## class                 border  backgr. text indicator child_border
+ #client.focused          $7     $1     $7  $5       $1
+ #client.focused_inactive $4     $4     $7  $9       $2
+ #client.unfocused        $2     $2     $7  $10       $3
+ #client.urgent           $8     $3     $7  $8       $4
+ #client.placeholder      $9     $2     $7  $10       $5
+
+ #client.background       $1
+
+
+ set_from_resource $c0 i3wm.color0 #f0f0f0
+ set_from_resource $c1 i3wm.color1 #f0f0f0
+ set_from_resource $c2 i3wm.color2 #f0f0f0
+ set_from_resource $c3 i3wm.color3 #f0f0f0
+ set_from_resource $c4 i3wm.color4 #f0f0f0
+ set_from_resource $c5 i3wm.color5 #f0f0f0
+ set_from_resource $c6 i3wm.color6 #f0f0f0
+ set_from_resource $c7 i3wm.color7 #f0f0f0
+ set_from_resource $c8 i3wm.color8 #f0f0f0
+ set_from_resource $c9 i3wm.color9 #f0f0f0
+ set_from_resource $c10 i3wm.color10 #f0f0f0
+ set_from_resource $c11 i3wm.color11 #f0f0f0
+ set_from_resource $c12 i3wm.color12 #f0f0f0
+ set_from_resource $c13 i3wm.color13 #f0f0f0
+ set_from_resource $c14 i3wm.color14 #f0f0f0
+ set_from_resource $c15 i3wm.color15 #f0f0f0
+
+ # class                 border  backgr. text indicator child_border
+ client.focused          $c7     $c7     $c0  $c7       $c7
+ client.focused_inactive $c2     $c2     $c7  $c2       $c2
+ client.unfocused        $c2     $c2     $c7  $c2       $c2
+ client.urgent           $c4     $c4     $c0  $c2       $c2
+ client.placeholder      $c2     $c2     $c7  $c2       $c2
+
+ client.background       $c0
+
+ bar {
+	font pango:Hack Nerd Font, Cantarell 9
+	position top
+	tray_output primary
+	#output primary
+	tray_padding 0
+	strip_workspace_numbers yes
+	binding_mode_indicator yes
+	workspace_min_width 20
+	binding_mode_indicator yes
+	strip_workspace_name yes
+	status_command bumblebee-status -m  mpd weather pacman nic disk memory cpu sensors brightness battery-upower date time system -p disk.format="{path} {percent:03.02f}%" nic.format= weather.location=3860259 sensors.show_freq=false system.confirm=false root.path=/,home cpu.format=" {:.01f}% " time.format="%I:%M %p " pacman.sum="true" date.format=" %A, %d %B %Y " memory.format=" {percent:05.02f}% " -t iceberg-rainbow
+
+colors {
+        	background $c0
+	statusline $c2
+	separator  $c7
+	focused_workspace $c0 $c7 $c0
+	active_workspace   $c0 $c4 $c0
+	inactive_workspace  $c0 $c2 $c0
+	urgent_workspace   $c0 $c10 $c0
+    }
+
+}
+
+
+
+#colors {
+        	 #background #001219
+	 #statusline #ffffff
+	#separator  #ffffff
+	#focused_workspace #001219 #001219 #6ABEE7
+	#active_workspace  #444444 #444444 #6ABEE7
+	#inactive_workspace #001219 #001219 #447C93
+	#urgent_workspace  #2f343a #900000 #6ABEE7
+    #}
+
+#}
+
+
+
+
+
+#Popups during fullscreen mode
+popup_during_fullscreen smart
+
+
+#####################################################################################################################
+#################                          i3 gaps next                                             #################
+#####################################################################################################################
+
+# Settings for I3 next gap git
+# https://github.com/Airblader/i3/tree/gaps-next
+# delete or uncomment the following lines if you do not have it or do not
+# want it
+
+
+for_window [class="^.*"] border pixel 4
+gaps inner 4
+gaps outer 4
+smart_gaps on
+smart_borders on
+
+
+
+set $mode_gaps Gaps: (o) outer, (i) inner
+set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
+set $mode_gaps_inner Inner Gaps: +|-|0 (local), Shift + +|-|0 (global)
+bindsym $mod+Shift+g mode "$mode_gaps"
+
+mode "$mode_gaps" {
+        bindsym o      mode "$mode_gaps_outer"
+        bindsym i      mode "$mode_gaps_inner"
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+
+mode "$mode_gaps_inner" {
+        bindsym plus  gaps inner current plus 5
+        bindsym minus gaps inner current minus 5
+        bindsym 0     gaps inner current set 0
+
+        bindsym Shift+plus  gaps inner all plus 5
+        bindsym Shift+minus gaps inner all minus 5
+        bindsym Shift+0     gaps inner all set 0
+
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+mode "$mode_gaps_outer" {
+        bindsym plus  gaps outer current plus 5
+        bindsym minus gaps outer current minus 5
+        bindsym 0     gaps outer current set 0
+
+        bindsym Shift+plus  gaps outer all plus 5
+        bindsym Shift+minus gaps outer all minus 5
+        bindsym Shift+0     gaps outer all set 0
+
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+
+
+
+#####################################################################################################################
+#################                          border control                                           #################
+#####################################################################################################################
+
+
+# Border control
+hide_edge_borders both
+# bindsym $mod+shift+b exec --no-startup-id i3-msg border toggle
+
+#changing border style
+#bindsym $mod+t border normal
+#bindsym $mod+y border 1pixel
+#bindsym $mod+u border none
+
+
+new_window pixel 1
+#new_window normal
+#new_window none
+
+new_float pixel 1
+#new_float normal
+#new_float none
+
+
+
+###########################################################################################################################
+#################                          Mod + Letras                                              #######################
+###########################################################################################################################
+
+bindsym $mod+q kill
+bindsym $mod+d exec --no-startup-id rofi -lines 12 -padding 24 -width 60 -location 0 -show drun -sidebar-mode -columns 3 -font "Cantarell 11"
+
+# cambiar focus con letras
+# bindsym $mod+j focus left
+# bindsym $mod+k focus down
+# bindsym $mod+l focus up
+# bindsym $mod+ntilde focus right
+
+# alternatively, you can use the cursor keys:
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+
+# enter fullscreen mode for the focused container
+bindsym $mod+f fullscreen toggle
+
+# change container layout (stacked, tabbed, toggle split)
+# qwerty/azerty issue for letter z
+bindsym $mod+s layout stacking
+bindsym $mod+t layout tabbed
+bindsym $mod+w layout toggle split
+# change focus between tiling / floating windows
+bindsym $mod+x focus mode_toggle
+
+# Toggle between stacking/tabbed/splith:
+bindsym $mod+space layout toggle stacking tabbed splith
+
+# focus the parent container
+bindsym $mod+a focus parent
+
+bindsym $mod+c exec adb kill-server; exec adb connect 10.10.10.12 ; exec scrcpy --bit-rate 2M --max-size 800 -S h--max-fps 30 --max-size 1024 --window-borderless --shortcut-mod lalt;focus
+
+
+# bloqueo de pantalla
+bindsym $mod+l exec i3lock-fancy-dualmonitor --font DejaVu Sans Book 20
+
+
+bindsym $mod+Print exec "flameshot full -p /home/jsolis/OneDrive/Imágenes/"
+bindsym Print exec flameshot gui
+
+### Aplicaciones #####
+
+bindsym $mod+Return exec --no-startup-id alacritty;focus
+bindsym $mod+KP_Enter exec --no-startup-id alacritty;focus
+bindsym F12 exec --no-startup-id xfce4-terminal --drop-down; focus
+
+
+# bindsym $mod+w exec --no-startup-id exo-open --launch webbrowser;focus
+
+##### workspace related
+
+bindsym $mod+F1 exec --no-startup-id firefox;focus
+bindsym $mod+F2 exec --no-startup-id remmina;focus
+bindsym $mod+F3 exec --no-startup-id evolution;focus
+bindsym $mod+F4 exec --no-startup-id geany;focus
+bindsym $mod+F5 exec --no-startup-id remmina -c ~/OneDrive/My\ Backup\ Linux/remmina/evoltis_rdp_kvm-windows_192-168-122-168.remmina;focus
+bindsym $mod+F6 exec --no-startup-id telegram-desktop;focus
+bindsym $mod+F7 exec --no-startup-id teams; exec --no-startup-id whatsapp-nativefier-dark; focus
+
+bindsym $mod+Shift+F7 exec --no-startup-id alacritty -e "killall teams"; exec --no-startup-id alacritty -e "killall whatsapp-nativefier-dark"
+
+bindsym $mod+F8 exec --no-startup-id alacritty -e "ncmpcpp";focus
+bindsym $mod+F9 exec --no-startup-id gnome-calculator;focus
+bindsym $mod+F10 exec --no-startup-id teamviewer;focus
+bindsym $mod+F11 exec --no-startup-id anydesk;focus
+bindsym $mod+F12 exec --no-startup-id pcmanfm;focus
+
+# bar toggle, hide or show
+bindsym $mod+b bar mode toggle
+
+#rofi powermenu
+bindsym $mod+Shift+e exec ~/polybar-collection/scripts/rofi-close-i3.sh
+#
+#rofi favorite gui menu
+bindsym $mod+i exec /polybar-collection/scripts/rofi-fav-gui-i3.sh
+
+
+###########################################################################################################################
+#################                          Mod + Shift                                              #######################
+###########################################################################################################################
+
+
+# kill focused window
+bindsym $mod+Shift+q xkill
+
+
+#xkill
+# bindsym --release $mod+Shift+q exec xkill
+
+
+bindsym $mod+Shift+m exec --no-startup-id  xrandr --output eDP-1 --mode 1920x1080 --pos 1680x0 --rotate normal --output HDMI-1 --primary --mode 1680x1050 --pos 0x0 --rotate normal --output VIRTUAL1 --off
+bindsym $mod+Shift+p exec --no-startup-id  xrandr --output eDP-1 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output HDMI-1 --off --output VIRTUAL1 --off
+bindsym $mod+Shift+d exec --no-startup-id dmenu_run -i -fn 'DejaVu Sans Book:bold:pixelsize=14'
+#bindsym $mod+Shift+d exec --no-startup-id rofi -modi "drun" -show drun -show-icon -font "Inconsolata 12"
+
+
+#### Movimientos #####
+# move focused window
+#bindsym $mod+Shift+j move left
+#bindsym $mod+Shift+k move down
+#bindsym $mod+Shift+l move up
+#bindsym $mod+Shift+ntilde move right
+
+# alternatively, you can use the cursor keys:
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+
+# split in horizontal orientation
+bindsym $mod+Shift+h split h;exec notify-send 'tile horizontally'
+# split in vertical orientation
+bindsym $mod+Shift+v split v;exec notify-send 'tile vertically'
+
+# toggle tiling / floating
+bindsym $mod+Shift+space floating toggle
+
+# reload the configuration file
+bindsym $mod+Shift+c reload
+# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+bindsym $mod+Shift+r restart
+# exit i3 (logs you out of your X session)
+bindsym $mod+Shift+y exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+
+
+
+
+###########################################################################################################################
+#################                          Mod + Shift + Algo o COntrol                                              #######################
+###########################################################################################################################
+
+#System monitor
+bindsym control+Shift+Escape exec --no-startup-id alacritty -e bashtop;focus
+
+#catfish
+bindsym control+mod1+c exec --no-startup-id catfish;focus
+
+#rofi theme selector
+bindsym control+mod1+r exec --no-startup-id rofi-theme-selector; focus
+
+#pavucontrol
+bindsym control+mod1+v exec --no-startup-id pavucontrol; focus
+
+#pamac-manager
+bindsym control+mod1+p exec --no-startup-id pamac-manager; focus
+
+bindsym control+mod1+f exec --no-startup-id firefox;focus
+bindsym control+mod1+g exec --no-startup-id chromium;focus
+
+
+# next/previous workspace
+
+bindsym Mod1+Tab workspace next
+bindsym Mod1+Shift+Tab workspace prev
+bindsym $mod+Tab workspace back_and_forth
+
+#navigate workspaces next / previous
+bindsym Mod1+Ctrl+Right workspace next
+bindsym Mod1+Ctrl+Left workspace prev
+
+# switch to workspace with urgent window automatically
+
+#####################################################################################################################
+#################                          variety for your wallpapers                              #################
+#####################################################################################################################
+
+
+#Variety keybindings mod1 = ALT
+# trash wallpaper
+bindsym mod1+t exec --no-startup-id variety -t
+# next wallpaper
+bindsym mod1+n exec --no-startup-id variety -n
+bindsym mod1+Right exec --no-startup-id variety -n
+# previous wallpaper
+bindsym mod1+p exec --no-startup-id variety -p
+bindsym mod1+Left exec --no-startup-id variety -p
+# favorite wallpaper
+bindsym mod1+f exec --no-startup-id variety -f
+# pause wallpaper
+bindsym mod1+Up exec --no-startup-id variety --pause
+# resume wallpaper
+bindsym mod1+Down exec --no-startup-id variety --resume
+
+#####################################################################################################################
+#################                          variety with pywal for your wallpapers                   #################
+#####################################################################################################################
+
+# next wallpaper
+bindsym mod1+Shift+n exec --no-startup-id variety -n && wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)&
+# previous wallpaper
+bindsym mod1+Shift+p exec --no-startup-id variety -p && wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)&
+# trash wallpaper
+bindsym mod1+Shift+t exec --no-startup-id variety -t && wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)&
+# Update Wallpaper
+bindsym mod1+Shift+u exec --no-startup-id wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)
+
+############################################################################################################################
+#################                Teclas de defecto teclado o Notebook                                            ###########
+############################################################################################################################
+
+# Use pactl to adjust volume in PulseAudio.
+#set $refresh_i3status killall -SIGUSR1 i3status
+#bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
+#bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status
+#bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
+#bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
+
+bindsym XF86AudioRaiseVolume exec --no-startup-id "amixer -D pulse sset Master '5%+'"
+bindsym XF86AudioLowerVolume exec --no-startup-id "amixer -D pulse sset Master '5%-'"
+bindsym XF86AudioMute exec --no-startup-id "amixer -D pulse set Master toggle"
+#https://github.com/acrisci/playerctl/
+bindsym XF86AudioPlay exec --no-startup-id playerctl play-pause
+bindsym XF86AudioNext exec --no-startup-id playerctl next
+bindsym XF86AudioPrev exec --no-startup-id playerctl previous
+bindsym XF86AudioStop exec --no-startup-id playerctl stop
+#bindsym XF86AudioPlay exec --no-startup-id "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause"
+#bindsym XF86AudioNext exec --no-startup-id "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next"
+#bindsym XF86AudioPrev exec --no-startup-id "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous"
+#bindsym XF86AudioStop exec --no-startup-id "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Stop"
+#bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 20 # increase screen brightness
+
+bindsym XF86MonBrightnessUp exec --no-startup-id  xrandr --output eDP-1 --brightness "valor entre 0 y 1"
+bindsym XF86MonBrightnessDown exec --no-startup-id xrandr --output eDP-1 --brightness # decrease screen brightness
+# bindsym XF86MonBrightnessDown exec --no-startup-id  # decrease screen brightness
+
+
+############################################################################################################################
+#################                Apagado de I3WM                                                      ###########
+############################################################################################################################
+
+# Set shut down, restart and locking features
+#bindsym $mod+shift+e mode "$mode_system"
+#set $mode_system (l)ock, (e)xit, switch_(u)ser, (s)uspend, (h)ibernate, (r)eboot, (Shift+s)hutdown
+#mode "$mode_system" {
+    #bindsym l exec --no-startup-id i3exit lock, mode "default"
+    #bindsym s exec --no-startup-id i3exit suspend, mode "default"
+    #bindsym u exec --no-startup-id i3exit switch_user, mode "default"
+    #bindsym e exec --no-startup-id i3exit logout, mode "default"
+    #bindsym h exec --no-startup-id i3exit hibernate, mode "default"
+    #bindsym r exec --no-startup-id i3exit reboot, mode "default"
+    #bindsym Shift+s exec --no-startup-id i3exit shutdown, mode "default"
+
+    ## exit system mode: "Enter" or "Escape"
+    #bindsym Return mode "default"
+    #bindsym Escape mode "default"
+#}
+
+
+
+############################################################################################################################
+#################                Cambiar de Tamaño Ventanas                                                      ###########
+############################################################################################################################
+
+
+# resize window (you can also use the mouse for that)
+mode "resize" {
+        # These bindings trigger as soon as you enter the resize mode
+
+        # Pressing left will shrink the window’s width.
+        # Pressing right will grow the window’s width.
+        # Pressing up will shrink the window’s height.
+        # Pressing down will grow the window’s height.
+        bindsym j resize shrink width 10 px or 10 ppt
+        bindsym k resize grow height 10 px or 10 ppt
+        bindsym l resize shrink height 10 px or 10 ppt
+        bindsym ntilde resize grow width 10 px or 10 ppt
+
+        # same bindings, but for the arrow keys
+        bindsym Left resize shrink width 10 px or 10 ppt
+        bindsym Down resize grow height 10 px or 10 ppt
+        bindsym Up resize shrink height 10 px or 10 ppt
+        bindsym Right resize grow width 10 px or 10 ppt
+
+        # back to normal: Enter or Escape or $mod+r
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+        bindsym $mod+r mode "default"
+}
+
+bindsym $mod+r mode "resize"
+
+#####################################################################################################################
+#################                          Aplicaciones en X escritorio                       #################
+#####################################################################################################################
+
+# Assign application to start on a specific workspace
+# you can find the class with the program xprop
+
+# Workspace 1 browser related
+# assign [class="Firefox|Vivaldi-stable|Vivaldi-snapshot|Opera"]                      → 1
+# assign [class="Chromium|Google-chrome"]                                             → 1
+
+# Workspace 2 text editor related
+assign [class="sublime-text|sublime_text|Sublime_text|subl|Subl|subl3|Subl3|Xed|xed|Brackets|Atom|Code|Geany"]       → 5:
+# assign [class="Xed|xed|Brackets|Atom|Code|Geany"]
+# Workspace 3 Remote
+assign [class="org.remmina.Remmina|Teamviewer|anydesk|Anydesk|teamviewer.exe"]                      → 3:
+for_window [class = "org.remmina.Remmina|Teamviewer|anydesk|Anydesk|teamviewer.exe"] layout tabbed
+# Workspace 4 Evolution
+assign [class="Evolution|evolution"]                                                           → 4:
+for_window [class = "Evolution|evolution|calcurse"] layout tabbed
+
+# Workspace 5 Images and meld
+#assign [class="ristretto|Ristretto|shotwell|Shotwell|Xviewer|Nitrogen"]             → 5
+#assign [class="feh|gthumb|Gthumb|eog|Eog|Pinta|pixeluvo|Pixeluvo"]                  → 5
+#assign [class="Meld"]                                                               → 5
+
+# Workspace 6 all video related software
+assign [class="Vlc|vlc|kodi"]                                                            → 6:
+
+# Workspace 7 virtual machines and settings
+assign [class="microsoft teams - preview|Microsoft Teams - Preview|whatsapp-nativefier-d5254"]  → 17:
+for_window [class ="microsoft teams - preview|Microsoft Teams - Preview|whatsapp-nativefier-d5254"] layout tabbed; focus
+
+# Workspace 8 file managers
+#assign [class="Nemo|Thunar|Caja|nautilus|Nautilus"]                                 → 8
+
+# Workspace 9 email clients
+#assign [class="Geary|Evolution"]                                                    → 9
+
+# Workspace 10 music related
+assign [class="Spotify|spotify|Youtube Music|youtube music"]                                                    → 8:
+# fix for spotify not moving to workspace 10
+# for_window [class="Spotify"|spotify] move to workspace 8; focus
+
+
+
+
+
+
+#####################################################################################################################
+#################                          floating or tiled                                        #################
+#####################################################################################################################
+
+
+#floating enabled from some programs - find with xprop
+
+for_window [class="Bleachbit"] floating disable
+for_window [class="Blueberry.py"] floating enable
+for_window [class="Brasero"] floating disable
+for_window [class="gnome-calculator|Gnome-calculator"] floating enable
+for_window [class="Gnome-disks"] floating disable
+for_window [class="^Gnome-font-viewer$"] floating enable
+for_window [class="^Gpick$"] floating enable
+for_window [class="Hexchat"] floating disable
+for_window [class="Imagewriter"] floating enable
+#for_window [class="Font-manager"] floating enable
+#for_window [class="qt5ct|Lxappearance] floating enable
+#for_window [class="Nitrogen"] floating disable
+#for_window [class="Pavucontrol"] floating disable
+#for_window [class="Peek"] floating enable
+#for_window [class="^Skype$"] floating enable
+for_window [class="^Spotify$"] floating disable
+for_window [class="System-config-printer.py"] floating enable
+for_window [class="Unetbootin.elf"] floating enable
+for_window [class="Usb-creator-gtk"] floating enable
+for_window [class="gl|mpv"] fullscreen toggle
+## layout tabbed--max-size 1024
+for_window [class="^Vlc$"] floating disable
+for_window [class="Wine"] floating disable
+for_window [class="Xfburn"] floating disable
+for_window [class="Xfce4-appfinder"] floating enable
+for_window [class="Xfce4-settings-manager"] floating disable
+for_window [class="Xfce4-taskmanager"] floating enable
+for_window [class="Xfce4-settings-manager"] floating disable
+for_window [class ="pavucontrol|Pavucontrol"] floating enable
+for_window [class ="scrcpy"] floating enable
+for_window [class ="xdan-main"] floating enable
+#for_window [instance="gimp"] floating disable
+for_window [instance="script-fu"] border normal
+for_window [instance="variety"] floating disable
+
+for_window [class="mpv|glv"] floating enable,resize set height 600
+
+for_window [title="Copying"] floating enable
+for_window [title="Deleting"] floating enable
+for_window [title="Moving"] floating enable
+for_window [title="^Terminator Preferences$"] floating enable
+for_window [title="Notificación de Microsoft Teams"] floating enable
+#for_window [title="Cliente de escritorio remoto Remmina"] floating enable
+
+for_window [window_role="^Preferences$"] floating enable
+for_window [window_role="setup"] floating enable
