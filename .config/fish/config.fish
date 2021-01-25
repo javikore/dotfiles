@@ -1,4 +1,6 @@
 ## EXPORT ###
+
+cat ~/.cache/wal/sequences &
 set -U fish_user_paths $fish_user_paths $HOME/.local/bin/
 set fish_greeting                      # Supresses fish's intro message
 set TERM "xterm-256color"              # Sets the terminal type
@@ -192,10 +194,10 @@ alias la='exa -a --color=always --group-directories-first'  # all files and dirs
 alias ll='exa -l --color=always --group-directories-first'  # long format
 alias lt='exa -aT --color=always --group-directories-first' # tree listing
 
-# pacman and yay
+# pacman and paru
 alias update='sudo pacman -Syyu'                 # update only standard pkgs
-alias yaysua='yay -Sua --noconfirm'              # update only AUR pkgs
-alias upall='yay -Syu --noconfirm'              # update standard pkgs and AUR pkgs
+alias parusua='paru -Sua --noconfirm'              # update only AUR pkgs
+alias upall='paru -Syu --noconfirm'              # update standard pkgs and AUR pkgs
 alias unlock='sudo rm /var/lib/pacman/db.lck'    # remove pacman lock
 #alias limpiarpaq='sudo pacman -Rns (pacman -Qtdq)'  # remove orphaned packages
 
@@ -324,9 +326,9 @@ alias update='sudo pacman -Syyu'
 # alias clean ='sudo pacman -Rsc $(pacman -Qtdq)'
 
 
-# yay as aur helper - updates everything
-alias pksyua="yay -Syu --noconfirm"
-alias upall="yay -Syu --noconfirm"
+# paru as aur helper - updates everything
+alias pksyua="paru -Syu --noconfirm"
+alias upall="paru -Syu --noconfirm"
 
 #ps
 alias psa="ps auxf"
@@ -354,10 +356,10 @@ alias kc='killall conky'
 alias hw="hwinfo --short"
 
 #skip integrity check
-alias yayskip='yay -S --mflags --skipinteg'
+alias paruskip='paru -S --mflags --skipinteg'
 alias trizenskip='trizen -S --skipinteg'
 
-alias ytb='youtube-music-bin'
+alias ytb="youtube-music-bin"
 
 
 alias sshold="ssh -oKexAlgorithms=+diffie-hellman-group1-sha1"
@@ -376,5 +378,8 @@ alias microcode='grep . /sys/devices/system/cpu/vulnerabilities/*'
 ## starship init fish | source
 
 /home/jsolis/.config/shell-color-scrips/colorscript.sh -r 
+
+#pfetch
+
 
 

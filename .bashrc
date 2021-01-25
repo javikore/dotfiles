@@ -9,6 +9,8 @@
 #export XMODIFIERS=@im=dbus
 #export QT_IM_MODULE=ibus
 
+(cat ~/.cache/wal/sequences &)
+
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
@@ -77,9 +79,9 @@ alias merge="xrdb -merge ~/.Xresources"
 alias pacman='sudo pacman --color auto'
 alias update='sudo pacman -Syyu'
 
-# yay as aur helper - updates everything
-alias pksyua="yay -Syu --noconfirm"
-alias upall="yay -Syu --noconfirm"
+# paru as aur helper - updates everything
+alias pksyua="paru -Syu --noconfirm"
+alias upall="paru -Syu --noconfirm"
 
 #ps
 alias psa="ps auxf"
@@ -112,7 +114,7 @@ alias kc='killall conky'
 alias hw="hwinfo --short"
 
 #skip integrity check
-alias yayskip='yay -S --mflags --skipinteg'
+alias paruskip='paru -S --mflags --skipinteg'
 alias trizenskip='trizen -S --skipinteg'
 
 #check vulnerabilities microcode
@@ -188,6 +190,9 @@ alias probe="sudo -E hw-probe -all -upload"
 #shutdown or reboot
 alias ssn="sudo shutdown now"
 alias sr="sudo reboot"
+
+#remplazar yay por paru
+alias yay="paru"
 
 # # ex = EXtractor for all kinds of archives
 # # usage: ex <file>

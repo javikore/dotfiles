@@ -1,13 +1,14 @@
 configuration {
-	display-run: " ";
-    display-drun: "  ";
-    display-window: "  ";
+	display-run: "  ";
+        display-drun: "  ";
+        display-window: "  ";
+        display-ssh: "   ";
     drun-display-format: "{icon} {name}";
 	width: 1000;
 	show-icons: true;
 	lines: 15;
 	columns: 1;
-	font: "JetBrainsMono Nerd Font Medium 10";
+	font: "FontAwesome 10";
 	bw: 0;
 	padding: 100;
 	eh: 1;
@@ -16,4 +17,7 @@ configuration {
 	separator-style: "solid";
 	hide-scrollbar: true;
 	theme: "~/.cache/wal/colors-rofi-dark.rasi";
+	terminal: "kitty";
+  ssh-command: "kitty -- kitty +kitten ssh {host}";
 }
+

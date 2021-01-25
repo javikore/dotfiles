@@ -32,7 +32,7 @@ from libqtile.lazy import lazy
 from libqtile.utils import guess_terminal
 
 mod = "mod4"
-terminal = alacritty
+terminal = guess_terminal()
 
 keys = [
     # Switch between windows
@@ -74,7 +74,7 @@ keys = [
 
     # Toggle between different layouts as defined below
     Key([mod], "Tab", lazy.next_layout(), desc="Toggle between layouts"),
-    Key([mod], "w", lazy.window.kill(), desc="Kill focused window"),
+    Key([mod], "q", lazy.window.kill(), desc="Kill focused window"),
 
     Key([mod, "control"], "r", lazy.restart(), desc="Restart Qtile"),
     Key([mod, "control"], "q", lazy.shutdown(), desc="Shutdown Qtile"),
@@ -103,16 +103,16 @@ layouts = [
     layout.Columns(border_focus_stack='#d75f5f'),
     layout.Max(),
     # Try more layouts by unleashing below layouts.
-    # layout.Stack(num_stacks=2),
-    # layout.Bsp(),
-    # layout.Matrix(),
-    # layout.MonadTall(),
-    # layout.MonadWide(),
-    # layout.RatioTile(),
-    # layout.Tile(),
-    # layout.TreeTab(),
-    # layout.VerticalTile(),
-    # layout.Zoomy(),
+     layout.Stack(num_stacks=2),
+     layout.Bsp(),
+     layout.Matrix(),
+     layout.MonadTall(),
+     layout.MonadWide(),
+     layout.RatioTile(),
+     layout.Tile(),
+     layout.TreeTab(),
+     layout.VerticalTile(),
+     layout.Zoomy(),
 ]
 
 widget_defaults = dict(
@@ -164,19 +164,7 @@ bring_front_click = False
 cursor_warp = False
 floating_layout = layout.Floating(float_rules=[
     # Run the utility of `xprop` to see the wm class and name of an X client.
-    Match(wm_type='utility'),
-    Match(wm_type='notification'),
-    Match(wm_type='toolbar'),
-    Match(wm_type='splash'),
-    Match(wm_type='dialog'),
-    Match(wm_class='file_progress'),
-    Match(wm_class='confirm'),
-    Match(wm_class='dialog'),
-    Match(wm_class='download'),
-    Match(wm_class='error'),
-    Match(wm_class='notification'),
-    Match(wm_class='splash'),
-    Match(wm_class='toolbar'),
+    *layout.Floating.default_float_rules,
     Match(wm_class='confirmreset'),  # gitk
     Match(wm_class='makebranch'),  # gitk
     Match(wm_class='maketag'),  # gitk

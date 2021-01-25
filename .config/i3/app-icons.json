@@ -1,0 +1,16 @@
+{
+    "firefox": "firefox",
+    "Brave-browser: "browser"
+    "chromium-browser": "chrome",
+    "chrome": "chrome",
+    "google-chrome": "chrome",
+    "Alacritty": "terminal",
+    "Evolution": "envelope",
+    "KotatogramDesktop": "telegram",
+    "jetbrains-idea-ce": "edit",
+    "nautilus": "folder-open",
+    "clementine": "music",
+    "vlc": "play",
+    "signal": "comment",
+    "_no_match": "question"
+}

@@ -1,4 +1,4 @@
-#########################################################################################################################
+########################################################################################################################
 #################                          Espacio de Trabajo                                       #####################
 #########################################################################################################################
 
@@ -121,7 +121,8 @@ exec --no-startup-id xset -b &
 
 #exec_always --no-startup-id ~/polybar-collection/material/launch.sh &
 #exec_always --no-startup-id xfce4-panel &
-exec_always --no-startup-id wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)
+exec_always --no-startup-id wal -R 
+#exec_always --no-startup-id wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)
 exec_always --no-startup-id numlockx on
 exec_always --no-startup-id autotiling
 
@@ -137,23 +138,27 @@ exec --no-startup-id blueberry-tray
 exec --no-startup-id variety
 exec --no-startup-id pamac-tray
 exec --no-startup-id pasystray
-exec --no-startup-id redshift &
-exec --no-startup-id slimbookbattery &
+exec --no-startup-id redshift 
+exec --no-startup-id slimbookbattery 
 exec --no-startup-id copyq
-exec --no-startup-id mopidy &
-exec --no-startup-id mpd &
-exec --no-startup-id cbatticon &
+exec --no-startup-id mopidy 
+exec --no-startup-id mpd 
+exec --no-startup-id cbatticon 
 
 #if you want transparency on non-focused windows, ...
 # exec_always --no-startup-id picom -b
 # exec --no-startup-id "picom -b"
 #bindsym control+mod1+o exec --no-startup-id ~/.config/i3/scripts/picom-toggle.sh
 
+#exec_always --no-startup-id exec i3-workspace-names-daemon
+
 ##########################################################################################################################
 #################                          I3 configuracion y colores                                        ######################
 ##########################################################################################################################
 
 font pango:DejaVu Sans Book 11
+
+
 
 # Color Class               Border      BG         FG
 #client.focused             #1793D0   #1793D0    #FFFFFF
@@ -168,7 +173,7 @@ font pango:DejaVu Sans Book 11
 # Change 'color7' and 'color2' to whatever colors you want i3 to use
 # from the generated scheme.
 # NOTE: The '#f0f0f0' in the lines below is the color i3 will use if
-# it fails to get colors from Xresources.
+## it fails to get colors from Xresources.
  #set_from_resource $1 i3wm.color1 #f0f0f0
  #set_from_resource $2 i3wm.color2 #f0f0f0
  #set_from_resource $3 i3wm.color3 #f0f0f0
@@ -236,7 +241,7 @@ for_window [urgent=latest] focus
 	workspace_min_width 20
 	binding_mode_indicator yes
 	strip_workspace_name yes
-	status_command bumblebee-status -m  mpd weather pacman nic disk memory cpu sensors brightness battery-upower date time system -p disk.format="{path} {percent:03.02f}%" nic.format= weather.location=3860259 sensors.show_freq=false system.confirm=false root.path=/,home cpu.format=" {:.01f}% " time.format="%I:%M %p " pacman.sum="true" date.format=" %A, %d %B %Y " memory.format=" {percent:05.02f}% " -t iceberg-rainbow
+	status_command bumblebee-status -m  mpd weather pacman nic disk memory cpu sensors battery-upower date time system -p disk.format="{path} {percent:03.02f}%" nic.format= weather.location=3860259 sensors.show_freq=false system.confirm=false root.path=/,home cpu.format=" {:.01f}% " time.format="%I:%M %p " pacman.sum="true" date.format=" %A, %d %B %Y " memory.format=" {percent:05.02f}% " -t iceberg-rainbow
 
 colors {
         	background $c0
@@ -359,7 +364,10 @@ new_float pixel 1
 ###########################################################################################################################
 
 bindsym $mod+q kill
-bindsym $mod+d exec --no-startup-id rofi -lines 12 -padding 24 -width 60 -location 0 -show drun -sidebar-mode -columns 3 -font "Cantarell 11"
+bindsym $mod+d exec --no-startup-id rofi -lines 12 -padding 24 -width 60 -location 0 -show drun -sidebar-mode -columns 3 -font "Cantarell 12"
+bindsym $mod+Tab exec --no-startup-id rofi -lines 12 -padding 24 -width 60 -location 0 -show window -sidebar-mode -columns 3 -font "Cantarell 12"
+bindsym $mod+x exec --no-startup-id rofi -lines 12 -padding 24 -width 60 -location 0 -show ssh -sidebar-mode -columns 3 -font "Cantarell 12"
+bindsym $mod+Shift+d exec --no-startup-id rofi -lines 12 -padding 24 -width 60 -location 0 -show run -sidebar-mode -columns 3 -font "Cantarell 12"
 
 # cambiar focus con letras
 # bindsym $mod+j focus left
@@ -378,11 +386,11 @@ bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
 # qwerty/azerty issue for letter z
-bindsym $mod+s layout stacking
-bindsym $mod+t layout tabbed
-bindsym $mod+w layout toggle split
+bindsym $mod+s layout stacking ; exec notify-send 'Modo Stacking'
+bindsym $mod+t layout tabbed ;exec notify-send 'Modo Pestaña'
+bindsym $mod+w layout toggle split; exec notify-send 'Modo Slit'
 # change focus between tiling / floating windows
-bindsym $mod+x focus mode_toggle
+bindsym $mod+shift+x focus mode_toggle
 
 # Toggle between stacking/tabbed/splith:
 bindsym $mod+space layout toggle stacking tabbed splith
@@ -402,8 +410,8 @@ bindsym Print exec flameshot gui
 
 ### Aplicaciones #####
 
-bindsym $mod+Return exec --no-startup-id alacritty;focus
-bindsym $mod+KP_Enter exec --no-startup-id alacritty;focus
+bindsym $mod+Return exec --no-startup-id kitty;focus
+bindsym $mod+KP_Enter exec --no-startup-id kitty;focus
 bindsym F12 exec --no-startup-id xfce4-terminal --drop-down; focus
 
 
@@ -411,21 +419,22 @@ bindsym F12 exec --no-startup-id xfce4-terminal --drop-down; focus
 
 ##### workspace related
 
-bindsym $mod+F1 exec --no-startup-id firefox;focus
+bindsym $mod+F1 exec --no-startup-id brave-browser-nightly;focus
 bindsym $mod+F2 exec --no-startup-id remmina;focus
 bindsym $mod+F3 exec --no-startup-id evolution;focus
 bindsym $mod+F4 exec --no-startup-id geany;focus
 bindsym $mod+F5 exec --no-startup-id remmina -c ~/OneDrive/My\ Backup\ Linux/remmina/evoltis_rdp_kvm-windows_192-168-122-168.remmina;focus
 bindsym $mod+F6 exec --no-startup-id telegram-desktop;focus
-bindsym $mod+F7 exec --no-startup-id teams; exec --no-startup-id whatsapp-nativefier-dark; focus
+bindsym $mod+F7 exec --no-startup-id teams; exec --no-startup-id whatsapp-nativefier-dark; focus ;exec notify-send 'Abriendo apps de Mensajeria'
 
-bindsym $mod+Shift+F7 exec --no-startup-id alacritty -e "killall teams"; exec --no-startup-id alacritty -e "killall whatsapp-nativefier-dark"
+bindsym $mod+Shift+F7 exec --no-startup-id kitty -e "killall teams"; exec --no-startup-id kitty -e "killall whatsapp-nativefier-dark" ;exec notify-send 'Cerrando Apps de Mensajeria'
 
-bindsym $mod+F8 exec --no-startup-id alacritty -e "ncmpcpp";focus
+bindsym $mod+F8 exec --no-startup-id kitty -e "ncmpcpp";focus
 bindsym $mod+F9 exec --no-startup-id gnome-calculator;focus
 bindsym $mod+F10 exec --no-startup-id teamviewer;focus
 bindsym $mod+F11 exec --no-startup-id anydesk;focus
 bindsym $mod+F12 exec --no-startup-id pcmanfm;focus
+
 
 # bar toggle, hide or show
 bindsym $mod+b bar mode toggle
@@ -435,7 +444,6 @@ bindsym $mod+Shift+e exec ~/polybar-collection/scripts/rofi-close-i3.sh
 #
 #rofi favorite gui menu
 bindsym $mod+i exec /polybar-collection/scripts/rofi-fav-gui-i3.sh
-
 
 ###########################################################################################################################
 #################                          Mod + Shift                                              #######################
@@ -450,9 +458,9 @@ bindsym $mod+Shift+q xkill
 # bindsym --release $mod+Shift+q exec xkill
 
 
-bindsym $mod+Shift+m exec --no-startup-id  xrandr --output eDP-1 --mode 1920x1080 --pos 1680x0 --rotate normal --output HDMI-1 --primary --mode 1680x1050 --pos 0x0 --rotate normal --output VIRTUAL1 --off
-bindsym $mod+Shift+p exec --no-startup-id  xrandr --output eDP-1 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output HDMI-1 --off --output VIRTUAL1 --off
-bindsym $mod+Shift+d exec --no-startup-id dmenu_run -i -fn 'DejaVu Sans Book:bold:pixelsize=14'
+bindsym $mod+Shift+m exec --no-startup-id  xrandr --output eDP-1 --mode 1920x1080 --pos 1680x0 --rotate normal --output HDMI-1 --primary --mode 1680x1050 --pos 0x0 --rotate normal --output VIRTUAL1 --off; ;exec notify-send 'HDMI Principal'
+bindsym $mod+Shift+p exec --no-startup-id  xrandr --output eDP-1 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output HDMI-1 --off --output VIRTUAL1 --off ;exec notify-send 'Notebook Principal'
+# bindsym $mod+Shift+d exec --no-startup-id dmenu_run -i -fn 'DejaVu Sans Book:bold:pixelsize=14'
 #bindsym $mod+Shift+d exec --no-startup-id rofi -modi "drun" -show drun -show-icon -font "Inconsolata 12"
 
 
@@ -492,7 +500,7 @@ bindsym $mod+Shift+y exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 ###########################################################################################################################
 
 #System monitor
-bindsym control+Shift+Escape exec --no-startup-id alacritty -e bashtop;focus
+bindsym control+Shift+Escape exec --no-startup-id kitty -e bashtop;focus
 
 #catfish
 bindsym control+mod1+c exec --no-startup-id catfish;focus
@@ -514,7 +522,7 @@ bindsym control+mod1+g exec --no-startup-id chromium;focus
 
 bindsym Mod1+Tab workspace next
 bindsym Mod1+Shift+Tab workspace prev
-bindsym $mod+Tab workspace back_and_forth
+#bindsym $mod+Tab workspace back_and_forth
 
 #navigate workspaces next / previous
 bindsym Mod1+Ctrl+Right workspace next
@@ -653,13 +661,13 @@ bindsym $mod+r mode "resize"
 # assign [class="Chromium|Google-chrome"]                                             → 1
 
 # Workspace 2 text editor related
-assign [class="sublime-text|sublime_text|Sublime_text|subl|Subl|subl3|Subl3|Xed|xed|Brackets|Atom|Code|Geany"]       → 5:
+assign [class="sublime-text|sublime_text|Sublime_text|subl|Subl|subl3|Subl3|Xed|xed|Brackets|Atom|Code|Geany"]       → 5: 
 # assign [class="Xed|xed|Brackets|Atom|Code|Geany"]
 # Workspace 3 Remote
-assign [class="org.remmina.Remmina|Teamviewer|anydesk|Anydesk|teamviewer.exe"]                      → 3:
+assign [class="org.remmina.Remmina|Teamviewer|anydesk|Anydesk|teamviewer.exe"]                      → 3: 
 for_window [class = "org.remmina.Remmina|Teamviewer|anydesk|Anydesk|teamviewer.exe"] layout tabbed
 # Workspace 4 Evolution
-assign [class="Evolution|evolution"]                                                           → 4:
+assign [class="Evolution|evolution"]                                                           → 4: 
 for_window [class = "Evolution|evolution|calcurse"] layout tabbed
 
 # Workspace 5 Images and meld
@@ -668,10 +676,10 @@ for_window [class = "Evolution|evolution|calcurse"] layout tabbed
 #assign [class="Meld"]                                                               → 5
 
 # Workspace 6 all video related software
-assign [class="Vlc|vlc|kodi"]                                                            → 6:
+assign [class="Vlc|vlc|kodi"]                                                            → 6: 
 
 # Workspace 7 virtual machines and settings
-assign [class="microsoft teams - preview|Microsoft Teams - Preview|whatsapp-nativefier-d5254"]  → 17:
+assign [class="microsoft teams - preview|Microsoft Teams - Preview|whatsapp-nativefier-d5254"]  → 17: 
 for_window [class ="microsoft teams - preview|Microsoft Teams - Preview|whatsapp-nativefier-d5254"] layout tabbed; focus
 
 # Workspace 8 file managers
@@ -681,12 +689,9 @@ for_window [class ="microsoft teams - preview|Microsoft Teams - Preview|whatsapp
 #assign [class="Geary|Evolution"]                                                    → 9
 
 # Workspace 10 music related
-assign [class="Spotify|spotify|Youtube Music|youtube music"]                                                    → 8:
+assign [class="Spotify|spotify|Youtube Music|youtube music"]                                                    → 8: 
 # fix for spotify not moving to workspace 10
-# for_window [class="Spotify"|spotify] move to workspace 8; focus
-
-
-
+for_window [class="Spotify|spotify|Youtube Music|youtube music"] move to workspace 8; focus
 
 
 
@@ -732,7 +737,7 @@ for_window [class ="xdan-main"] floating enable
 for_window [instance="script-fu"] border normal
 for_window [instance="variety"] floating disable
 
-for_window [class="mpv|glv"] floating enable,resize set height 600
+for_window [class="mpv|glv"] floating enable,resize set height 300
 
 for_window [title="Copying"] floating enable
 for_window [title="Deleting"] floating enable
@@ -743,3 +748,16 @@ for_window [title="Notificación de Microsoft Teams"] floating enable
 
 for_window [window_role="^Preferences$"] floating enable
 for_window [window_role="setup"] floating enable
+
+bindsym $mod+Shift+w workspace $ws1 ; exec firefox; focus
+bindsym $mod+n mode "netBrowser"
+mode "netBrowser" {
+	bindsym r mode "default", exec qutebrowser 'https://www.reddit.com/new/'
+	bindsym y mode "default", exec qutebrowser 'https://www.youtube.com/feed/subscriptions'
+	bindsym g mode "default", exec qutebrowser 'https://www.chollometro.com/categorias/gratis'
+	bindsym t mode "default", exec qutebrowser 'https://www.twitch.tv/'
+	bindsym j mode "default", exec qutebrowser 'https://evoltis.atlassian.net/issues/?filter=10046' 
+	bindsym m mode "default", exec qutebrowser 'https://www.fceqyn.unam.edu.ar/moodle/'  
+	bindsym w mode "default", exec qutebrowser 'https://servicios-web.online-convert.com/es/convert
+    	bindsym Escape mode "default"
+}

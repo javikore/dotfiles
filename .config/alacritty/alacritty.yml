@@ -538,7 +538,7 @@ debug:
   #   - Info
   #   - Debug
   #   - Trace
-  log_level: None
+  log_level: ERROR
 
   # Print all received window events.
   print_events: false
